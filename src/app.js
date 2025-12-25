@@ -56,10 +56,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     }[tag]));
             };
 
+            const countyTag = item.county ? `<span class="card-county">${escapeHTML(item.county)} County</span>` : '';
+
             card.innerHTML = `
                 <div class="card-category">${escapeHTML(item.category)}</div>
                 <h2>${escapeHTML(item.name)}</h2>
-                <div class="card-county">${escapeHTML(item.county)} County</div>
+                ${countyTag}
                 <div class="card-details">
                     <p><strong>Address:</strong> ${escapeHTML(item.address)}</p>
                     <p><strong>Phone:</strong> <a href="tel:${escapeHTML(item.phone).replace(/[^0-9]/g, '')}">${escapeHTML(item.phone)}</a></p>
@@ -75,40 +77,30 @@ document.addEventListener('DOMContentLoaded', () => {
         resourceList.appendChild(fragment);
     }
 
-    function filterAndSearch() {
-        const query = searchInput.value.toLowerCase().trim();
+    function filterResources() {
+        const searchTerm = searchInput.value.toLowerCase();
         const selectedCounty = countyFilter.value;
         const selectedCategory = categoryFilter.value;
 
         const filtered = resources.filter(item => {
-            // County Filter
-            if (selectedCounty !== 'all' && item.county !== selectedCounty) {
-                return false;
-            }
+            const matchesSearch = (
+                (item.name && item.name.toLowerCase().includes(searchTerm)) ||
+                (item.services && item.services.toLowerCase().includes(searchTerm)) ||
+                (item.category && item.category.toLowerCase().includes(searchTerm))
+            );
+            const matchesCounty = selectedCounty === 'all' || (item.county && item.county === selectedCounty);
+            const matchesCategory = selectedCategory === 'all' || (item.category && item.category === selectedCategory);
 
-            // Category Filter
-            if (selectedCategory !== 'all' && item.category !== selectedCategory) {
-                return false;
-            }
-
-            // Fuzzy Search (Simple Includes for now, could be improved)
-            if (query) {
-                const searchableText = `${item.name} ${item.category} ${item.services} ${item.notes || ''}`.toLowerCase();
-                // Simple word match
-                const words = query.split(/\s+/);
-                return words.every(word => searchableText.includes(word));
-            }
-
-            return true;
+            return matchesSearch && matchesCounty && matchesCategory;
         });
 
         render(filtered);
     }
 
     // Event Listeners
-    searchInput.addEventListener('input', filterAndSearch);
-    countyFilter.addEventListener('change', filterAndSearch);
-    categoryFilter.addEventListener('change', filterAndSearch);
+    searchInput.addEventListener('input', filterResources);
+    countyFilter.addEventListener('change', filterResources);
+    categoryFilter.addEventListener('change', filterResources);
 
     // Initial Render
     render(resources);
