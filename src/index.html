@@ -7,24 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header role="banner">
         <div class="container">
             <h1>Portland Metro Resource Hub</h1>
             <p>Connecting Multnomah, Washington, and Clackamas counties.</p>
         </div>
     </header>
 
-    <main class="container">
+    <main class="container" role="main">
         <section id="controls" aria-label="Search and Filter Controls">
             <div class="search-box">
                 <label for="search-input" class="sr-only">Search resources</label>
-                <input type="text" id="search-input" placeholder="Search by name, category, or services..." aria-label="Search resources">
+                <input type="text" id="search-input" placeholder="Search by name, category, or services..." aria-label="Search resources by name, category, or service">
             </div>
 
             <div class="filters">
                 <div class="filter-group">
                     <label for="county-filter">County</label>
-                    <select id="county-filter">
+                    <select id="county-filter" aria-label="Filter by County">
                         <option value="all">All Counties</option>
                         <option value="Multnomah">Multnomah</option>
                         <option value="Washington">Washington</option>
@@ -34,27 +34,17 @@
 
                 <div class="filter-group">
                     <label for="category-filter">Category</label>
-                    <select id="category-filter">
+                    <select id="category-filter" aria-label="Filter by Category">
                         <option value="all">All Categories</option>
-                        <!-- Categories will be populated dynamically -->
-                    </select>
+                        </select>
                 </div>
             </div>
-
-            <div id="results-count" aria-live="polite">Showing all resources</div>
+            <div id="results-count" aria-live="polite"></div>
         </section>
 
-        <section id="resource-list" aria-label="Resource List">
-            <!-- Resource cards will be injected here -->
-        </section>
+        <section id="resource-list" aria-label="List of Resources">
+            </section>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Portland Metro Resource Hub. Data aggregated from community resources.</p>
-        </div>
-    </footer>
-
     <script src="data/master_resources.js"></script>
     <script src="app.js"></script>
 </body>
