@@ -5,6 +5,7 @@ const vm = require('vm');
 // Paths
 const RESOURCES_FILE = 'resources.js';
 const METRO_RESOURCES_FILE = 'metroresources.js';
+const DATA3_FILE = 'data3.js';
 const OUTPUT_FILE = 'src/data/master_resources.js';
 
 // County mapping
@@ -47,7 +48,7 @@ const CITY_TO_COUNTY = {
     'Rhododendron': 'Clackamas',
     'Boring': 'Clackamas',
     'Damascus': 'Clackamas',
-    'Vernonia': 'Columbia' // Example of outside, but Vernonia Cares is in resources.js (Wash context), usually serves Wash residents nearby. Keep as Washington per prompt instruction "Assign county: Washington to all entries in resources.js"
+    'Vernonia': 'Columbia'
 };
 
 // Heuristic Zip Codes (Primary county)
@@ -91,12 +92,12 @@ function readResourcesJs() {
         vm.runInContext(code, sandbox);
         return sandbox.resources || [];
     } catch (e) {
+        console.error("Error parsing resources.js:", e.message);
         return [];
     }
 }
 
-function readMetroResourcesJs() {
-    const content = fs.readFileSync(METRO_RESOURCES_FILE, 'utf8');
+function parseJsonBlocks(content) {
     const jsonBlocks = [];
     let depth = 0;
     let start = -1;
@@ -121,6 +122,27 @@ function readMetroResourcesJs() {
     return jsonBlocks.flat();
 }
 
+function readMetroResourcesJs() {
+    try {
+        const content = fs.readFileSync(METRO_RESOURCES_FILE, 'utf8');
+        return parseJsonBlocks(content);
+    } catch (e) {
+        console.error("Error parsing metroresources.js:", e.message);
+        return [];
+    }
+}
+
+function readData3Js() {
+    try {
+        const content = fs.readFileSync(DATA3_FILE, 'utf8');
+        // Use parseJsonBlocks because data3.js contains multiple JSON array blocks concatenated
+        return parseJsonBlocks(content);
+    } catch (e) {
+        console.error("Error parsing data3.js:", e.message);
+        return [];
+    }
+}
+
 function inferCounty(item) {
     if (item.county) return item.county;
 
@@ -141,24 +163,18 @@ function inferCounty(item) {
         }
     }
 
-    // Address indicators for Portland/Multnomah
     if (/^\s*\d+\s+[NS][EW]?\s+/i.test(address)) {
-        // e.g. 1234 NE ...
-        return "Multnomah"; // High probability for metroresources.js context
+        return "Multnomah";
     }
 
     if (address.includes("Portland") || address.includes("PDX")) return "Multnomah";
 
-    // Check Content clues
     const content = (item.name + " " + item.services + " " + item.notes).toLowerCase();
     if (content.includes("multnomah")) return "Multnomah";
     if (content.includes("washington county")) return "Washington";
     if (content.includes("clackamas")) return "Clackamas";
-    if (content.includes("tri-county") || content.includes("tri county")) return "Multnomah"; // Assign to center for now
+    if (content.includes("tri-county") || content.includes("tri county")) return "Multnomah";
 
-    // Fallback for Confidential/Remote in metroresources.js -> Multnomah (as per prompt 'Multnomah & Clackamas Context')
-    // unless it's Clackamas Service Center list which we might identify?
-    // Actually, just defaulting to Multnomah for Metro list is safer than Unknown if we have to choose.
     return "Multnomah";
 }
 
@@ -173,7 +189,6 @@ function normalizeItem(item, source) {
         }
     }
 
-    // Clean up address
     let address = item.address || "Confidential/Remote";
     if (address.trim() === "") address = "Confidential/Remote";
 
@@ -193,6 +208,7 @@ function normalizeItem(item, source) {
 function mergeData() {
     const resourcesData = readResourcesJs();
     const metroData = readMetroResourcesJs();
+    const data3Data = readData3Js();
 
     const allResources = [];
 
@@ -202,6 +218,10 @@ function mergeData() {
 
     metroData.forEach(item => {
         allResources.push(normalizeItem(item, 'metroresources.js'));
+    });
+
+    data3Data.forEach(item => {
+        allResources.push(normalizeItem(item, 'data3.js'));
     });
 
     // De-duplication
@@ -229,7 +249,6 @@ function mergeData() {
 
 const merged = mergeData();
 
-// Write to file as global variable
 const outputContent = `const masterResources = ${JSON.stringify(merged, null, 2)};`;
 fs.writeFileSync(OUTPUT_FILE, outputContent);
 
