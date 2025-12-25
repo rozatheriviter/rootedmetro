@@ -1,15 +1,19 @@
 :root {
-    --primary-color: #0056b3;
-    --secondary-color: #004494;
-    --background-color: #f4f4f4;
-    --text-color: #333;
-    --card-bg: #fff;
-    --border-color: #ddd;
-    --focus-ring: #ffbf47;
+    /* Pop!_OS / Cosmic inspired palette */
+    --primary-color: #48b9c7; /* Cyan-ish blue */
+    --primary-dark: #2a7b88;
+    --accent-color: #f69325; /* Pop Orange */
+    --background-color: #f2f2f2;
+    --card-bg: #ffffff;
+    --text-color: #333333;
+    --text-muted: #666666;
+    --border-color: #dcdcdc;
+    --header-bg: #333333; /* Dark slate */
+    --focus-ring: #f69325;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -20,19 +24,26 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--header-bg);
     color: #fff;
-    padding: 2rem 0;
+    padding: 2.5rem 0;
     margin-bottom: 2rem;
+    border-bottom: 4px solid var(--accent-color);
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    font-weight: 300;
+}
+
+header p {
+    margin-top: 0.5rem;
+    color: #ccc;
 }
 
 .sr-only {
@@ -49,28 +60,30 @@ header h1 {
 
 #controls {
     background: var(--card-bg);
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
 }
 
 .search-box {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .search-box input {
     width: 100%;
-    padding: 0.75rem;
-    font-size: 1rem;
+    padding: 0.8rem;
+    font-size: 1.1rem;
     border: 2px solid var(--border-color);
     border-radius: 4px;
     box-sizing: border-box;
+    transition: border-color 0.2s;
 }
 
 .filters {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
 }
 
@@ -82,32 +95,37 @@ header h1 {
 .filter-group label {
     display: block;
     margin-bottom: 0.5rem;
-    font-weight: bold;
+    font-weight: 600;
+    color: var(--text-muted);
 }
 
 .filter-group select {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.75rem;
     border: 2px solid var(--border-color);
     border-radius: 4px;
     font-size: 1rem;
     background-color: #fff;
+    cursor: pointer;
 }
 
 input:focus, select:focus {
-    outline: 3px solid var(--focus-ring);
-    border-color: var(--primary-color);
+    outline: none;
+    border-color: var(--focus-ring);
+    box-shadow: 0 0 0 3px rgba(246, 147, 37, 0.3);
 }
 
 #results-count {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-weight: bold;
+    color: var(--text-muted);
 }
 
 #resource-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 1.5rem;
+    padding-bottom: 3rem;
 }
 
 .card {
@@ -116,41 +134,41 @@ input:focus, select:focus {
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
     display: flex;
     flex-direction: column;
 }
 
 .card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    border-color: var(--primary-color);
 }
 
 .card h2 {
     margin-top: 0;
-    font-size: 1.25rem;
-    color: var(--primary-color);
-    border-bottom: 2px solid var(--background-color);
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    color: var(--primary-dark);
 }
 
 .card-category {
-    font-size: 0.875rem;
-    color: #666;
+    font-size: 0.85rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
 
 .card-county {
     display: inline-block;
-    background-color: #e9ecef;
-    padding: 0.2rem 0.5rem;
+    background-color: #eee;
+    padding: 0.25rem 0.5rem;
     border-radius: 4px;
     font-size: 0.8rem;
     margin-bottom: 1rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .card-details p {
@@ -159,23 +177,26 @@ input:focus, select:focus {
 }
 
 .card-details strong {
-    color: #555;
+    color: var(--text-color);
 }
 
-footer {
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 3rem;
-    background-color: #333;
-    color: #fff;
+.card-details a {
+    color: var(--primary-dark);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.card-details a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
 }
 
 @media (max-width: 600px) {
-    header h1 {
-        font-size: 1.75rem;
-    }
-
     .filters {
         flex-direction: column;
+        gap: 1rem;
+    }
+    #resource-list {
+        grid-template-columns: 1fr;
     }
 }
