@@ -706,3 +706,5 @@ const resources = [
     address: "5150 SW Watson Ave. Beaverton, OR 97005",
     phone: "",
     hours: "Sun. 4 p.m.; last Thurs. of month 4 p.m.",
+  }
+];
