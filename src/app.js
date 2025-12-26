@@ -26,13 +26,21 @@ document.addEventListener('DOMContentLoaded', () => {
         categoryFilter.appendChild(option);
     });
 
-    // Icons
-    const icons = {
-        map: `<svg xmlns="http://www.w3.org/2000/svg" class="info-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>`,
-        phone: `<svg xmlns="http://www.w3.org/2000/svg" class="info-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>`,
-        clock: `<svg xmlns="http://www.w3.org/2000/svg" class="info-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>`,
-        info: `<svg xmlns="http://www.w3.org/2000/svg" class="info-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>`
-    };
+    // Helper to format phone links
+    function formatPhone(phoneStr) {
+        if (!phoneStr || phoneStr === "None listed") return phoneStr;
+
+        // Regex for standard US numbers and short codes
+        const combinedPat = /((?:\b(?:1\s*[-.]?)?\(?(\d{3})\)?\s*[-.]?\s*(\d{3})\s*[-.]?\s*(\d{4})\b)|(\b(?:211|311|511|811|911|988)\b))/g;
+        
+        return phoneStr.replace(combinedPat, (match, p1, p2, p3, p4, p5) => {
+            if (p5) {
+                 return `<a href="tel:${p5}">${match}</a>`;
+            }
+            const clean = match.replace(/[^0-9]/g, '');
+            return `<a href="tel:${clean}">${match}</a>`;
+        });
+    }
 
     function render(items) {
         resourceList.innerHTML = '';
@@ -51,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('article');
             card.className = 'card';
 
+            // Safe rendering helper
             const escapeHTML = (str) => {
                 if (!str) return '';
                 return str.replace(/[&<>'"]/g,
@@ -63,87 +72,20 @@ document.addEventListener('DOMContentLoaded', () => {
                     }[tag]));
             };
 
-            const county = item.county || 'Unknown';
-            const category = item.category || 'Uncategorized';
-
-            // Build Address Block
-            let addressBlock = '';
-            if (item.address) {
-                addressBlock = `
-                    <div class="info-item">
-                        ${icons.map}
-                        <div class="info-content">${escapeHTML(item.address)}</div>
-                    </div>
-                `;
-            }
-
-            // Build Phone Block
-            let phoneBlock = '';
-            if (item.phone) {
-                const phoneClean = escapeHTML(item.phone).replace(/[^0-9]/g, '');
-                phoneBlock = `
-                    <div class="info-item">
-                        ${icons.phone}
-                        <div class="info-content"><a href="tel:${phoneClean}">${escapeHTML(item.phone)}</a></div>
-                    </div>
-                `;
-            }
-
-            // Build Hours Block
-            let hoursBlock = '';
-            if (item.hours) {
-                hoursBlock = `
-                    <div class="info-item">
-                        ${icons.clock}
-                        <div class="info-content">${escapeHTML(item.hours)}</div>
-                    </div>
-                `;
-            }
-
-            // Info Block Container (Address, Phone, Hours)
-            let coreInfo = '';
-            if (addressBlock || phoneBlock || hoursBlock) {
-                coreInfo = `<div class="info-block">${addressBlock}${phoneBlock}${hoursBlock}</div>`;
-            }
-
-            // Services
-            let servicesBlock = '';
-            if (item.services) {
-                servicesBlock = `
-                    <div class="services-block">
-                        <span class="info-label">Services</span>
-                        <div class="services-list">${escapeHTML(item.services)}</div>
-                    </div>
-                `;
-            }
-
-            // Footer (Transit / Notes)
-            let footerContent = [];
-            if (item.transportation && item.transportation !== 'None listed') {
-                footerContent.push(`<div><strong>Transit:</strong> ${escapeHTML(item.transportation)}</div>`);
-            }
-            if (item.notes) {
-                footerContent.push(`<div><strong>Notes:</strong> ${escapeHTML(item.notes)}</div>`);
-            }
-
-            let footerBlock = '';
-            if (footerContent.length > 0) {
-                footerBlock = `<div class="card-footer">${footerContent.join('')}</div>`;
-            }
+            const countyTag = item.county ? `<span class="card-county">${escapeHTML(item.county)} County</span>` : '';
 
             card.innerHTML = `
-                <div class="card-header">
-                    <div class="card-badges">
-                        <span class="badge badge-category">${escapeHTML(category)}</span>
-                        <span class="badge badge-county">${escapeHTML(county)}</span>
-                    </div>
-                    <h2>${escapeHTML(item.name)}</h2>
+                <div class="card-category">${escapeHTML(item.category)}</div>
+                <h2>${escapeHTML(item.name)}</h2>
+                ${countyTag}
+                <div class="card-details">
+                    <p><strong>Address:</strong> ${escapeHTML(item.address)}</p>
+                    <p><strong>Phone:</strong> ${formatPhone(escapeHTML(item.phone))}</p>
+                    <p><strong>Hours:</strong> ${escapeHTML(item.hours)}</p>
+                    <p><strong>Services:</strong> ${escapeHTML(item.services)}</p>
+                    ${item.transportation && item.transportation !== 'None listed' ? `<p><strong>Transit:</strong> ${escapeHTML(item.transportation)}</p>` : ''}
+                    ${item.notes ? `<p><strong>Notes:</strong> ${escapeHTML(item.notes)}</p>` : ''}
                 </div>
-                <div class="card-body">
-                    ${coreInfo}
-                    ${servicesBlock}
-                </div>
-                ${footerBlock}
             `;
             fragment.appendChild(card);
         });
