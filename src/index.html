@@ -34,19 +34,23 @@
                         <option value="Clackamas">Clackamas</option>
                     </select>
                 </div>
+            </div>
 
-                <div class="filter-group">
-                    <label for="category-filter">Category</label>
-                    <select id="category-filter" aria-label="Filter by Category">
-                        <option value="all">All Categories</option>
-                        </select>
+            <!-- New Pill Category Selector -->
+            <div class="filter-group category-group">
+                <label id="category-label">Categories</label>
+                <div id="category-pills" class="pill-container" role="radiogroup" aria-labelledby="category-label">
+                    <button class="pill-btn active" data-value="all" aria-checked="true" role="radio">All Categories</button>
+                    <!-- Categories injected by JS -->
                 </div>
             </div>
+
             <div id="results-count" aria-live="polite"></div>
         </section>
 
         <section id="resource-list" aria-label="List of Resources">
-            </section>
+            <!-- Cards injected by JS -->
+        </section>
     </main>
     <script src="data/master_resources.js"></script>
     <script src="app.js"></script>
