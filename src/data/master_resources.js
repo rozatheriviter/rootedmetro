@@ -451,7 +451,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Baby Blues Connection",
     "address": "Confidential/Remote",
     "phone": "800-557-8375",
@@ -462,7 +462,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Catholic Charities Family Support and Counseling",
     "address": "2740 SE Powell Blvd., Ste. 7",
     "phone": "503-238-5196",
@@ -473,7 +473,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Center for Family Success, Rockwood",
     "address": "7305 NE Glisan St.",
     "phone": "503-286-0600",
@@ -484,7 +484,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Racial Equity Support Line",
     "address": "Confidential/Remote",
     "phone": "503-575-3764",
@@ -495,7 +495,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "David Romprey Oregon Warmline",
     "address": "Confidential/Remote",
     "phone": "1-800-698-2392",
@@ -506,7 +506,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Dougy Center Linklater Commons",
     "address": "Group sites in Portland and Canby",
     "phone": "503-775-5683, 866-775-5683",
@@ -517,7 +517,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Jewish Family and Child Service",
     "address": "downtown office",
     "phone": "503-226-7079",
@@ -528,7 +528,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Lewis & Clark Problem Gambling Services",
     "address": "Remote only",
     "phone": "503-768-6325, Para Citas en Español: 503-646-4600",
@@ -539,7 +539,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Mother and Child Education Center",
     "address": "1515 NE 41st Ave.",
     "phone": "503-249-5801, Spanish Line: 503-913-9360",
@@ -550,7 +550,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Family Resolution Services",
     "address": "1200 SW 1st Suite 3400",
     "phone": "503-988-3189",
@@ -561,7 +561,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Northwest Family Services",
     "address": "6200 SE King Rd.",
     "phone": "503-546-6377",
@@ -572,7 +572,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Pregnancy Resource Center",
     "address": "Multiple locations",
     "phone": "SE: 503-777-7097, Gresham: 503-666-6527, Beaverton: 503-643-4503",
@@ -583,7 +583,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Rose Haven",
     "address": "1740 Northwest Glisan Street",
     "phone": "503-248-6364",
@@ -594,7 +594,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Senior Loneliness HelpLine",
     "address": "Confidential/Remote",
     "phone": "503-200-1633, 1-800-282-7055",
@@ -605,7 +605,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "William Temple House",
     "address": "2023 NW Hoyt St.",
     "phone": "503-226-3021",
@@ -2618,7 +2618,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Clackamas County Behavioral Health",
     "address": "Multiple locations (Oregon City, Sandy, and Clackamas)",
     "phone": "503-655-8401; Crisis Line: 503-655-8585",
@@ -2629,7 +2629,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Clackamas Mental Health Center",
     "address": "11211 SE 82nd Ave. Suite O, Happy Valley",
     "phone": "503-655-8585",
@@ -2640,7 +2640,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Counseling & Mediation",
+    "category": "Counseling & Mental Health",
     "name": "Folk Time",
     "address": "710 Sixth St., Oregon City",
     "phone": "971-888-1784",

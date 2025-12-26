@@ -76,6 +76,84 @@ const ZIP_TO_COUNTY = {
     '97089': 'Clackamas', '97222': 'Clackamas', '97267': 'Clackamas'
 };
 
+const CATEGORY_MAPPING = {
+    "Clothing": "Clothing",
+    "COUNSELING/MEDIATION": "Counseling & Mental Health",
+    "Counseling/Mediation": "Counseling & Mental Health",
+    "Counseling & Mediation": "Counseling & Mental Health",
+    "Family and Parenting Support": "Family Services",
+    "Mental Health and Recovery Services": "Recovery & Mental Health",
+    "Recovery Services": "Recovery & Mental Health",
+    "Crisis Intervention": "Crisis Intervention",
+    "Street Crisis Intervention": "Crisis Intervention",
+    "Day Services": "Day Services",
+    "Day Services/Hospitality": "Day Services",
+    "Day Services/Hygiene": "Day Services",
+    "Dental Care": "Dental Care",
+    "DENTAL CARE": "Dental Care",
+    "DENTAL CARE": "Dental Care",
+    "Disability & Aging": "Disability & Aging",
+    "Disability and Aging Support": "Disability & Aging",
+    "Domestic Violence & Sexual Assault": "Domestic Violence & Sexual Assault",
+    "DOMESTIC VIOLENCE AND SEXUAL ASSAULT": "Domestic Violence & Sexual Assault",
+    "Domestic Violence": "Domestic Violence & Sexual Assault",
+    "Domestic Violence/Assault": "Domestic Violence & Sexual Assault",
+    "Domestic Violence/Sexual Assault": "Domestic Violence & Sexual Assault",
+    "Employment & Training": "Employment & Training",
+    "EMPLOYMENT & TRAINING": "Employment & Training",
+    "EMPLOYMENT AND TRAINING": "Employment & Training",
+    "Vendor Opportunities": "Employment & Training",
+    "Family Services": "Family Services",
+    "Financial Assistance": "Financial Assistance",
+    "FINANCIAL ASSISTANCE": "Financial Assistance",
+    "Financial Services": "Financial Assistance",
+    "Food & Grocery Assistance": "Food & Grocery Assistance",
+    "FOOD AND GROCERY ASSISTANCE": "Food & Grocery Assistance",
+    "Food and Grocery Assistance": "Food & Grocery Assistance",
+    "Food Boxes & Pantries": "Food Boxes & Pantries",
+    "FOOD BOXES": "Food Boxes & Pantries",
+    "Food Boxes": "Food Boxes & Pantries",
+    "Food Boxes/Meals": "Food Boxes & Pantries",
+    "Health Care": "Health Care",
+    "HEALTH CARE": "Health Care",
+    "Hot Meals": "Hot Meals",
+    "MEALS": "Hot Meals",
+    "Meals": "Hot Meals",
+    "Housing & Rental Assistance": "Housing & Rental Assistance",
+    "HOUSING ASSISTANCE": "Housing & Rental Assistance",
+    "Rental Assistance": "Housing & Rental Assistance",
+    "Housing and Rental Assistance": "Housing & Rental Assistance",
+    "Housing Services": "Housing Services",
+    "HOUSING SERVICES": "Housing Services",
+    "LGBTQ+ Resources": "LGBTQ+ Resources",
+    "LGBTQ RESOURCES": "LGBTQ+ Resources",
+    "LGBTQI RESOURCES": "LGBTQ+ Resources",
+    "Laundry": "Laundry",
+    "LAUNDRY SERVICES": "Laundry",
+    "Legal Services": "Legal Services",
+    "LEGAL SERVICES": "Legal Services",
+    "Libraries": "Libraries",
+    "Local Government Services": "Local Government Services",
+    "Clackamas County Services": "Local Government Services",
+    "Mutual Aid": "Mutual Aid",
+    "MUTUAL AID": "Mutual Aid",
+    "Pet Care": "Pet Care",
+    "PET CARE": "Pet Care",
+    "Recovery & Mental Health": "Recovery & Mental Health",
+    "Sexual Health & HIV/AIDS": "Sexual Health & HIV/AIDS",
+    "STD/HIV/AIDS": "Sexual Health & HIV/AIDS",
+    "Shelters": "Shelters",
+    "Shelter": "Shelters",
+    "All Year Round Shelters": "Shelters",
+    "Severe Weather Shelters": "Shelters",
+    "Winter Shelters": "Shelters",
+    "Syringe Exchange/Harm Reduction": "Syringe Exchange/Harm Reduction",
+    "Utility Assistance": "Utility Assistance",
+    "Veterans Services": "Veterans Services",
+    "Veteran Services": "Veterans Services",
+    "Youth Services": "Youth Services"
+};
+
 function readResourcesJs() {
     let code = fs.readFileSync(RESOURCES_FILE, 'utf8').trim();
     if (!code.endsWith('];')) {
@@ -192,8 +270,11 @@ function normalizeItem(item, source) {
     let address = item.address || "Confidential/Remote";
     if (address.trim() === "") address = "Confidential/Remote";
 
+    const rawCategory = item.category ? item.category.trim() : "Uncategorized";
+    const category = CATEGORY_MAPPING[rawCategory] || rawCategory;
+
     return {
-        category: item.category || "Uncategorized",
+        category: category,
         name: item.name || "Unknown Name",
         address: address,
         phone: item.phone || "None listed",

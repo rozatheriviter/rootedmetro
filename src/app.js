@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!phoneStr || phoneStr === "None listed") return phoneStr;
 
         // Regex for standard US numbers and short codes
-        const combinedPat = /((?:\b(?:1\s*[-.]?)?\(?(\d{3})\)?\s*[-.]?\s*(\d{3})\s*[-.]?\s*(\d{4})\b)|(\b(?:211|311|511|811|911|988)\b))/g;
+        // Modified to handle optional parentheses better by checking for boundary OR space OR start of line before `(`
+        const combinedPat = /((?:(?:^|\b|\s)(?:1\s*[-.]?)?\(?(\d{3})\)?\s*[-.]?\s*(\d{3})\s*[-.]?\s*(\d{4})\b)|(\b(?:211|311|511|811|911|988)\b))/g;
         
         return phoneStr.replace(combinedPat, (match, p1, p2, p3, p4, p5) => {
             if (p5) {
