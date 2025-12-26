@@ -12,6 +12,20 @@
 <body>
     <header role="banner">
         <div class="container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="mapped.html">Map</a></li>
+                    <li><a href="submit.html">Submit a Resource</a></li>
+                </ul>
+            </nav>
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es,ro,tl', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
             <h1>Portland Metro Resource Hub</h1>
             <p>Connecting Multnomah, Washington, and Clackamas counties.</p>
         </div>
@@ -19,6 +33,10 @@
 
     <main class="container" role="main">
         <section id="controls" aria-label="Search and Filter Controls">
+            <button class="btn btn-outline" onclick="window.print()" style="margin-bottom: 1rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                Print Resources
+            </button>
             <div class="search-box">
                 <label for="search-input" class="sr-only">Search resources</label>
                 <input type="text" id="search-input" placeholder="Search by name, category, or services..." aria-label="Search resources by name, category, or service">

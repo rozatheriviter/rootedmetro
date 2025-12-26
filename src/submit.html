@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Resource - Portland Metro Resource Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <div class="container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mapped.html">Map</a></li>
+                    <li><a href="submit.html" aria-current="page">Submit a Resource</a></li>
+                </ul>
+            </nav>
+            <h1>Portland Metro Resource Hub</h1>
+            <p>Connecting Multnomah, Washington, and Clackamas counties.</p>
+        </div>
+    </header>
+
+    <main class="container" role="main">
+        <section class="submit-section">
+            <h2>Submit a New Resource</h2>
+            <p>Help us keep our database up to date. Please fill out the form below to submit a new resource or update an existing one.</p>
+
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="submit-form">
+
+                <div class="form-group">
+                    <label for="name">Resource Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Category *</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select a Category</option>
+                        <option value="Clothing">Clothing</option>
+                        <option value="Counseling & Mental Health">Counseling & Mental Health</option>
+                        <option value="Dental Care">Dental Care</option>
+                        <option value="Disability & Aging">Disability & Aging</option>
+                        <option value="Domestic Violence & Sexual Assault">Domestic Violence & Sexual Assault</option>
+                        <option value="Employment & Training">Employment & Training</option>
+                        <option value="Family Services">Family Services</option>
+                        <option value="Financial Assistance">Financial Assistance</option>
+                        <option value="Food & Grocery Assistance">Food & Grocery Assistance</option>
+                        <option value="Food Boxes & Pantries">Food Boxes & Pantries</option>
+                        <option value="Health Care">Health Care</option>
+                        <option value="Hot Meals">Hot Meals</option>
+                        <option value="Housing & Rental Assistance">Housing & Rental Assistance</option>
+                        <option value="Housing Services">Housing Services</option>
+                        <option value="Legal Services">Legal Services</option>
+                        <option value="LGBTQ+ Resources">LGBTQ+ Resources</option>
+                        <option value="Libraries">Libraries</option>
+                        <option value="Mutual Aid">Mutual Aid</option>
+                        <option value="Pet Care">Pet Care</option>
+                        <option value="Recovery & Mental Health">Recovery & Mental Health</option>
+                        <option value="Sexual Health & HIV/AIDS">Sexual Health & HIV/AIDS</option>
+                        <option value="Shelters">Shelters</option>
+                        <option value="Syringe Exchange/Harm Reduction">Syringe Exchange/Harm Reduction</option>
+                        <option value="Utility Assistance">Utility Assistance</option>
+                        <option value="Veterans Services">Veterans Services</option>
+                        <option value="Youth Services">Youth Services</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="county">County *</label>
+                    <select id="county" name="county" required>
+                        <option value="">Select a County</option>
+                        <option value="Multnomah">Multnomah</option>
+                        <option value="Washington">Washington</option>
+                        <option value="Clackamas">Clackamas</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" placeholder="123 Main St, Portland, OR">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="hours">Hours of Operation</label>
+                    <input type="text" id="hours" name="hours">
+                </div>
+
+                <div class="form-group">
+                    <label for="transportation">Transportation</label>
+                    <input type="text" id="transportation" name="transportation" placeholder="e.g., Bus 12, MAX Blue">
+                </div>
+
+                <div class="form-group">
+                    <label for="services">Services Provided</label>
+                    <textarea name="services" id="services" rows="4"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Notes</label>
+                    <textarea name="notes" id="notes" rows="3" placeholder="Any additional details..."></textarea>
+                </div>
+
+                <input type="hidden" name="_replyto" value="rozatheriviter@gmail.com">
+                <button type="submit" class="btn btn-primary">Submit Resource</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
