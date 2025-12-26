@@ -11,7 +11,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Street Crisis Intervention",
+    "category": "Crisis Intervention",
     "name": "Portland Street Response",
     "address": "Confidential/Remote",
     "phone": "Call 911 or the non-emergency Line: 503-833-3333",
@@ -22,7 +22,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Day Services/Hospitality",
+    "category": "Day Services",
     "name": "Behavioral Health Resource Center",
     "address": "333 SW Park Ave (at SW Oak St)",
     "phone": "503-988-4100",
@@ -33,7 +33,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Day Services/Hospitality",
+    "category": "Day Services",
     "name": "Hygiene4All",
     "address": "Under the Morrison Bridge. (Corner of SE Martin Luther King Boulevard and SE Belmont Street)",
     "phone": "971-236-2524",
@@ -44,7 +44,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Day Services/Hospitality",
+    "category": "Day Services",
     "name": "JOIN Day Space",
     "address": "1435 NE 81st Ave., Ste. 100.",
     "phone": "503-232-2031",
@@ -55,7 +55,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Day Services/Hospitality",
+    "category": "Day Services",
     "name": "Social Justice Action Center",
     "address": "400 SE 12th Avenue",
     "phone": "None listed",
@@ -66,7 +66,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Day Services/Hospitality",
+    "category": "Day Services",
     "name": "Sunnyside Shower Project",
     "address": "3520 SE Yamhill Street (Sunnyside Methodist Church)",
     "phone": "917-538-1623",
@@ -77,7 +77,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Day Services/Hospitality",
+    "category": "Day Services",
     "name": "Transition Projects - Resource Center at Bud Clark Commons",
     "address": "650 NW Irving St.",
     "phone": "503-280-4700",
@@ -88,7 +88,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Winter Shelters",
+    "category": "Shelters",
     "name": "Walnut Park Shelter",
     "address": "5329 NE MLK Blvd.",
     "phone": "503-280-4700",
@@ -99,7 +99,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Winter Shelters",
+    "category": "Shelters",
     "name": "Arbor Lodge Shelter",
     "address": "7440 N Denver Ave",
     "phone": "503-792-9001",
@@ -110,7 +110,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Winter Shelters",
+    "category": "Shelters",
     "name": "Do Good Downtown (Greyhound Station)",
     "address": "550 NW 6th Ave",
     "phone": "503-358-0519",
@@ -121,7 +121,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Winter Shelters",
+    "category": "Shelters",
     "name": "Just Compassion",
     "address": "12280 SW Hall Blvd - Tigard",
     "phone": "503-624-4666",
@@ -132,7 +132,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Winter Shelters",
+    "category": "Shelters",
     "name": "Central Church of Nazarene",
     "address": "Confidential/Remote",
     "phone": "503-274-4483 (after 4 p.m.: 503-367-4035)",
@@ -143,7 +143,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "All Year Round Shelters",
+    "category": "Shelters",
     "name": "Market Street Shelter",
     "address": "120 SE Market Street",
     "phone": "971-408-2024",
@@ -154,7 +154,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "All Year Round Shelters",
+    "category": "Shelters",
     "name": "Queer Affinity Village",
     "address": "2185 SW Naito parkway",
     "phone": "971-380-7596",
@@ -165,7 +165,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "All Year Round Shelters",
+    "category": "Shelters",
     "name": "Multnomah County Safe Rest Village (MSRV)",
     "address": "2731 SW Multnomah Blvd",
     "phone": "971-380-7596",
@@ -176,7 +176,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "All Year Round Shelters",
+    "category": "Shelters",
     "name": "BIPOC Village",
     "address": "84 NE Weidler St",
     "phone": "971-380-7594",
@@ -187,7 +187,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Severe Weather Shelters",
+    "category": "Shelters",
     "name": "East Portland Community Center",
     "address": "740 SE 106th Ave, Portland",
     "phone": "None listed",
@@ -198,7 +198,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Severe Weather Shelters",
+    "category": "Shelters",
     "name": "The Salvation Army's Moore Street Center",
     "address": "5325 N Williams Ave.",
     "phone": "Call 211",
@@ -209,7 +209,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Severe Weather Shelters",
+    "category": "Shelters",
     "name": "Imago Dei Church",
     "address": "1302 SE SE Ankeny St.",
     "phone": "None listed",
@@ -220,7 +220,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Severe Weather Shelters",
+    "category": "Shelters",
     "name": "The Sunrise Center",
     "address": "18901 E Burnside St.",
     "phone": "None listed",
@@ -231,7 +231,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Severe Weather Shelters",
+    "category": "Shelters",
     "name": "The Portland Building",
     "address": "1120 SW 5th Ave, Portland",
     "phone": "None listed",
@@ -242,7 +242,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Severe Weather Shelters",
+    "category": "Shelters",
     "name": "Mt. Scott Community Center",
     "address": "5530 SE 72nd Ave, Portland",
     "phone": "None listed",
@@ -451,7 +451,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Baby Blues Connection",
     "address": "Confidential/Remote",
     "phone": "800-557-8375",
@@ -462,7 +462,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Catholic Charities Family Support and Counseling",
     "address": "2740 SE Powell Blvd., Ste. 7",
     "phone": "503-238-5196",
@@ -473,7 +473,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Center for Family Success, Rockwood",
     "address": "7305 NE Glisan St.",
     "phone": "503-286-0600",
@@ -484,7 +484,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Racial Equity Support Line",
     "address": "Confidential/Remote",
     "phone": "503-575-3764",
@@ -495,7 +495,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "David Romprey Oregon Warmline",
     "address": "Confidential/Remote",
     "phone": "1-800-698-2392",
@@ -506,7 +506,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Dougy Center Linklater Commons",
     "address": "Group sites in Portland and Canby",
     "phone": "503-775-5683, 866-775-5683",
@@ -517,7 +517,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Jewish Family and Child Service",
     "address": "downtown office",
     "phone": "503-226-7079",
@@ -528,7 +528,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Lewis & Clark Problem Gambling Services",
     "address": "Remote only",
     "phone": "503-768-6325, Para Citas en Español: 503-646-4600",
@@ -539,7 +539,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Mother and Child Education Center",
     "address": "1515 NE 41st Ave.",
     "phone": "503-249-5801, Spanish Line: 503-913-9360",
@@ -550,7 +550,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Family Resolution Services",
     "address": "1200 SW 1st Suite 3400",
     "phone": "503-988-3189",
@@ -561,7 +561,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Northwest Family Services",
     "address": "6200 SE King Rd.",
     "phone": "503-546-6377",
@@ -572,7 +572,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Pregnancy Resource Center",
     "address": "Multiple locations",
     "phone": "SE: 503-777-7097, Gresham: 503-666-6527, Beaverton: 503-643-4503",
@@ -583,7 +583,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Rose Haven",
     "address": "1740 Northwest Glisan Street",
     "phone": "503-248-6364",
@@ -594,7 +594,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "Senior Loneliness HelpLine",
     "address": "Confidential/Remote",
     "phone": "503-200-1633, 1-800-282-7055",
@@ -605,7 +605,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "COUNSELING/MEDIATION",
+    "category": "Counseling & Mediation",
     "name": "William Temple House",
     "address": "2023 NW Hoyt St.",
     "phone": "503-226-3021",
@@ -616,7 +616,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Bradley Angle",
     "address": "Undisclosed location",
     "phone": "503-281-2442 ext. #3, 24 HOUR CRISIS LINE 503.235.5333",
@@ -627,7 +627,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Call to Safety",
     "address": "Confidential/Remote",
     "phone": "Crisis line: 503-235-5333, or 1-888-235-5333",
@@ -638,7 +638,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "The Gateway Center for Domestic Violence Svs.",
     "address": "10305 E Burnside St.",
     "phone": "503-988-6400",
@@ -649,7 +649,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "IRCO - RIFS Program",
     "address": "Confidential/Remote",
     "phone": "503-445-1446",
@@ -660,7 +660,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "NAYA Family Center-Healing Circle Program",
     "address": "5135 NE Columbia Blvd.",
     "phone": "503-288-8177 ext. 339",
@@ -671,7 +671,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Proyecto UNICA El Programa Hispano Catolico",
     "address": "Confidential/Remote",
     "phone": "503-232-4448",
@@ -682,7 +682,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Raphael House of Portland",
     "address": "Undisclosed location",
     "phone": "503-222-6222",
@@ -693,7 +693,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "SEI Community & Family Programs",
     "address": "Confidential/Remote",
     "phone": "503-285-0493 ext. 4",
@@ -704,7 +704,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Slavic Oregon Social Services",
     "address": "Confidential/Remote",
     "phone": "503-777-3437",
@@ -715,7 +715,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Volunteers of America - Home Free",
     "address": "Confidential/Remote",
     "phone": "Hotline: 503-771-5503",
@@ -726,7 +726,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "West Women's and Children's Shelter",
     "address": "Undisclosed Location",
     "phone": "503-731-3900",
@@ -737,7 +737,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DOMESTIC VIOLENCE AND SEXUAL ASSAULT",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "YWCA of Greater Portland",
     "address": "Confidential/Remote",
     "phone": "Main Line: 503 294-7400, Call to Safety: 503-235-5333, Gateway Center: 503-988-6400",
@@ -748,7 +748,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "Central Portland Vocational Rehabilitation Dept.",
     "address": "1704 NE 26th Ave.",
     "phone": "971-673-2555",
@@ -759,7 +759,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "Constructing Hope",
     "address": "405 NE Church St.",
     "phone": "503-281-1234",
@@ -770,7 +770,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "The DPI Group",
     "address": "4950 NE MLK Jr. Blvd.",
     "phone": "503-281-1289",
@@ -781,7 +781,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "Disability Rights Oregon Plan for Work/WIPA Program",
     "address": "511 SW 10th Ave., Ste. 200",
     "phone": "503-243-2081 ext. 227, Ticket to Work: 1-800-968-7842, 1-800-452-1694",
@@ -792,7 +792,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "East Portland Vocational Rehab Department",
     "address": "305 NE 102nd Ave., Ste. 200",
     "phone": "971-673-5858",
@@ -803,7 +803,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "Easterseals Connecting Communities",
     "address": "10011 SE Division St., Ste 305; 2951 NW Division St., Ste. 165, Gresham",
     "phone": "503-335-6161, En Español: 503-335-5900, Gresham: 503-512-8183",
@@ -814,7 +814,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "Easterseals Oregon",
     "address": "10011 SE Division St., Ste. 101",
     "phone": "503-228-5100",
@@ -825,7 +825,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "Employment Access Center (Central City Concern)",
     "address": "2 NW Second Ave.",
     "phone": "503-226-7387",
@@ -836,7 +836,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "Goodwill Job Connection",
     "address": "1943 SE Sixth Ave.",
     "phone": "503-239-1734",
@@ -847,7 +847,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT & TRAINING",
+    "category": "Employment & Training",
     "name": "Job Corps",
     "address": "Various Locations",
     "phone": "503-326-6800",
@@ -858,7 +858,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT AND TRAINING",
+    "category": "Employment & Training",
     "name": "Our Just Future",
     "address": "Remote Only",
     "phone": "503-548-0200",
@@ -869,7 +869,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT AND TRAINING",
+    "category": "Employment & Training",
     "name": "PIVOT Job Corps",
     "address": "2701 NW Vaughn St., Ste. 151",
     "phone": "503-274-7343",
@@ -880,7 +880,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT AND TRAINING",
+    "category": "Employment & Training",
     "name": "Relay Resources",
     "address": "5312 NE 148th Ave.",
     "phone": "503-261-1266",
@@ -891,7 +891,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT AND TRAINING",
+    "category": "Employment & Training",
     "name": "Stone Soup PDX",
     "address": "306 NW Broadway St.",
     "phone": "503-719-4772",
@@ -902,7 +902,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT AND TRAINING",
+    "category": "Employment & Training",
     "name": "Street Roots",
     "address": "211 NW Davis St.",
     "phone": "503-228-5657",
@@ -913,7 +913,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT AND TRAINING",
+    "category": "Employment & Training",
     "name": "Voz Workers Rights Education Project",
     "address": "Temporary address 5940 N. Albina (Permanent: 240 NE MLK Jr. Blvd.)",
     "phone": "503-234-2043",
@@ -924,7 +924,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "EMPLOYMENT AND TRAINING",
+    "category": "Employment & Training",
     "name": "WorkSource Oregon Centers",
     "address": "Multiple locations",
     "phone": "NE: 503-280-6046, Gresham: 503-669-7112 ext. 2, SE: 503-772-2300 ext. 365",
@@ -935,7 +935,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FINANCIAL ASSISTANCE",
+    "category": "Financial Assistance",
     "name": "Social Security Administration",
     "address": "1538 SW Yamhill St.",
     "phone": "1-800-772-1213, TTY 1-800-325-0778",
@@ -946,7 +946,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES",
+    "category": "Food Boxes & Pantries",
     "name": "Allen Temple Emergency Aid Center",
     "address": "4214 NE Eighth Ave.",
     "phone": "503-289-6615",
@@ -957,7 +957,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES",
+    "category": "Food Boxes & Pantries",
     "name": "First Baptist Church",
     "address": "909 SW 11th Ave.",
     "phone": "503-228-7465",
@@ -968,7 +968,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES",
+    "category": "Food Boxes & Pantries",
     "name": "Equitable Giving Circle",
     "address": "4212 NE Prescott",
     "phone": "None listed",
@@ -979,7 +979,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES",
+    "category": "Food Boxes & Pantries",
     "name": "Food Pantries through Oregon Food Bank",
     "address": "Various locations",
     "phone": "503-282-0555",
@@ -990,7 +990,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES",
+    "category": "Food Boxes & Pantries",
     "name": "Hand Up Project",
     "address": "4115 N. Mississippi Avenue (Q-Center)",
     "phone": "503-451-0715",
@@ -1001,7 +1001,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES",
+    "category": "Food Boxes & Pantries",
     "name": "Good Roots Community Church",
     "address": "1908 SE Courtney Rd., Milwaukie",
     "phone": "503-654-0507",
@@ -1012,7 +1012,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "FOOD BOXES",
+    "category": "Food Boxes & Pantries",
     "name": "Lift Urban Portland",
     "address": "1838 SW Jefferson St; 1200 NW 23rd Ave (Good Samaritan)",
     "phone": "503-221-1224",
@@ -1023,7 +1023,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD AND GROCERY ASSISTANCE",
+    "category": "Food & Grocery Assistance",
     "name": "DHS - Alberta Branch",
     "address": "30 N Webster St., Ste. A",
     "phone": "971-673-6900",
@@ -1034,7 +1034,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD AND GROCERY ASSISTANCE",
+    "category": "Food & Grocery Assistance",
     "name": "DHS - Hollywood/Northeast Portland",
     "address": "4425 NE Broadway St.",
     "phone": "971-673-5722",
@@ -1045,7 +1045,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD AND GROCERY ASSISTANCE",
+    "category": "Food & Grocery Assistance",
     "name": "DHS - East Self-Sufficiency Office",
     "address": "11826 NE Glisan St.",
     "phone": "971-673-0909",
@@ -1056,7 +1056,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD AND GROCERY ASSISTANCE",
+    "category": "Food & Grocery Assistance",
     "name": "DHS - Southeast Branch",
     "address": "8129 SE Malden St.",
     "phone": "971-673-2550",
@@ -1067,7 +1067,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD AND GROCERY ASSISTANCE",
+    "category": "Food & Grocery Assistance",
     "name": "DHS - St. Johns Branch",
     "address": "6443 N Lombard St.",
     "phone": "971-673-5500",
@@ -1078,7 +1078,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - St. Johns (Reno)",
     "address": "St. Johns (Reno)",
     "phone": "None listed",
@@ -1089,7 +1089,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - St. Johns (Kellogg)",
     "address": "St. Johns (Kellogg)",
     "phone": "None listed",
@@ -1100,7 +1100,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Portsmouth (Exeter)",
     "address": "Portsmouth (Exeter)",
     "phone": "None listed",
@@ -1111,7 +1111,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Portsmouth (Union Church)",
     "address": "Portsmouth (Union Church)",
     "phone": "None listed",
@@ -1122,7 +1122,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Portsmouth Pantry",
     "address": "Portsmouth",
     "phone": "None listed",
@@ -1133,7 +1133,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Albina",
     "address": "Albina",
     "phone": "None listed",
@@ -1144,7 +1144,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Albina Hygiene",
     "address": "Albina",
     "phone": "None listed",
@@ -1155,7 +1155,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Piedmont",
     "address": "Piedmont",
     "phone": "None listed",
@@ -1166,7 +1166,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Woodlawn",
     "address": "Woodlawn",
     "phone": "None listed",
@@ -1177,7 +1177,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Concordia",
     "address": "Concordia",
     "phone": "None listed",
@@ -1188,7 +1188,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Vernon",
     "address": "Vernon",
     "phone": "None listed",
@@ -1199,7 +1199,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Cully",
     "address": "Cully",
     "phone": "None listed",
@@ -1210,7 +1210,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Sabin",
     "address": "Sabin",
     "phone": "None listed",
@@ -1221,7 +1221,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Irvington",
     "address": "Irvington",
     "phone": "None listed",
@@ -1232,7 +1232,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Hawthorne",
     "address": "Hawthorne",
     "phone": "None listed",
@@ -1243,7 +1243,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Sunnyside",
     "address": "Sunnyside",
     "phone": "None listed",
@@ -1254,7 +1254,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Woodstock",
     "address": "Woodstock",
     "phone": "None listed",
@@ -1265,7 +1265,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Woodstock Ghost Mtn",
     "address": "Woodstock",
     "phone": "None listed",
@@ -1276,7 +1276,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Brentwood",
     "address": "Brentwood",
     "phone": "None listed",
@@ -1287,7 +1287,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Mt Scott",
     "address": "Mt Scott",
     "phone": "None listed",
@@ -1298,7 +1298,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - Lents Park",
     "address": "Lents Park",
     "phone": "None listed",
@@ -1309,7 +1309,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - South Lents",
     "address": "South Lents",
     "phone": "None listed",
@@ -1320,7 +1320,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridge - North Lents",
     "address": "North Lents",
     "phone": "None listed",
@@ -1331,7 +1331,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "Metro Church of Christ ",
     "address": "1525 NW Division St., Gresham ",
     "phone": "503-667-0773 ",
@@ -1342,7 +1342,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "Neighborhood House ",
     "address": "3445 SW Moss St. ",
     "phone": "503-246-1663 ext. 5119 ",
@@ -1353,7 +1353,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "Northeast Emergency Food Program ",
     "address": "4800 NE 72nd Ave. ",
     "phone": "503-284-5470 ",
@@ -1364,7 +1364,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "Portland Adventist Community Services ",
     "address": "11020 NE Halsey St. ",
     "phone": "503-252-8500 ",
@@ -1375,7 +1375,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "The Salvation Army (Gresham Family Services) ",
     "address": "473 SE 194th Ave. ",
     "phone": "503-661-8972 ext. 420 ",
@@ -1386,7 +1386,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "The Salvation Army (Moore St.) ",
     "address": "5335 N Williams Ave. (entrance on Moore Ave.) ",
     "phone": "971-340-4019 ",
@@ -1397,7 +1397,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "The Salvation Army (Portland Tabernacle) ",
     "address": "1712 NE Sandy Blvd. ",
     "phone": "503-239-1264 ",
@@ -1408,7 +1408,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "SnowCap Community Charities ",
     "address": "17805 SE Stark St., Gresham ",
     "phone": "503-674-8785 ",
@@ -1419,7 +1419,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "St. Andrew Emergency Services (St. Vincent de Paul) ",
     "address": "NE Eighth Ave. (Martha H. Terrell Comm. Center) ",
     "phone": "971-244-4940 ",
@@ -1430,7 +1430,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "St. Stephen's Episcopal Church (Clay St. Table) ",
     "address": "1432 SW 13th Ave. ",
     "phone": "503-223-6424 ",
@@ -1441,7 +1441,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "St. Vincent de Paul ",
     "address": "8101 SE Cornwell St. ",
     "phone": "503 535 2990 ",
@@ -1452,7 +1452,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "St. Mark's Lutheran Church ",
     "address": "5415 SE Powell Blvd. (Entrance on 55th Avenue) ",
     "phone": "503-777-1443 ",
@@ -1463,7 +1463,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "Union Gospel Mission ",
     "address": "15 NW Third Ave. ",
     "phone": "503-274-4483 ",
@@ -1474,7 +1474,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "Trinity Episcopal Cathedral ",
     "address": "147 NW 19th Ave. at Everett St. ",
     "phone": "503-222-9811 ",
@@ -1485,7 +1485,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD BOXES ",
+    "category": "Food Boxes & Pantries",
     "name": "Zarephath Pantry ",
     "address": "59 NW Ava Ave., Gresham ",
     "phone": "503-667-7932 ",
@@ -1496,7 +1496,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD AND GROCERY ASSISTANCE ",
+    "category": "Food & Grocery Assistance",
     "name": "Multnomah County SNAP Outreach Program ",
     "address": "Mobile team ",
     "phone": "503-320-6658, 503-928-9689 ",
@@ -1507,7 +1507,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD AND GROCERY ASSISTANCE ",
+    "category": "Food & Grocery Assistance",
     "name": "Food Stamps (SNAP) - Department of Human Services ",
     "address": "Multiple locations including: 50 SW Second Ave. (Downtown); 30 N Webster St., Ste. A (Alberta); 11826 NE Glisan St. (East); 8129 SE Malden St. (Southeast); 4425 NE Broadway St. (NE); 6443 N Lombard St. (St. Johns). ",
     "phone": "971-673-1400 (General); Downtown: 971-673-6900; East: 971-673-0909; SE: 971-673-2550; NE: 971-673-5722; St. Johns: 971-673-5500. ",
@@ -1518,7 +1518,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "FOOD AND GROCERY ASSISTANCE ",
+    "category": "Food & Grocery Assistance",
     "name": "Women, Infants and Children (WIC) ",
     "address": "Multiple locations including: 9000 N Lombard St (North); 131 NE 102nd Ave., Bldg. #1 (Gateway); 5329 NE MLK Jr. Blvd. (NE); 600 NE Eighth St., No. 230, Gresham (East County). ",
     "phone": "503-988-3503 ",
@@ -1529,7 +1529,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "LGBTQI RESOURCES ",
+    "category": "LGBTQ+ Resources",
     "name": "Brave Space ",
     "address": "3620 SE Powell Blvd., #102 ",
     "phone": "503-486-8936 ",
@@ -1540,7 +1540,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "LGBTQ RESOURCES ",
+    "category": "LGBTQ+ Resources",
     "name": "Outside In's Transgender Services ",
     "address": "1132 SW 13th Ave. ",
     "phone": "503-535-3860 ",
@@ -1551,7 +1551,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "LGBTQ RESOURCES ",
+    "category": "LGBTQ+ Resources",
     "name": "Prism Health ",
     "address": "2236 SE Belmont St. ",
     "phone": "503-445-7699 ",
@@ -1562,7 +1562,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "LGBTQ RESOURCES ",
+    "category": "LGBTQ+ Resources",
     "name": "Q Center ",
     "address": "4115 N Mississippi Ave. ",
     "phone": "503-234-7837 ",
@@ -1573,7 +1573,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "LGBTQ RESOURCES ",
+    "category": "LGBTQ+ Resources",
     "name": "Services and Advocacy for LGBTQ Elders (SAGE) ",
     "address": "1737 NW 26th Ave. ",
     "phone": "503-224-2640 ",
@@ -1584,7 +1584,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "LGBTQ RESOURCES ",
+    "category": "LGBTQ+ Resources",
     "name": "Sexual and Gender Minority Youth Resource Center (SMYRC) ",
     "address": "1220 SW Columbia St. ",
     "phone": "503-872-9664 ",
@@ -1595,7 +1595,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Avel Gordly Center for Healing (OHSU) ",
     "address": "621 SW Alder St., Ste. 520 ",
     "phone": "503-494-4745 ",
@@ -1606,7 +1606,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Cascadia Health Urgent Walk-In Clinic ",
     "address": "4212 SE Division St., Ste. 100 ",
     "phone": "503-963-2575 ",
@@ -1617,7 +1617,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Children's Community Clinic ",
     "address": "2252 Lloyd Center, third floor ",
     "phone": "503-284-5239 ",
@@ -1628,7 +1628,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Coalition of Community Health Clinics ",
     "address": "434 NW Sixth Ave., Ste. 303 ",
     "phone": "503-546-4991 ",
@@ -1639,7 +1639,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Mult. Co. Aging, Disability and Vet. Services Helpline ",
     "address": "Remote only ",
     "phone": "503-988-3646 ",
@@ -1650,7 +1650,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Multnomah County Call Center ",
     "address": "Confidential/Remote",
     "phone": "503-988-4888, 1-800-716-9769 ",
@@ -1661,7 +1661,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Mult. Co. Primary Care Clinics ",
     "address": "Remote Only (Scheduling) ",
     "phone": "503-988-5558 ",
@@ -1672,7 +1672,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "NARA (Native American Rehabilitation Association) ",
     "address": "12360 E Burnside St. (Wellness Center); 1438 SE Division St. (Totem Lodge) ",
     "phone": "Medical: 503-224-1044; Mental Health Intake: 503-307-7775 ",
@@ -1683,7 +1683,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "North by Northeast Community Health Center ",
     "address": "714 NE Alberta St. ",
     "phone": "503-287-4932 ",
@@ -1694,7 +1694,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "OHSU Family Medicine Immediate Care Clinic ",
     "address": "4212 SE Division St., Ste. 150 ",
     "phone": "503-418-1500 ",
@@ -1705,7 +1705,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Old Town Clinic (Central City Concern) ",
     "address": "727 W Burnside St. ",
     "phone": "503-228-4533 ",
@@ -1716,7 +1716,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Old Town Recovery Center (Central City Concern) ",
     "address": "33 NW Broadway St. ",
     "phone": "503-228-7134 ",
@@ -1727,7 +1727,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Operation Nightwatch ",
     "address": "1432 SW 13th Ave. ",
     "phone": "503-220-0438 ",
@@ -1738,7 +1738,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Oregon Health Marketplace ",
     "address": "Confidential/Remote",
     "phone": "None listed",
@@ -1749,7 +1749,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Outside In Clinic ",
     "address": "1132 SW 13th Ave. (Downtown); 16144 East Burnside St. (East); 8800 SE 80th Ave (Mobile). ",
     "phone": "Downtown: 503-535-3860; General: 503-535-3800 ",
@@ -1760,7 +1760,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Planned Parenthood Columbia Willamette ",
     "address": "3727 NE MLK Jr. Blvd.; 3231 SE 50th Ave.; 14601 SE Division St. ",
     "phone": "888-576-7526 ",
@@ -1771,7 +1771,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Portland People's Outreach Project ",
     "address": "Outreach Locations: Bud Clark (NW 6th & Hoyt); NW 19th & Couch; St. Johns (The Cut); Hollywood TC; South Park Blocks. ",
     "phone": "503-765-7767 ",
@@ -1782,7 +1782,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Quest Center for Integrative Health ",
     "address": "2901 E Burnside St. ",
     "phone": "503-238-5203 ",
@@ -1793,7 +1793,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Ride to Care ",
     "address": "Confidential/Remote",
     "phone": "503-416-3955 ",
@@ -1804,7 +1804,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "The Salvation Army, Tabernacle Family Services ",
     "address": "Purchase at Hollywood Fred Meyer (3030 NE Weidler St). ",
     "phone": "503-239-1224 ",
@@ -1815,7 +1815,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HEALTH CARE ",
+    "category": "Health Care",
     "name": "Wallace Medical Concern ",
     "address": "Rockwood ",
     "phone": "503-489-1760 ",
@@ -1826,7 +1826,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DENTAL CARE ",
+    "category": "Dental Care",
     "name": "NARA Dental Clinic ",
     "address": "12750 SE Stark St., Bldg. E ",
     "phone": "971-347-3009 ",
@@ -1837,7 +1837,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DENTAL CARE ",
+    "category": "Dental Care",
     "name": "OHSU Dental Clinics at the School of Dentistry ",
     "address": "2730 SW Moody Ave. ",
     "phone": "503-494-8867 ",
@@ -1848,7 +1848,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DENTAL CARE ",
+    "category": "Dental Care",
     "name": "Russell Street Dental Clinic ",
     "address": "214 N Russell St. ",
     "phone": "503-494-6822 ",
@@ -1859,7 +1859,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "DENTAL CARE ",
+    "category": "Dental Care",
     "name": "Wallace Medical Concern (Dental) ",
     "address": "18139 NE Couch St. ",
     "phone": "503-489-1760; Appt: 503-226-3021 ext. 1297 ",
@@ -1870,7 +1870,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "STD/HIV/AIDS ",
+    "category": "Sexual Health & HIV/AIDS",
     "name": "Cascade AIDS Project ",
     "address": "520 NW Davis St., Ste. 215 ",
     "phone": "503-223-5907 ",
@@ -1881,7 +1881,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "STD/HIV/AIDS ",
+    "category": "Sexual Health & HIV/AIDS",
     "name": "HIV Day Center/Ecumenical Ministries of Oregon ",
     "address": "2941 NE Ainsworth St. ",
     "phone": "503-460-3822 ",
@@ -1892,7 +1892,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "STD/HIV/AIDS ",
+    "category": "Sexual Health & HIV/AIDS",
     "name": "Multnomah Co. STD Clinic ",
     "address": "619 NW Sixth Ave., Second floor ",
     "phone": "503-988-3700 ",
@@ -1903,7 +1903,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "STD/HIV/AIDS ",
+    "category": "Sexual Health & HIV/AIDS",
     "name": "OHSU Partnership Project ",
     "address": "5525 SE Milwaukie Ave. ",
     "phone": "503-230-1202; Trans health: 503-494-7970 ",
@@ -1914,7 +1914,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "STD/HIV/AIDS ",
+    "category": "Sexual Health & HIV/AIDS",
     "name": "Our House ",
     "address": "2727 SE Alder St. ",
     "phone": "503-234-0175 ",
@@ -1925,7 +1925,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "STD/HIV/AIDS ",
+    "category": "Sexual Health & HIV/AIDS",
     "name": "Women of Wisdom ",
     "address": "2901 E Burnside St. (Quest Center) ",
     "phone": "503-238-5203 ext. 321 ",
@@ -1936,7 +1936,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HOUSING SERVICES ",
+    "category": "Housing Services",
     "name": "Blanchet House of Hospitality ",
     "address": "310 NW Glisan St. ",
     "phone": "971-337-8747 ",
@@ -1947,7 +1947,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HOUSING SERVICES ",
+    "category": "Housing Services",
     "name": "Cascade AIDS Project (Housing) ",
     "address": "520 NW Davis St., Ste. 215 ",
     "phone": "503-223-5907 ",
@@ -1958,7 +1958,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HOUSING SERVICES ",
+    "category": "Housing Services",
     "name": "Cascadia Housing, Inc. ",
     "address": "Confidential/Remote",
     "phone": "503-674-7777, 503-238-0705 ",
@@ -1969,7 +1969,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HOUSING SERVICES ",
+    "category": "Housing Services",
     "name": "Catholic Charities: Housing Transitions Program ",
     "address": "2740 SE Powell Blvd., Suite #6 ",
     "phone": "971-222-1880 ",
@@ -1980,7 +1980,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HOUSING SERVICES ",
+    "category": "Housing Services",
     "name": "Central City Concern Housing ",
     "address": "523 NW Everett St. ",
     "phone": "503-525-8483 ",
@@ -1991,7 +1991,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HOUSING SERVICES ",
+    "category": "Housing Services",
     "name": "Our Just Future (Housing) ",
     "address": "Remote Only ",
     "phone": "Portland: 503-548-0200; Rockwood: 503-405-7875 ",
@@ -2002,7 +2002,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HOUSING SERVICES ",
+    "category": "Housing Services",
     "name": "New Narrative ",
     "address": "Confidential location ",
     "phone": "503-726-3742 ",
@@ -2013,7 +2013,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HOUSING SERVICES ",
+    "category": "Housing Services",
     "name": "Northwest Pilot Project ",
     "address": "1430 SW Broadway St. ",
     "phone": "503-227-5605 ",
@@ -2024,7 +2024,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "HOUSING SERVICES ",
+    "category": "Housing Services",
     "name": "Oxford Houses of Oregon ",
     "address": "Various locations ",
     "phone": "971-998-4223 ",
@@ -2035,7 +2035,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "LEGAL SERVICES ",
+    "category": "Legal Services",
     "name": "Disability Rights Oregon ",
     "address": "511 SW 10th Ave., Ste. 200 ",
     "phone": "503-243-2081 ",
@@ -2046,7 +2046,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "PET CARE ",
+    "category": "Pet Care",
     "name": "PAW Team ",
     "address": "1718 NE 82nd Ave. ",
     "phone": "503-206-6033 ",
@@ -2057,7 +2057,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "MUTUAL AID ",
+    "category": "Mutual Aid",
     "name": "PDX Free Fridges ",
     "address": "Various Locations ",
     "phone": "None listed",
@@ -2068,7 +2068,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Rental Assistance",
+    "category": "Housing & Rental Assistance",
     "name": "Fair Housing Council of Oregon",
     "address": "1221 SW Yamhill St., #305",
     "phone": "503-223-8197 Ext. 2",
@@ -2079,7 +2079,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Rental Assistance",
+    "category": "Housing & Rental Assistance",
     "name": "Home Forward (Rent assistance)",
     "address": "135 SW Ash St.",
     "phone": "503-802-8300",
@@ -2090,7 +2090,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Rental Assistance",
+    "category": "Housing & Rental Assistance",
     "name": "Home Forward (Public housing)",
     "address": "1605 NE 45th Ave.",
     "phone": "503-280-3750",
@@ -2101,7 +2101,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Rental Assistance",
+    "category": "Housing & Rental Assistance",
     "name": "Resolutions Northwest",
     "address": "4531 Se Belmont St Suite 300",
     "phone": "971-389-7138",
@@ -2112,7 +2112,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Rental Assistance",
+    "category": "Housing & Rental Assistance",
     "name": "St. Andrew Emergency Services (St. Vincent de Paul)",
     "address": "4940 NE Eighth Ave. (Martha H. Terrell Comm. Center)",
     "phone": "971-244-0339",
@@ -2618,7 +2618,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Counseling/Mediation",
+    "category": "Counseling & Mediation",
     "name": "Clackamas County Behavioral Health",
     "address": "Multiple locations (Oregon City, Sandy, and Clackamas)",
     "phone": "503-655-8401; Crisis Line: 503-655-8585",
@@ -2629,7 +2629,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Counseling/Mediation",
+    "category": "Counseling & Mediation",
     "name": "Clackamas Mental Health Center",
     "address": "11211 SE 82nd Ave. Suite O, Happy Valley",
     "phone": "503-655-8585",
@@ -2640,7 +2640,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Counseling/Mediation",
+    "category": "Counseling & Mediation",
     "name": "Folk Time",
     "address": "710 Sixth St., Oregon City",
     "phone": "971-888-1784",
@@ -2651,7 +2651,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Domestic Violence/Assault",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Casa Esperanza",
     "address": "Undisclosed location",
     "phone": "503-974-9882",
@@ -2662,7 +2662,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Domestic Violence/Assault",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Clackamas Women's Services",
     "address": "256 Warner Milne Rd., Oregon City",
     "phone": "503-655-8600; Crisis Line: 888-654-2288",
@@ -2673,7 +2673,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Domestic Violence",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Safe Place Justice Center",
     "address": "256 Warner Milne Rd., Oregon City",
     "phone": "503-655-8600",
@@ -2717,7 +2717,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Financial Services",
+    "category": "Financial Assistance",
     "name": "Social Security Administration",
     "address": "194 Beverly Dr., Oregon City",
     "phone": "1-800-772-1213; TTY 1-800-325-0778",
@@ -2750,7 +2750,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "Clackamas County Gleaners",
     "address": "13821 Fir St., Oregon City",
     "phone": "503-655-8740",
@@ -2761,7 +2761,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "Colton Helping Hands",
     "address": "30138 S. Wall St., Colton",
     "phone": "503-829-5679",
@@ -2772,7 +2772,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "Estacada Area Food Bank",
     "address": "272 S Broadway St., Estacada",
     "phone": "503-630-2888",
@@ -2783,7 +2783,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "Esther's Pantry/Tod's Corner",
     "address": "10202 SE 32nd Ave.; Esther's Pantry Ste. 601, Tod's Corner Ste. 502, Milwaukie",
     "phone": "503-349-4699",
@@ -2794,7 +2794,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "First Baptist Church",
     "address": "819 John Adams St., Oregon City",
     "phone": "503-656-3854",
@@ -2805,7 +2805,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "First Evangelical Presbyterian Church",
     "address": "1321 Linn Ave., Oregon City",
     "phone": "503-656-7444",
@@ -2816,7 +2816,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "Foot Hills Community Church",
     "address": "122 Grange Ave., Molalla",
     "phone": "503-829-5101",
@@ -2827,7 +2827,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "King of Kings Lutheran",
     "address": "5501 SE Theissen Rd., Milwaukie",
     "phone": "503-659-0990",
@@ -2838,7 +2838,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "Molalla Service Center",
     "address": "412 Sweigle St., Molalla",
     "phone": "503-829-5561",
@@ -2849,7 +2849,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "Oregon Provider",
     "address": "Address not listed",
     "phone": "503-342-8448",
@@ -2860,7 +2860,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "St. John the Apostle",
     "address": "417 Washington St., Oregon City",
     "phone": "503-742-8200",
@@ -2871,7 +2871,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "St. John's Episcopal Church",
     "address": "2036 SE Jefferson St., Milwaukie",
     "phone": "503 653-5880",
@@ -2882,7 +2882,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "St. Vincent de Paul",
     "address": "297 NW Broadway St., Estacada",
     "phone": "503-630-2416",
@@ -2893,7 +2893,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "SVDP St. Aloysius Church",
     "address": "289 NW Broadway St., Estacada",
     "phone": "503-630-2416",
@@ -2904,7 +2904,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes/Meals",
+    "category": "Food Boxes & Pantries",
     "name": "SVDP St. Patrick's Church",
     "address": "498 NW Ninth St., Canby",
     "phone": "503-266-9411",
@@ -2915,7 +2915,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes",
+    "category": "Food Boxes & Pantries",
     "name": "West Linn Food Pantry",
     "address": "1683 Willamette Falls Dr., West Linn",
     "phone": "503-915-9446",
@@ -2926,7 +2926,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes",
+    "category": "Food Boxes & Pantries",
     "name": "Wichita Center",
     "address": "6031 SE King Rd., Milwaukie",
     "phone": "503-353-5663",
@@ -2937,7 +2937,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "Food Boxes",
+    "category": "Food Boxes & Pantries",
     "name": "Zoar Lutheran Church",
     "address": "190 SW Third Ave., Canby",
     "phone": "503-266-4061",
@@ -3058,7 +3058,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "HOUSING ASSISTANCE",
+    "category": "Housing & Rental Assistance",
     "name": "Coordinated Housing Access",
     "address": "Address not listed",
     "phone": "503-655-8575",
@@ -3069,7 +3069,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "HOUSING ASSISTANCE",
+    "category": "Housing & Rental Assistance",
     "name": "Housing Rights & Resource Program (HRRP)",
     "address": "2051 Kaen Rd., #135, Oregon City",
     "phone": "503-650-5750; Spanish: 503-650-5713",
@@ -3080,7 +3080,7 @@ const masterResources = [
     "county": "Clackamas"
   },
   {
-    "category": "LAUNDRY SERVICES",
+    "category": "Laundry",
     "name": "Living Way Fellowship",
     "address": "39300 Dubarko Rd., Sandy (Fellowship); 36651 Hwy. 26, Sandy (Laundromat)",
     "phone": "503-668-8088",
@@ -3311,7 +3311,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Food Stamps/Supplemental Nutrition Assistance Program - SNAP (Hillsboro)",
     "address": "5300 NE Elam Young Pkwy., Ste. 110",
     "phone": "503-693-4555",
@@ -3322,7 +3322,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Food Stamps/Supplemental Nutrition Assistance Program - SNAP (Beaverton)",
     "address": "15425 NW Greenbrier Pkwy.",
     "phone": "503-646-9952",
@@ -3333,7 +3333,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Food Stamps/Supplemental Nutrition Assistance Program - SNAP (Tigard)",
     "address": "10777 SW Cascade Ave.",
     "phone": "503-670-9711",
@@ -3344,7 +3344,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Women, Infants and Children (WIC) - Hillsboro",
     "address": "254 N First Ave.",
     "phone": "503-846-3555",
@@ -3355,7 +3355,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Women, Infants and Children (WIC) - Beaverton",
     "address": "12550 SW Second St.",
     "phone": "503-846-3555",
@@ -3366,7 +3366,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Women, Infants and Children (WIC) - Tigard",
     "address": "11515 SW Durham Rd, Suite E8.",
     "phone": "503-846-3555",
@@ -3377,7 +3377,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Community Cafe at St. Anthony Parish Center",
     "address": "9905 SW McKenzie St., Tigard (follow signs for entrance to cafe)",
     "phone": "503-639-4179",
@@ -3388,7 +3388,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Faith Café",
     "address": "5150 SW Watson Ave., Beaverton",
     "phone": "None listed",
@@ -3399,7 +3399,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Forest Grove Senior & Community Center",
     "address": "2037 Douglas St., Forest Grove",
     "phone": "503-357-2021",
@@ -3410,7 +3410,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels People",
     "address": "7710 SW 31st Ave., Portland",
     "phone": "503-736-6325",
@@ -3421,7 +3421,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels People - Beaverton Center",
     "address": "5550 SW Hall Blvd",
     "phone": "503-736-6325",
@@ -3432,7 +3432,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels People - Tigard Center",
     "address": "8815 SW O'Mara Street",
     "phone": "503-736-6325",
@@ -3443,7 +3443,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels People - Tualatin Center (Juanita Pohl Center)",
     "address": "8513 SW Tualatin Road",
     "phone": "503-736-6325",
@@ -3454,7 +3454,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels People - Hillsboro Center (Sonrise Church)",
     "address": "6701 Campus Way",
     "phone": "503-736-6325",
@@ -3465,7 +3465,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels People - Forest Grove Center",
     "address": "2037 Douglas Street",
     "phone": "503-736-6325",
@@ -3476,7 +3476,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "The Salvation Army Tualatin Valley Corps",
     "address": "351 SE Oak St., Hillsboro",
     "phone": "503-640-4311",
@@ -3487,7 +3487,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "CODA Hillsboro Recovery Center",
     "address": "720 SE Washington St., Hillsboro",
     "phone": "855-733-2632",
@@ -3498,7 +3498,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "CODA Tigard Recovery Center",
     "address": "10362 SW McDonald St., Tigard (men's residential program) and 11970 SW Greenburg Rd. (outpatient)",
     "phone": "855-733-2632",
@@ -3509,7 +3509,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "Fora Health Outpatient Services",
     "address": "205 SE Third Ave., Ste. 100, Hillsboro",
     "phone": "503-535-1151",
@@ -3520,7 +3520,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "Inner Journey Healing Arts",
     "address": "134 SE Fifth Ave., Ste. C, Hillsboro and 161 St. Helens St., Ste. 102, St. Helens",
     "phone": "971-777-0756",
@@ -3531,7 +3531,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "New Narrative Spring Creek Center",
     "address": "8935 SW Center St., Tigard",
     "phone": "503-726-3690",
@@ -3751,7 +3751,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Vendor Opportunities",
+    "category": "Employment & Training",
     "name": "Street Roots",
     "address": "211 NW Davis St. Portland, OR 97209",
     "phone": "503-228-5657",
@@ -3762,7 +3762,7 @@ const masterResources = [
     "county": "Multnomah"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Beaverton Resource Center",
     "address": "13565 SW Walker Rd. Beaverton, OR 97005",
     "phone": "503-591-9025",
@@ -3773,7 +3773,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Beaverton Seventh-Day Adventist",
     "address": "14645 SW Davis Rd. Beaverton, OR 97007",
     "phone": "503-646-9828 ext. 16",
@@ -3784,7 +3784,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Tigard-Tualatin Family Resource Center",
     "address": "14460 SW 114th Ave. Tigard (house behind Christ the King Lutheran Church)",
     "phone": "503-684-8225",
@@ -3795,7 +3795,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Community Table Food Pantry",
     "address": "1095 S Beech St. Cornelius, OR 97113 or 14986 NW Cornell Rd. Portland, OR 97229",
     "phone": "503-292-9293",
@@ -3806,7 +3806,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Hillsboro Seventh-Day Adventist",
     "address": "367 NE Grant St. Hillsboro, OR 97124",
     "phone": "503-648-3922",
@@ -3817,7 +3817,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Holy Trinity Food Closet",
     "address": "13715 SW Walker Rd. Beaverton, OR 97005",
     "phone": "503-641-1842",
@@ -3828,7 +3828,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Oregon Food Bank",
     "address": "Multiple locations",
     "phone": "503-439-6510",
@@ -3839,7 +3839,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Sherwood Helping Hands",
     "address": "22280 SW Washington St. Sherwood, OR 97140",
     "phone": "503-625-7975",
@@ -3850,7 +3850,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "St. Francis Food Pantry",
     "address": "15659 SW Oregon St. Sherwood, OR 97140",
     "phone": "503-625-7067",
@@ -3861,7 +3861,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Taste and See Local",
     "address": "2134 19th Ave. Forest Grove, OR 97116",
     "phone": "971-825-6576",
@@ -3872,7 +3872,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "The Salvation Army HOPE Center",
     "address": "1440 SE 21st Ave. Hillsboro, OR 97123",
     "phone": "800-858-7126",
@@ -3883,7 +3883,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "True Life Fellowship Food Pantry",
     "address": "1895 NW 169th Pl. Beaverton, OR 97006",
     "phone": "503-810-7426",
@@ -3894,7 +3894,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Tualatin Food Pantry",
     "address": "3550 SW Borland Rd. Tualatin, OR 97062",
     "phone": "503-783-0721",
@@ -3905,7 +3905,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Unity Church of Beaverton Food Pantry",
     "address": "12650 SW Fifth St. Beaverton (enter through the parking lot door)",
     "phone": "503-646-3364",
@@ -3949,7 +3949,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Day Services/Hygiene",
+    "category": "Day Services",
     "name": "Just Compassion of East Washington County",
     "address": "12264 SW Hall Blvd. Tigard, OR 97223",
     "phone": "503-624-4666",
@@ -3960,7 +3960,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Day Services/Hygiene",
+    "category": "Day Services",
     "name": "Open Door HousingWorks",
     "address": "34420 SW Tualatin Valley Hwy. Hillsboro, OR 97123",
     "phone": "503-640-6689",
@@ -3971,7 +3971,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Day Services/Hygiene",
+    "category": "Day Services",
     "name": "Project Homeless Connect",
     "address": "SE 6th Ave. Hillsboro, OR 97123 (Located on SE 6th between SE Oak St. and SE Baseline - across from Tuality Hospital.)",
     "phone": "971-713-3930",
@@ -3982,7 +3982,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Disability and Aging Support",
+    "category": "Disability & Aging",
     "name": "Disability, Aging and Veteran Services",
     "address": "5240 NE Elam Young Pkwy., Ste. 300, Hillsboro, OR. 97124",
     "phone": "503-846-3060",
@@ -3993,7 +3993,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Disability and Aging Support",
+    "category": "Disability & Aging",
     "name": "Social Security Administration",
     "address": "11975 SW Second St. Ste. 100 Beaverton, OR 97005",
     "phone": "1-800-772-1213",
@@ -4004,7 +4004,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Domestic Violence/Sexual Assault",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Domestic Violence Resource Center, Inc.",
     "address": "Confidential",
     "phone": "503-469-8620 (24/7 crisis line)",
@@ -4015,7 +4015,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Domestic Violence/Sexual Assault",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Family Justice Center",
     "address": "735 SW 158th Ave. Ste. 100 Beaverton, OR 97006",
     "phone": "503-430-8300",
@@ -4026,7 +4026,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Domestic Violence/Sexual Assault",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Kim's Place",
     "address": "Confidential location",
     "phone": "971-415-0007",
@@ -4037,7 +4037,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Domestic Violence/Sexual Assault",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Oregon Crime Victims Law Center",
     "address": "Confidential",
     "phone": "503-208-8160",
@@ -4048,7 +4048,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Domestic Violence/Sexual Assault",
+    "category": "Domestic Violence & Sexual Assault",
     "name": "Sexual Assault Resource Center (SARC)",
     "address": "Confidential",
     "phone": "1-888-640-5311 (24/7 crisis line)",
@@ -4059,7 +4059,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Family and Parenting Support",
+    "category": "Family Services",
     "name": "Morrison Child and Family Services",
     "address": "15455 NW Greenbrier Pkwy. Ste. 200 Beaverton, OR 97006",
     "phone": "503-258-4495",
@@ -4070,7 +4070,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Family and Parenting Support",
+    "category": "Family Services",
     "name": "Oregon Child Development Coalition (OCDC)",
     "address": "Confidential",
     "phone": "503-213-1191 or 503-359-0649",
@@ -4081,7 +4081,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Family and Parenting Support",
+    "category": "Family Services",
     "name": "Safe Oregon",
     "address": "Confidential",
     "phone": "844-472-3367 (Call or Text 24/7)",
@@ -4092,7 +4092,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Family and Parenting Support",
+    "category": "Family Services",
     "name": "Tigard-Tualatin Family Resource Center",
     "address": "9500 SW Murdock St. Tigard, OR 97224 (James Templeton Elementary School)",
     "phone": "503-603-1585",
@@ -4103,7 +4103,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Supplemental Nutrition Assistance Program (SNAP)",
     "address": "Beaverton Self-Sufficiency: 15425 NW Greenbrier Pkwy.; Beaverton Aging and People with Disabilities: 4805 SW Griffith Dr. Ste. B; Hillsboro Self-Sufficiency: 5300 NE Elam Young Pkwy., Ste. 110; Tigard Self-Sufficiency: 10777 SW Cascade Ave.",
     "phone": "503-646-9952 (Beaverton Self-Sufficiency) , 503-627-0362 (Beaverton Aging and People with Disabilities) , 503-693-4555 (Hillsboro Self-Sufficiency) , 503-670-9711 (Tigard Self-Sufficiency)",
@@ -4114,7 +4114,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Vernonia Cares Food Bank",
     "address": "547 Weed Ave. Vernonia, OR 97064",
     "phone": "503-429-1414",
@@ -4125,7 +4125,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Gaston Food Pantry-Wapato Valley Church",
     "address": "200 Front St. Gaston, OR 97119",
     "phone": "503-985-3351",
@@ -4136,7 +4136,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Food and Grocery Assistance",
+    "category": "Food & Grocery Assistance",
     "name": "Women, Infants and Children (WIC)",
     "address": "Beaverton: 12550 SW Second St.; Hillsboro: 254 N First Ave.; Tigard: 11515 SW Durham Rd. Ste. E8.",
     "phone": "503-846-3555",
@@ -4301,7 +4301,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Housing and Rental Assistance",
+    "category": "Housing & Rental Assistance",
     "name": "Transponding Hope Tri-County Supportive Housing",
     "address": "Multiple locations",
     "phone": "503-475-0636",
@@ -4312,7 +4312,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Housing and Rental Assistance",
+    "category": "Housing & Rental Assistance",
     "name": "Washington County Housing Services",
     "address": "182 NW Adams Ave. Ste. 2000 Hillsboro, OR 97124",
     "phone": "503-846-4794",
@@ -4323,7 +4323,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Housing and Rental Assistance",
+    "category": "Housing & Rental Assistance",
     "name": "Community Action",
     "address": "Confidential",
     "phone": "503-615-0770",
@@ -4400,7 +4400,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Community Cafe at St. Anthony Parish Center",
     "address": "9905 SW McKenzie St. Tigard, OR 97223",
     "phone": "503-639-4179",
@@ -4411,7 +4411,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels People",
     "address": "Confidential",
     "phone": "503-736-3245",
@@ -4422,7 +4422,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels - Beaverton Center",
     "address": "5550 SW Hall Blvd.",
     "phone": "None listed",
@@ -4433,7 +4433,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels - Tigard Center",
     "address": "8835 SW O'Mara St.",
     "phone": "None listed",
@@ -4444,7 +4444,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels - Tualatin Center",
     "address": "8515 SW Tualatin Rd.",
     "phone": "None listed",
@@ -4455,7 +4455,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Meals on Wheels - Forest Grove Center",
     "address": "2037 Douglas St.",
     "phone": "None listed",
@@ -4466,7 +4466,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Faith Café",
     "address": "5250 SW Watson Ave. Beaverton, OR 97005",
     "phone": "None listed",
@@ -4477,7 +4477,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Meals",
+    "category": "Hot Meals",
     "name": "Forest Grove Senior & Community Center",
     "address": "2037 Douglas St., Forest Grove, OR 97116",
     "phone": "503-357-2021",
@@ -4488,7 +4488,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "CODA Hillsboro Recovery Center",
     "address": "720 SE Washington St. Hillsboro, OR 97213",
     "phone": "855-733-2632",
@@ -4499,7 +4499,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "CODA Tigard Recovery Center",
     "address": "10392 SW McDonald St. Tigard, OR 97224",
     "phone": "855-733-2632",
@@ -4510,7 +4510,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "Fora FHP Outpatient Services",
     "address": "205 SE Third Ave. Ste. 100 Hillsboro, OR 97213",
     "phone": "503-336-1110",
@@ -4521,7 +4521,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "Good Samaritan Ministries",
     "address": "1920 SW Cirrus Dr. Bldg. 23 Beaverton, OR 97008",
     "phone": "503-644-2339",
@@ -4532,7 +4532,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "NAMI Washington County",
     "address": "18680 SW Shaw St. Aloha, OR 97007",
     "phone": "503-356-0835",
@@ -4543,7 +4543,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "New Narrative Spring Creek Center",
     "address": "8338 SW Center St. Tigard, OR 97223",
     "phone": "503-726-3690",
@@ -4554,7 +4554,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "Providence Addiction Treatment Services",
     "address": "9155 SW Barnes Rd. Ste. 205 Portland, OR 97225",
     "phone": "503-216-6134",
@@ -4565,7 +4565,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "Sequoia Mental Health Services",
     "address": "Multiple locations",
     "phone": "503-519-3591",
@@ -4576,7 +4576,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "Washington County Behavioral Health",
     "address": "Confidential",
     "phone": "503-291-9111 (24/7 crisis line)",
@@ -4587,7 +4587,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "Washington County Behavioral Health - Hawthorn Walk-in Center",
     "address": "5240 NE Elam Young Parkway Ste. 100 Hillsboro, OR 97124",
     "phone": "None listed",
@@ -4598,7 +4598,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Mental Health and Recovery Services",
+    "category": "Recovery & Mental Health",
     "name": "Washington County Transition Age Youth Intensive Services",
     "address": "155 N First Ave. Ste. 250 Hillsboro, OR 97214",
     "phone": "503-645-9010",
@@ -4609,7 +4609,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Shelter",
+    "category": "Shelters",
     "name": "Community Action - Family Shelter",
     "address": "210 SE 12th Ave. Hillsboro, OR 97123",
     "phone": "503-726-8932",
@@ -4620,7 +4620,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Shelter",
+    "category": "Shelters",
     "name": "Family Promise of Greater Washington County",
     "address": "Confidential",
     "phone": "971-217-8849",
@@ -4631,7 +4631,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Shelter",
+    "category": "Shelters",
     "name": "Good Neighbor Center",
     "address": "11130 SW Greenburg Rd. Tigard, OR 97223",
     "phone": "503-640-3263",
@@ -4686,7 +4686,7 @@ const masterResources = [
     "county": "Washington"
   },
   {
-    "category": "Veteran Services",
+    "category": "Veterans Services",
     "name": "The Salvation Army Veteran and Family Center",
     "address": "14628 SW Farmington Rd. Beaverton, OR 97007",
     "phone": "503-239-1239",
