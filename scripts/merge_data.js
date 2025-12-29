@@ -221,6 +221,41 @@ function readData3Js() {
     }
 }
 
+function generateKey(item) {
+    const cleanName = (item.name || "").toLowerCase().trim();
+    const cleanAddress = (item.address || "").toLowerCase().trim().replace(/[^a-z0-9]/g, '');
+
+    if (cleanAddress.includes("confidential") || cleanAddress.includes("remote")) {
+         return `confidential|${cleanName}`;
+    }
+    return `${cleanName}|${cleanAddress}`;
+}
+
+// Function to read existing output file to preserve coordinates
+function readExistingCoordinates() {
+    if (!fs.existsSync(OUTPUT_FILE)) return new Map();
+
+    try {
+        const content = fs.readFileSync(OUTPUT_FILE, 'utf8');
+        // Simple regex to extract the array part, assuming format: const masterResources = [...];
+        const match = content.match(/const\s+masterResources\s*=\s*(\[[\s\S]*\])\s*;/);
+        if (match && match[1]) {
+            const existingData = JSON.parse(match[1]);
+            const coordMap = new Map();
+            existingData.forEach(item => {
+                if (item.lat && item.lng) {
+                    coordMap.set(generateKey(item), { lat: item.lat, lng: item.lng });
+                }
+            });
+            console.log(`Preserved coordinates for ${coordMap.size} items.`);
+            return coordMap;
+        }
+    } catch (e) {
+        console.error("Error reading existing coordinates:", e.message);
+    }
+    return new Map();
+}
+
 function inferCounty(item) {
     if (item.county) return item.county;
 
@@ -256,7 +291,7 @@ function inferCounty(item) {
     return "Multnomah";
 }
 
-function normalizeItem(item, source) {
+function normalizeItem(item, source, existingCoordsMap) {
     let county = item.county;
 
     if (source === 'resources.js') {
@@ -273,6 +308,12 @@ function normalizeItem(item, source) {
     const rawCategory = item.category ? item.category.trim() : "Uncategorized";
     const category = CATEGORY_MAPPING[rawCategory] || rawCategory;
 
+    // Check for existing coords
+    // Temporarily build object to generate key
+    const tempItem = { name: item.name, address: address };
+    const key = generateKey(tempItem);
+    const existing = existingCoordsMap.get(key);
+
     return {
         category: category,
         name: item.name || "Unknown Name",
@@ -282,11 +323,14 @@ function normalizeItem(item, source) {
         services: item.services || "None listed",
         notes: item.notes || "",
         transportation: item.transportation || "None listed",
-        county: county
+        county: county,
+        lat: existing ? existing.lat : (item.lat || null),
+        lng: existing ? existing.lng : (item.lng || null)
     };
 }
 
 function mergeData() {
+    const existingCoordsMap = readExistingCoordinates();
     const resourcesData = readResourcesJs();
     const metroData = readMetroResourcesJs();
     const data3Data = readData3Js();
@@ -294,15 +338,15 @@ function mergeData() {
     const allResources = [];
 
     resourcesData.forEach(item => {
-        allResources.push(normalizeItem(item, 'resources.js'));
+        allResources.push(normalizeItem(item, 'resources.js', existingCoordsMap));
     });
 
     metroData.forEach(item => {
-        allResources.push(normalizeItem(item, 'metroresources.js'));
+        allResources.push(normalizeItem(item, 'metroresources.js', existingCoordsMap));
     });
 
     data3Data.forEach(item => {
-        allResources.push(normalizeItem(item, 'data3.js'));
+        allResources.push(normalizeItem(item, 'data3.js', existingCoordsMap));
     });
 
     // De-duplication
@@ -310,14 +354,7 @@ function mergeData() {
     const finalResources = [];
 
     allResources.forEach(item => {
-        const cleanName = item.name.toLowerCase().trim();
-        const cleanAddress = item.address.toLowerCase().trim().replace(/[^a-z0-9]/g, '');
-
-        let key = `${cleanName}|${cleanAddress}`;
-
-        if (cleanAddress.includes("confidential") || cleanAddress.includes("remote")) {
-             key = `confidential|${cleanName}`;
-        }
+        const key = generateKey(item);
 
         if (!seen.has(key)) {
             seen.set(key, item);
