@@ -1,210 +1,192 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // masterResources is loaded from data/master_resources.js
-    let resources = [];
-    if (typeof masterResources !== 'undefined') {
-        resources = masterResources;
+// Service Worker Registration
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+            .then(registration => {
+                console.log('ServiceWorker registration successful');
+            })
+            .catch(err => {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+    });
+}
+
+// Search Functionality
+// IDs match index.html: searchInput, resourceGrid, categoryContainer
+const searchInput = document.getElementById('searchInput');
+const resourceList = document.getElementById('resourceGrid');
+const categoryContainer = document.getElementById('categoryContainer');
+
+// State
+let currentCategory = 'all';
+
+// Initialize
+function init() {
+    // Assign masterResources to window.siteResources if available
+    window.siteResources = typeof masterResources !== 'undefined' ? masterResources : [];
+
+    if (window.siteResources.length > 0) {
+        renderCategories();
+        renderResources(window.siteResources); // Initial render
     } else {
-        console.error("Master resources data not loaded.");
-        document.getElementById('resource-list').innerHTML = '<p>Error loading data.</p>';
+        console.error("Resources not loaded!");
+        if (resourceList) {
+             resourceList.innerHTML = '<div class="no-results"><p>Error loading resources. Please refresh the page.</p></div>';
+        }
+    }
+}
+
+// Render Categories
+function renderCategories() {
+    // Get unique categories
+    const categories = ['all', ...new Set(window.siteResources.map(r => r.category))];
+
+    if (categoryContainer) {
+        categoryContainer.innerHTML = categories.map(cat => `
+            <button class="category-chip ${cat === 'all' ? 'active' : ''}"
+                    data-category="${cat}">
+                ${cat.charAt(0).toUpperCase() + cat.slice(1)}
+            </button>
+        `).join('');
+
+        // Add event listeners
+        document.querySelectorAll('.category-chip').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                // Update active state
+                document.querySelectorAll('.category-chip').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+
+                // Update filter
+                currentCategory = e.target.dataset.category;
+                filterResources();
+            });
+        });
+    }
+}
+
+// Filter Resources
+function filterResources() {
+    const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
+
+    const filtered = window.siteResources.filter(resource => {
+        const matchesCategory = currentCategory === 'all' || resource.category === currentCategory;
+        const matchesSearch =
+            resource.name.toLowerCase().includes(searchTerm) ||
+            (resource.services && resource.services.toLowerCase().includes(searchTerm)) ||
+            (resource.category && resource.category.toLowerCase().includes(searchTerm));
+
+        return matchesCategory && matchesSearch;
+    });
+
+    renderResources(filtered);
+}
+
+// Render Resources
+function renderResources(items) {
+    if (!resourceList) return;
+
+    if (items.length === 0) {
+        resourceList.innerHTML = `
+            <div class="no-results">
+                <p>No resources found matching your criteria.</p>
+            </div>
+        `;
         return;
     }
 
-    const searchInput = document.getElementById('search-input');
-    const countyFilter = document.getElementById('county-filter');
-    const categoryPillsContainer = document.getElementById('category-pills');
-    const resourceList = document.getElementById('resource-list');
-    const resultsCount = document.getElementById('results-count');
+    resourceList.innerHTML = items.map(resource => `
+        <div class="resource-card">
+            <div class="card-category">${resource.category}</div>
+            <h3 class="card-title">${resource.name}</h3>
 
-    // State
-    let state = {
-        search: '',
-        county: 'all',
-        category: 'all'
-    };
-
-    // Populate Category Pills
-    const categories = new Set(resources.map(item => item.category).filter(c => c).map(c => c.trim()));
-    const sortedCategories = Array.from(categories).sort();
-
-    sortedCategories.forEach(category => {
-        const btn = document.createElement('button');
-        btn.className = 'pill-btn';
-        btn.dataset.value = category;
-        btn.textContent = category;
-        btn.setAttribute('aria-checked', 'false');
-        btn.setAttribute('role', 'radio');
-
-        btn.addEventListener('click', () => {
-            // Update UI state
-            document.querySelectorAll('.pill-btn').forEach(b => {
-                b.classList.remove('active');
-                b.setAttribute('aria-checked', 'false');
-            });
-            btn.classList.add('active');
-            btn.setAttribute('aria-checked', 'true');
-
-            // Update Filter State
-            state.category = category;
-            filterResources();
-        });
-
-        categoryPillsContainer.appendChild(btn);
-    });
-
-    // Add click listener to the "All Categories" button
-    const allCategoriesBtn = categoryPillsContainer.querySelector('[data-value="all"]');
-    if (allCategoriesBtn) {
-        allCategoriesBtn.addEventListener('click', () => {
-             document.querySelectorAll('.pill-btn').forEach(b => {
-                b.classList.remove('active');
-                b.setAttribute('aria-checked', 'false');
-            });
-            allCategoriesBtn.classList.add('active');
-            allCategoriesBtn.setAttribute('aria-checked', 'true');
-            state.category = 'all';
-            filterResources();
-        });
-    }
-
-
-    // Icons
-    const ICONS = {
-        map: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>`,
-        phone: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>`,
-        clock: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>`,
-        info: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>`
-    };
-
-    // Helper to format phone links
-    function formatPhone(phoneStr) {
-        if (!phoneStr || phoneStr === "None listed") return phoneStr;
-         // Regex for standard US numbers and short codes
-        const combinedPat = /((?:(?:^|\b|\s)(?:1\s*[-.]?)?\(?(\d{3})\)?\s*[-.]?\s*(\d{3})\s*[-.]?\s*(\d{4})\b)|(\b(?:211|311|511|811|911|988)\b))/g;
-        
-        // Return raw numbers for hrefs (first one found)
-        const match = combinedPat.exec(phoneStr);
-        return match ? match[0].replace(/[^0-9]/g, '') : null;
-    }
-
-    function render(items) {
-        resourceList.innerHTML = '';
-
-        if (items.length === 0) {
-            resourceList.innerHTML = '<p>No resources found matching your criteria.</p>';
-            resultsCount.textContent = 'No resources found';
-            return;
-        }
-
-        resultsCount.textContent = `Showing ${items.length} resource${items.length !== 1 ? 's' : ''}`;
-
-        const fragment = document.createDocumentFragment();
-
-        items.forEach(item => {
-            const card = document.createElement('article');
-            card.className = 'card';
-
-            // Safe rendering helper
-            const escapeHTML = (str) => {
-                if (!str) return '';
-                return str.replace(/[&<>'"]/g,
-                    tag => ({
-                        '&': '&amp;',
-                        '<': '&lt;',
-                        '>': '&gt;',
-                        "'": '&#39;',
-                        '"': '&quot;'
-                    }[tag]));
-            };
-
-            const countyTag = item.county ? `<span class="badge badge-county">${escapeHTML(item.county)}</span>` : '';
-            const categoryTag = item.category ? `<span class="badge badge-category">${escapeHTML(item.category)}</span>` : '';
-
-            // Construct Map Link
-            const mapQuery = encodeURIComponent(`${item.address}, ${item.county || 'Oregon'}`);
-            const mapLink = item.address && item.address !== 'None listed'
-                ? `https://www.google.com/maps/search/?api=1&query=${mapQuery}`
-                : null;
-
-            // Construct Phone Link
-            const phoneRaw = formatPhone(item.phone);
-
-            card.innerHTML = `
-                <div class="card-header">
-                    <div class="card-badges">
-                        ${categoryTag}
-                        ${countyTag}
+            <div class="card-info">
+                ${resource.address ? `
+                    <div class="info-row">
+                        <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span>${resource.address}</span>
                     </div>
-                    <h2>${escapeHTML(item.name)}</h2>
-                </div>
-                <div class="card-body">
-                    <div class="info-block">
-                        <div class="info-item">
-                            <div class="info-icon">${ICONS.map}</div>
-                            <div class="info-content">${escapeHTML(item.address)}</div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-icon">${ICONS.clock}</div>
-                            <div class="info-content">${escapeHTML(item.hours)}</div>
-                        </div>
+                ` : ''}
+
+                ${resource.phone ? `
+                    <div class="info-row">
+                        <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                        <a href="tel:${resource.phone}">${resource.phone}</a>
                     </div>
+                ` : ''}
 
-                    ${item.services ? `
-                    <div>
-                        <span class="info-label">Services</span>
-                        <div class="services-list">${escapeHTML(item.services)}</div>
-                    </div>` : ''}
+                ${resource.hours ? `
+                    <div class="info-row">
+                        <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>${resource.hours}</span>
+                    </div>
+                ` : ''}
+            </div>
 
-                     ${item.notes ? `
-                    <div>
-                        <span class="info-label">Notes</span>
-                        <div class="services-list">${escapeHTML(item.notes)}</div>
-                    </div>` : ''}
-                </div>
-                <div class="card-footer">
-                    ${mapLink ? `<a href="${mapLink}" target="_blank" rel="noopener noreferrer" class="btn btn-outline">${ICONS.map} Map</a>`
-                              : `<span class="btn btn-disabled">${ICONS.map} Map</span>`}
+            <div class="card-details">
+                ${resource.services ? `
+                    <span class="detail-label">Services</span>
+                    <p class="detail-text">${resource.services}</p>
+                ` : ''}
 
-                    ${phoneRaw ? `<a href="tel:${phoneRaw}" class="btn btn-primary">${ICONS.phone} Call</a>`
-                               : `<span class="btn btn-disabled">${ICONS.phone} Call</span>`}
-                </div>
-            `;
-            fragment.appendChild(card);
-        });
+                ${resource.notes ? `
+                    <span class="detail-label">Notes</span>
+                    <p class="detail-text">${resource.notes}</p>
+                ` : ''}
 
-        resourceList.appendChild(fragment);
-    }
+                ${resource.transportation ? `
+                    <span class="detail-label">Transportation</span>
+                    <p class="detail-text">${resource.transportation}</p>
+                ` : ''}
+            </div>
 
-    function filterResources() {
-        const searchTerm = state.search.toLowerCase();
-        const selectedCounty = state.county;
-        const selectedCategory = state.category;
+            <div class="action-row">
+                ${getMapLink(resource)}
+                ${getPhoneLink(resource)}
+            </div>
+        </div>
+    `).join('');
+}
 
-        const filtered = resources.filter(item => {
-            const matchesSearch = (
-                (item.name && item.name.toLowerCase().includes(searchTerm)) ||
-                (item.services && item.services.toLowerCase().includes(searchTerm)) ||
-                (item.category && item.category.toLowerCase().includes(searchTerm))
-            );
-            const matchesCounty = selectedCounty === 'all' || (item.county && item.county === selectedCounty);
-            const matchesCategory = selectedCategory === 'all' || (item.category && item.category === selectedCategory);
+// Helper: Map Link
+function getMapLink(resource) {
+    if (!resource.address || resource.address.toLowerCase().includes('confidential')) return '';
 
-            return matchesSearch && matchesCounty && matchesCategory;
-        });
+    // Simple encoding for Google Maps
+    const query = encodeURIComponent(resource.address);
+    return `
+        <a href="https://www.google.com/maps/search/?api=1&query=${query}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn btn-secondary"
+           aria-label="Directions to ${resource.name}">
+           Map
+        </a>
+    `;
+}
 
-        render(filtered);
-    }
+// Helper: Phone Link
+function getPhoneLink(resource) {
+    if (!resource.phone) return '';
+    return `
+        <a href="tel:${resource.phone}"
+           class="btn btn-primary"
+           aria-label="Call ${resource.name}">
+           Call
+        </a>
+    `;
+}
 
-    // Event Listeners
-    searchInput.addEventListener('input', (e) => {
-        state.search = e.target.value;
-        filterResources();
-    });
+// Event Listeners
+if (searchInput) {
+    searchInput.addEventListener('input', filterResources);
+}
 
-    countyFilter.addEventListener('change', (e) => {
-        state.county = e.target.value;
-        filterResources();
-    });
-
-    // Initial Render
-    render(resources);
-});
+// Start
+init();
