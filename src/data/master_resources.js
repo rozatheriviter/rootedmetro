@@ -8,7 +8,9 @@ const masterResources = [
     "services": "Find information, report issues, or request services. ADA Accommodation requests.",
     "notes": "Access to local government within Multnomah County with single point of contact. Staff speak Spanish, Romanian, and Tagalog. Closed on public holidays. Portland.gov/311",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": 45.5152,
+    "lng": -122.6784
   },
   {
     "category": "Crisis Intervention",
@@ -19,7 +21,9 @@ const masterResources = [
     "services": "Mobile crisis first responder system that provides free, confidential services within the city of Portland.",
     "notes": "Designed to provide an alternative to law enforcement whenever possible in crisis situations. https://www.portland.gov/street-response",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Day Services",
@@ -30,7 +34,9 @@ const masterResources = [
     "services": "Safe, welcoming day center. Free peer support, laundry service, lockers, showers, restrooms, computer and internet access. Connection to supportive resources.",
     "notes": "Anyone who is houseless and or experiencing addiction or mental health challenges can take a break from living on the street.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": 45.5222,
+    "lng": -122.6806
   },
   {
     "category": "Day Services",
@@ -41,7 +47,9 @@ const masterResources = [
     "services": "Showers, toilets, trash drop-off, a laundry exchange, and physical and mental health first aid.",
     "notes": "Designed, guided, and operated by and for our unsheltered community members.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": 45.5167,
+    "lng": -122.6611
   },
   {
     "category": "Day Services",
@@ -52,7 +60,9 @@ const masterResources = [
     "services": "Restrooms, phone charging, internet access, mail services, family area, showers including ADA/family shower, hygiene items and referral services.",
     "notes": "First come, first serve. Many offered on time-barter basis. Weekly partner services include B.E.S.T., SSI, CCC Employment. Monthly services include OHP and legal clinics.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": 45.5342,
+    "lng": -122.5794
   },
   {
     "category": "Day Services",
@@ -63,7 +73,9 @@ const masterResources = [
     "services": "Hygiene resources, handwashing stations, restrooms.",
     "notes": "Led by Right 2 Survive.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Day Services",
@@ -74,7 +86,9 @@ const masterResources = [
     "services": "Showers.",
     "notes": "Call to make an appointment for a shower (one person per appointment).",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Day Services",
@@ -85,7 +99,9 @@ const masterResources = [
     "services": "Bathrooms, clothing, showers, laundry, phone charging, mail services, weekly lockers, and haircuts (Wed. and Fri, 1-4 p.m.). Information and sign up for shelters and residential programs.",
     "notes": "www.tprojects.org",
     "transportation": "MAX Green, Yellow.",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -96,7 +112,9 @@ const masterResources = [
     "services": "Shelter services.",
     "notes": "Serves: All genders and couples, age 18 and older, pets welcome. Reservation required, call or visit the Resource Center at 650 NW Irving St. Ability to get up and down from mats on the floor without assistance.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -107,7 +125,9 @@ const masterResources = [
     "services": "Shelter services.",
     "notes": "Serves: All genders and couples, age 18 and older. Pets allowed. Call or drop in to be placed on the waitlist.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -118,7 +138,9 @@ const masterResources = [
     "services": "Shelter services.",
     "notes": "Operated by Do Good Multnomah. Serves: All genders and couples, 18 and older.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -129,7 +151,9 @@ const masterResources = [
     "services": "Shelter services.",
     "notes": "Call before 4 p.m. Reservation required.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -140,7 +164,9 @@ const masterResources = [
     "services": "Shelter services.",
     "notes": "Serves: All genders and individuals age 18 and older. No pets except for service animals. Reservation required. Call or stop by after 6 p.m. to confirm reservation. Ability to get up and down from mats on the floor without assistance.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -151,7 +177,9 @@ const masterResources = [
     "services": "Congregate sheltering services. 120 units.",
     "notes": "Ages +18. Call to request a bed.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -162,7 +190,9 @@ const masterResources = [
     "services": "Culturally-specific village-model sheltering (LGBTQ+). 35 units.",
     "notes": "Call to request a bed.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -173,7 +203,9 @@ const masterResources = [
     "services": "Village-model sheltering. 35 units.",
     "notes": "All genders and couples, age 18. Call to be placed on the waitlist.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -184,7 +216,9 @@ const masterResources = [
     "services": "Culturally-specific village-model sheltering (BIPOC). 42 units available.",
     "notes": "Call to request a bed.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -195,7 +229,9 @@ const masterResources = [
     "services": "Severe weather emergency shelter.",
     "notes": "Call 211 for info and transportation. Sign up for text alerts by texting PDXSHELTER to 898211.",
     "transportation": "TriMet: 15 - SE 106th & Cherry Blossom stop; Bus #20 - SE Washington & 108th stop",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -206,7 +242,9 @@ const masterResources = [
     "services": "50 beds.",
     "notes": "North Portland.",
     "transportation": "TriMet: 72 - N Killingsworth & Vancouver; Bus #44 - N Williams & Emerson stop",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -217,7 +255,9 @@ const masterResources = [
     "services": "Severe weather emergency shelter.",
     "notes": "Check-in on site, no reservation required. Serves: All genders and couples, age 18 and older, pets, bikes and carts welcome.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -228,7 +268,9 @@ const masterResources = [
     "services": "Severe weather emergency shelter.",
     "notes": "Check-in on site, no reservation required. Serves: All genders and couples, age 18 and older, pets, bikes and carts welcome. Located in Gresham.",
     "transportation": "TriMet: MAX Blue line - Rockwood/East 188th Ave stop; Bus 20 - SE Stark & 187th stop",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -239,7 +281,9 @@ const masterResources = [
     "services": "Severe weather emergency shelter.",
     "notes": "",
     "transportation": "TriMet: Bus #2, #9, #14, #17 - MAX Green/Yellow/Orange Lines",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -250,7 +294,9 @@ const masterResources = [
     "services": "Severe weather emergency shelter.",
     "notes": "",
     "transportation": "TriMet Bus #10 - SE Harold & 72nd stop",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Libraries",
@@ -261,7 +307,9 @@ const masterResources = [
     "services": "Safe ground during severe weather. Library services.",
     "notes": "",
     "transportation": "Transit: Bus 4, 44",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Libraries",
@@ -272,7 +320,9 @@ const masterResources = [
     "services": "Safe ground during severe weather. Library services.",
     "notes": "",
     "transportation": "Transit: Bus 20",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Libraries",
@@ -283,7 +333,9 @@ const masterResources = [
     "services": "Safe ground during severe weather. Library services.",
     "notes": "",
     "transportation": "Transit: Max Blue/Red Line",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Libraries",
@@ -294,7 +346,9 @@ const masterResources = [
     "services": "Safe ground during severe weather. Library services.",
     "notes": "",
     "transportation": "Transit: Bus 12",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -305,7 +359,9 @@ const masterResources = [
     "services": "Syringe exchange. Harm reduction.",
     "notes": "Must be 18, ID required. Closed major holidays.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -316,7 +372,9 @@ const masterResources = [
     "services": "Syringe exchange. Harm reduction.",
     "notes": "White van. Must be 18, ID required.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -327,7 +385,9 @@ const masterResources = [
     "services": "Syringe exchange. Harm reduction.",
     "notes": "White van. Must be 18, ID required.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -338,7 +398,9 @@ const masterResources = [
     "services": "Syringe exchange. Harm reduction.",
     "notes": "Must be 18. Closed major holidays.",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": 45.4674,
+    "lng": -122.5936
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -349,7 +411,9 @@ const masterResources = [
     "services": "Syringe exchange. Harm reduction.",
     "notes": "Must be 18. Closed major holidays.",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -360,7 +424,9 @@ const masterResources = [
     "services": "Syringe exchange. Harm reduction.",
     "notes": "Must be 18. Closed major holidays.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -371,7 +437,9 @@ const masterResources = [
     "services": "Syringe exchange. Harm reduction.",
     "notes": "Must be 18. Closed major holidays.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -382,7 +450,9 @@ const masterResources = [
     "services": "Free clothing and emergency food assistance.",
     "notes": "Within four zip codes: 97206, 97215, 97216, 97266. Assistance once a month. www.franciscenterpdx.org/",
     "transportation": "Bus: 72",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -393,7 +463,9 @@ const masterResources = [
     "services": "Clothing for people in need. Personal care products (soap, toothpaste, laundry soap, etc.) when available and referrals.",
     "notes": "Clothing pantry access once per month. Hours subject to change. www.mainspringpdx.org",
     "transportation": "Bus: 24, 72",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -404,7 +476,9 @@ const masterResources = [
     "services": "Clothing boutique (1st and 3rd Wed), supply shop (2nd and 4th Wed), refreshments, and connection.",
     "notes": "All women, trans, non-binary, and gender-queer guests are invited.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": 45.5362,
+    "lng": -122.5975
   },
   {
     "category": "Clothing",
@@ -415,7 +489,9 @@ const masterResources = [
     "services": "Men's clothing. Clothing also offered as needed to overnight dormitory guests and in emergency situations. Socks and general hygiene items available 24/7.",
     "notes": "www.portlandrescuemission.org",
     "transportation": "Bus: 12, 19, 20, MAX.",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -426,7 +502,9 @@ const masterResources = [
     "services": "Emergency clothing, diapers, wipes, hygiene products, mail service, pet food, outdoor supplies. Showers and restroom use. Advocacy and emotional support.",
     "notes": "For women, children and marginalized genders. Location will change in 2022. www.rosehaven.org",
     "transportation": "Bus: 77, MAX, Streetcar.",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": 45.5303,
+    "lng": -122.6966
   },
   {
     "category": "Clothing",
@@ -437,7 +515,9 @@ const masterResources = [
     "services": "Hygiene items, socks, underwear. Sack lunches and beverages. Sleeping bags and backpacks on Thurs (availability permitting). Food pantry.",
     "notes": "Food pantry access once every 30 days. www.saintandrechurch.org",
     "transportation": "Bus: 12, 20, 33, 54, Downtown MAX.",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -448,7 +528,9 @@ const masterResources = [
     "services": "Provides clothing to people in need.",
     "notes": "www.ugmportland.org",
     "transportation": "Bus: 12, 17, 19, 20, 54, 56, Downtown MAX.",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -459,7 +541,9 @@ const masterResources = [
     "services": "Free telephone, email, online and in-person group support and resources to women and their families experiencing any variety of perinatal and postnatal mood disorders.",
     "notes": "www.babybluesconnection.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -470,7 +554,9 @@ const masterResources = [
     "services": "Intercultural Counseling Center provides mental health services for individuals and families. Counseling, medication management, psychiatric evaluation, support groups, and culturally specific services. Pregnancy and parenting support provides counseling, case management, parenting education classes, mentoring for mothers, lactation support, infant supplies and adoption services.",
     "notes": "Some in person and some virtual visits. Support available in Russian, Español, and English. Accepts OHP Health Share. Serves expectant families and families with children (up to 2 yrs old). Serves tri-county area. www.catholiccharitiesoregon.org",
     "transportation": "Bus: 9, 10",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -481,7 +567,9 @@ const masterResources = [
     "services": "Parenting programs and family stabilization services for justice-involved parents. Parenting skills classes, caring dad's classes, women's healing trauma group, men's building resilience group. Mentoring program for children and youths. Early childhood home visiting program also available.",
     "notes": "Call for intake appt. www.thepathfindernetwork.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -492,7 +580,9 @@ const masterResources = [
     "services": "A supportive service line dedicated to and staffed by Black, Indigenous and people of color. All callers will get help from a counselor with lived experience of racism and will provide appropriate support.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -503,7 +593,9 @@ const masterResources = [
     "services": "Free telephone peer support line.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -514,7 +606,9 @@ const masterResources = [
     "services": "Free peer grief support groups for children ages 3-18 and adults ages 18-40 and their families who have experienced the death of a parent, sibling or significant person in their lives. Pathways Program (SE Portland only): advanced or terminal illness. Kids, teens, adult care, group and adults with illness.",
     "notes": "Bilingual Spanish groups available. www.dougy.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -525,7 +619,9 @@ const masterResources = [
     "services": "providing a wide-range of counseling group and individual services for individuals, couples and families.",
     "notes": "Seeing clients by appointment only. Call to make an appointment. Sliding scale. www.jfcs-portland.org",
     "transportation": "Downtown Bus; MAX Blue, Red; Streetcar",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -536,7 +632,9 @@ const masterResources = [
     "services": "Free counseling for individuals, families and friends who are impacted by gambling.",
     "notes": "www.graduate.lclark.edu/clinics/prob-lem_gambling/",
     "transportation": "Bus: 1, 12, 38, 44, 45, 54, 55, 56",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -547,7 +645,9 @@ const masterResources = [
     "services": "Free pregnancy testing. Childbirth, parenting classes; maternity clothes, and emergency supplies for babies and toddlers.",
     "notes": "ID needed for proof of pregnancy. www.momchildpdx.org",
     "transportation": "Bus: 12, 66, 77, 75, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -558,7 +658,9 @@ const masterResources = [
     "services": "Helps parents navigate personal decisions, meet legal requirements and make healthy plans for children related to separation and divorce. Offers conflict resolution and parent information services to support positive connections as families change. Mediation by phone. Parent Education and Co-Parent Coaching offered via Zoom or Google Meet.",
     "notes": "www.multco.us/dcj/fcs",
     "transportation": "Downtown Bus, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -569,7 +671,9 @@ const masterResources = [
     "services": "Remote counseling, workshops, and classes. Outpatient, sliding scale counseling for adult individuals and couples, available in English and Spanish. Parenting classes, and family programs.",
     "notes": "Call for appt. www.nwfs.org",
     "transportation": "Bus: 33, 34, 71",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -580,7 +684,9 @@ const masterResources = [
     "services": "Faith-based, pro-life organization providing client advocacy, parenting and parenting related classes, pregnancy tests, ultrasounds and women STI testing. Offers baby clothes, diapers, strollers, car seats.",
     "notes": "Last client at 4 p.m. in Gresham and Beaverton. www.prcofportland.com",
     "transportation": "SE: Bus 9, 71; Gresham: Bus 4, 9, 21, 87; Beaverton: Bus 76, 78",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -591,7 +697,9 @@ const masterResources = [
     "services": "Advocacy support and referral assistance provided for women, children and gender diverse people. Financial assistance provided for rent, utilities, medical needs, transportation and emergency needs as available.",
     "notes": "www.rosehaven.org",
     "transportation": "Bus: 77, max, Streetcar",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": 45.5303,
+    "lng": -122.6966
   },
   {
     "category": "Counseling & Mental Health",
@@ -602,7 +710,9 @@ const masterResources = [
     "services": "Supports aging adults who are experiencing loneliness, isolation, depression or anxiety. Staffed by clinicians.",
     "notes": "Confidentiality provided. www.seniorlonelinessline.org; www.linesforlife.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -613,7 +723,9 @@ const masterResources = [
     "services": "Individual, couples and family counseling provided on a sliding scale.",
     "notes": "No crisis counseling. Counseling applications available during business hours or on their website. www.williamtemple.org/counseling.html",
     "transportation": "Bus: 15, 20, 77, Streetcar",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -624,7 +736,9 @@ const masterResources = [
     "services": "Emergency shelter for survivors of domestic violence seeking safety. Community-based intimate partner violence advocacy services including African American, LGBTQ and HIV+ specific advocacy; financial education, housing support, and youth and family services.",
     "notes": "www.bradleyangle.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -635,7 +749,9 @@ const masterResources = [
     "services": "Support for all survivors of domestic and sexual violence and survivors who trade sex. Compassionate, empowerment-based advocacy, crisis intervention, referral, and support services. Specialized services for survivors with intellectual/developmental disabilities, survivors experiencing houselessness, LGBTQI survivors, and sex workers.",
     "notes": "No in-person medical advocacy at hospital for survivors of sexual assault until further notice. www.calltosafety.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -646,7 +762,9 @@ const masterResources = [
     "services": "A center for survivors of intimate partner violence, sexual assault, and their children. Restraining order applications, safety and crisis planning, crime reporting and prosecution, civil legal assistance, counseling and therapeutic services for parents and children. Assistance with restraining orders for people over 65 not related to intimate partner violence.",
     "notes": "No in-person services. Services available in many languages. www.gatewaycenterdv.org",
     "transportation": "Bus: 15, 20; Max Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -657,7 +775,9 @@ const masterResources = [
     "services": "Works with immigrants and refugees experiencing trafficking, domestic and/or sexual violence.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -668,7 +788,9 @@ const masterResources = [
     "services": "REMOTE ONLY. An array of services for domestic and sexual violence survivors including safety planning, housing stabilization, crisis intervention, advocacy, ongoing support groups, and educational services. Domestic violence support groups held off site for confidentiality.",
     "notes": "The Healing Circle works to reinforce the fact that domestic violence is not, nor ever has been, a traditional Native American value.",
     "transportation": "Bus: 75",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -679,7 +801,9 @@ const masterResources = [
     "services": "Provides bilingual and bicultural services for Spanish speaking survivors of domestic and or sexual violence. Provides support, advocacy and opportunity for self empowerment.",
     "notes": "En Español.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -690,7 +814,9 @@ const masterResources = [
     "services": "Emergency shelter for single survivors and families fleeing intimate partner abuse. Advocacy for housing, employment, education and emotional support.",
     "notes": "SSA required. www.raphaelhouse.com",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -701,7 +827,9 @@ const masterResources = [
     "services": "African American advocacy, support groups and case-management services.",
     "notes": "After hours calls forward to Call to Safety 503-235-5333.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -712,7 +840,9 @@ const masterResources = [
     "services": "Slavic-speaking advocacy, support and case-management for survivors of domestic and sexual violence.",
     "notes": "Call for an appointment. After hours calls will be forwarded to the crisis line.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -723,7 +853,9 @@ const masterResources = [
     "services": "Crisis line, emergency services, legal advocacy, housing assistance, systems advocacy and support groups.",
     "notes": "Spanish/English.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -734,7 +866,9 @@ const masterResources = [
     "services": "Emergency shelter for survivors of domestic violence with a wide range of supportive services including advocacy, housing assistance, children's programming, food and extended services.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -745,7 +879,9 @@ const masterResources = [
     "services": "Culturally responsive support and housing related advocacy services. One-on-one support.",
     "notes": "Contact Call to Safety or go to the Gateway Center to access services. Gateway Center not currently offering in-person services. www.ywcapdx.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -756,7 +892,9 @@ const masterResources = [
     "services": "Vocational rehabilitation, job skills training and job placement for people with disabilities.",
     "notes": "www.oregon.gov/dhs/vr/",
     "transportation": "Bus: 17, 70, 77",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -767,7 +905,9 @@ const masterResources = [
     "services": "Pre-apprenticeship training program offers hands-on construction practice, educational training and skill certifications. Facilitates permanent job placement for graduates.",
     "notes": "For low-income men and women and those with a legal history. Summer program for ages 16-19.",
     "transportation": "Bus: 6, 72",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -778,7 +918,9 @@ const masterResources = [
     "services": "Jobs for people with barriers to employment. Temporary staffing for light industrial and administrative jobs. Security division hires security officers, with DPSST training provided.",
     "notes": "Barriers include disability, chronic medical issue, recovery or criminal record. Staffing is THC friendly for non-government jobs. Call for orientation. Apply at www.dpisecurity.com. www.thedpigroup.com; dpi.avionte.com/thedpigroup for quicker access general jobs",
     "transportation": "Bus: 6, 72",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -789,7 +931,9 @@ const masterResources = [
     "services": "Information and no-cost work incentives planning for individuals receiving SSDI or SSI who are employed or seriously considering re-entering the workforce.",
     "notes": "Intake form available on website. www.droregon.org",
     "transportation": "Downtown Bus, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -800,7 +944,9 @@ const masterResources = [
     "services": "Vocational rehabilitation services.",
     "notes": "Call for an intake appointment.",
     "transportation": "Bus: 15, 20; MAX Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -811,7 +957,9 @@ const masterResources = [
     "services": "Remote only. Vocational rehabilitation services, employment for people with disabilities, ESL and computer classes, job development and job placement; translation and interpretation, resume and interview workshops; ESL support and referral.",
     "notes": "By appointment only. www.easterseals.com/oregon",
     "transportation": "Bus: 9, 66, 75",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -822,7 +970,9 @@ const masterResources = [
     "services": "Senior Community Services Employment Program.",
     "notes": "Ages 55 and older. Appointment only. No walk-ins. www.easterseals.com/oregon",
     "transportation": "Bus: 4, 70",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -833,7 +983,9 @@ const masterResources = [
     "services": "Assists Central City Concern clients and other individuals enrolled in specific programs.",
     "notes": "No walk-ins. Call for an appointment. www.centralcityconcern.org",
     "transportation": "Downtown Bus, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -844,7 +996,9 @@ const masterResources = [
     "services": "Free program that develops personalized job search strategy based on individual strengths and goals. Resume assistance, job leads, job fairs, and interview practice.",
     "notes": "www.MeetGoodwill.org",
     "transportation": "Bus: 6, 14, 30; Streetcar",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -855,7 +1009,9 @@ const masterResources = [
     "services": "Hands-on career training for 30 trades. GED/high school diploma programs. Free residential training program.",
     "notes": "For youths 16-21 who are low income, homeless, have documented disability or in the foster care system. Call for appt. www.jobcorps.gov",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -866,7 +1022,9 @@ const masterResources = [
     "services": "Several programs for individuals who are or were unhoused to find the right work for them, with an emphasis on living-wage and career-track jobs.",
     "notes": "Formerly known as Human Solutions. Call for eligibility. https://humansolutions.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -877,7 +1035,9 @@ const masterResources = [
     "services": "Non-residential, year round school that provides free high school diploma, GED and trade training in-office administration and medical administrations support. Internship/job placement services, gas stipend or monthly bus pass, daily lunch allowance, bi-weekly attendance stipend, onsite clothing closet & driver's education offered.",
     "notes": "For youth ages 16-24. www.pivot.jobcorps.gov",
     "transportation": "Bus: 77",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -888,7 +1048,9 @@ const masterResources = [
     "services": "Jobs for people with disabilities or other barriers to employment. Careers in janitorial, landscape, administrative and product assembly.",
     "notes": "Apply online or in person. www.relayresources.org/careers",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -899,7 +1061,9 @@ const masterResources = [
     "services": "Nonprofit restaurant training program for careers in the food and hospitality industry. 14 week training program.",
     "notes": "For those at risk of homelessness. Referral from a social service agency to join or fill out a self-referral application on website. www.stonesouppdx.com",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -910,7 +1074,9 @@ const masterResources = [
     "services": "Immediate work opportunities through vendor program. Vendors are able to become a seller of the weekly publication after completing an orientation.",
     "notes": "www.streetroots.org",
     "transportation": "Downtown Bus, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -921,7 +1087,9 @@ const masterResources = [
     "services": "Nonprofit organization that advocates for immigrants and day laborers' rights.",
     "notes": "New member orientation every other week. Please call to access their location information. Call to sign up.",
     "transportation": "Bus: 6, 12, 19, 20, MAX to Convention Center, Streetcar",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -932,7 +1100,9 @@ const masterResources = [
     "services": "Oregon labor market information system, job search database and skills development.",
     "notes": "Offices are now open and taking appointments. www.worksourceoregon.org",
     "transportation": "NE: Bus 4, 44; Gresham: Bus 20, MAX Blue; SE: Bus 10, 14",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Financial Assistance",
@@ -943,7 +1113,9 @@ const masterResources = [
     "services": "General information about Social Security Disability Insurance and Supplemental Security Income.",
     "notes": "Call for appointment. www.socialsecurity.gov",
     "transportation": "MAX Blue, Red to Galleria or Providence Park stop",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -954,7 +1126,9 @@ const masterResources = [
     "services": "Food boxes.",
     "notes": "Service area from NE Broadway to N Lombard and NE 42nd to N Greeley.",
     "transportation": "Bus: 6",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -965,7 +1139,9 @@ const masterResources = [
     "services": "Meals to go.",
     "notes": "No voucher required. www.fbc-portland.org",
     "transportation": "Bus: 15, 51; MAX Red, Blue; Streetcar",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -976,7 +1152,9 @@ const masterResources = [
     "services": "Provides BIPOC families with food from BIPOC owned farms.",
     "notes": "Black led org. www.equitablegivingcircle.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -987,7 +1165,9 @@ const masterResources = [
     "services": "Helps individuals find perishable and non-perishable food to anyone in need.",
     "notes": "https://foodfinder.oregonfoodbank.org/",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -998,7 +1178,9 @@ const masterResources = [
     "services": "Shopping style food pantry service in which people can choose the food that works best for them.",
     "notes": "www.handupproject.org",
     "transportation": "Bus 4",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1009,7 +1191,9 @@ const masterResources = [
     "services": "Food boxes and clothing closet.",
     "notes": "Available for residents in 97222 and 97267 zip codes. www.goodrootscommunity.com",
     "transportation": "Bus: 33",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1020,7 +1204,9 @@ const masterResources = [
     "services": "Food pantry for low-income residents. Delivered food boxes available with referral. Free food market for low-income residents of NW and downtown Portland.",
     "notes": "Serving NW and downtown residents. Available twice per month. Bring bags for groceries. Call for more info. www.lifturbanportland.org",
     "transportation": "Bus: 15, 17, 77",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -1031,7 +1217,9 @@ const masterResources = [
     "services": "SNAP application assistance. ",
     "notes": "apps.state.or.us/connect/ ",
     "transportation": "Bus: 44, 72 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -1042,7 +1230,9 @@ const masterResources = [
     "services": "SNAP application assistance. ",
     "notes": "apps.state.or.us/connect/ ",
     "transportation": "Bus: 77, 75, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -1053,7 +1243,9 @@ const masterResources = [
     "services": "SNAP application assistance. ",
     "notes": "apps.state.or.us/connect/ ",
     "transportation": "Bus: Gresham TC ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -1064,7 +1256,9 @@ const masterResources = [
     "services": "SNAP application assistance. ",
     "notes": "apps.state.or.us/connect/ ",
     "transportation": "Bus: 9, 75 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -1075,7 +1269,9 @@ const masterResources = [
     "services": "SNAP application assistance. ",
     "notes": "apps.state.or.us/connect/ ",
     "transportation": "Bus: 35, 75 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1086,7 +1282,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1097,7 +1295,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1108,7 +1308,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1119,7 +1321,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1130,7 +1334,9 @@ const masterResources = [
     "services": "Pantry only containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1141,7 +1347,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1152,7 +1360,9 @@ const masterResources = [
     "services": "Pantry only containing free hygiene supplies. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1163,7 +1373,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1174,7 +1386,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1185,7 +1399,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1196,7 +1412,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1207,7 +1425,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1218,7 +1438,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1229,7 +1451,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1240,7 +1464,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1251,7 +1477,9 @@ const masterResources = [
     "services": "Pantry only containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1262,7 +1490,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1273,7 +1503,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1284,7 +1516,9 @@ const masterResources = [
     "services": "Pantry only containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1295,7 +1529,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1306,7 +1542,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1317,7 +1555,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -1328,7 +1568,9 @@ const masterResources = [
     "services": "Fridge and pantry containing various free food options. ",
     "notes": "Volunteer led. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1339,7 +1581,9 @@ const masterResources = [
     "services": "Emergency food boxes. ",
     "notes": "www.metrocofc.org ",
     "transportation": "Bus: 4, MAX Blue ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1350,7 +1594,9 @@ const masterResources = [
     "services": "Food boxes. Limited deliveries in the nearby SW area. ",
     "notes": "To order a food box to be delivered please use the online order form or, please give us a call. Food boxes two times per month. Serves Portland city limits west of the Willamette and Lake Oswego. Pick up by appointment only. www.nhpdx.org ",
     "transportation": "Bus: 44, 45 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1361,7 +1607,9 @@ const masterResources = [
     "services": "Emergency food boxes. ",
     "notes": "Available three times every 6 months. If no car, bring bag or cart. Lottery system starts at 1 p.m. No geographic boundaries. Provide verification for all members of household. www.emo-nefp.org ",
     "transportation": "Bus: 71, 72 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1372,7 +1620,9 @@ const masterResources = [
     "services": "Pre-made boxes provide emergency 3 to 5 days' supply of food once a month. ",
     "notes": "Handed over outside. www.pacsonline.org ",
     "transportation": "Bus: 23, 77 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1383,7 +1633,9 @@ const masterResources = [
     "services": "Food boxes once every 30 days. ",
     "notes": "For select zip codes. Proof of address required, unless unhoused. ",
     "transportation": "Bus: 20 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1394,7 +1646,9 @@ const masterResources = [
     "services": "Food boxes once every 30 days. ",
     "notes": "For select zip codes. Proof of address required, unless unhoused. ",
     "transportation": "Bus: 44, 72 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1405,7 +1659,9 @@ const masterResources = [
     "services": "Food boxes once every 30 days. ",
     "notes": "For select zip codes. Proof of address required, unless unhoused. Must bring reusable bag. ",
     "transportation": "Bus: 12, 19, 20 ",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1416,7 +1672,9 @@ const masterResources = [
     "services": "Shopping-style food boxes. Limited energy assistance when available (est. Jan.-March). ",
     "notes": "Available up to once a month with proof of address postmarked within 30 days. Serves only east of 82nd Ave. www.snowcap.org ",
     "transportation": "Bus: 20, 25, 87, MAX Blue to 181st Station ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1427,7 +1685,9 @@ const masterResources = [
     "services": "Emergency food pantry. ",
     "notes": "Available every 30 days. Service area: 97211. www.smpdx.org ",
     "transportation": "Bus: 9, 71 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1438,7 +1698,9 @@ const masterResources = [
     "services": "Food pantry. ",
     "notes": "Lottery style. www.claystreettable.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1449,7 +1711,9 @@ const masterResources = [
     "services": "Food boxes. ",
     "notes": "Clackamas & Multnomah counties only. Closed major holidays, Good Friday and Friday after Thanksgiving. www.svdpdx.org ",
     "transportation": "Bus: 72, MAX: Green ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1460,7 +1724,9 @@ const masterResources = [
     "services": "No-charge food pantry. ",
     "notes": "",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1471,7 +1737,9 @@ const masterResources = [
     "services": "Food boxes. Showers 9 a.m.-1 p.m. on Fri. ",
     "notes": "Eligible every 30 days. Signature, photo ID and questionnaire required. Numbers passed out at 11 a.m. for first 25 people. www.ugmportland.org ",
     "transportation": "Downtown Bus, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1482,7 +1750,9 @@ const masterResources = [
     "services": "Bags of groceries, grab and go food, personal hygiene items. ",
     "notes": "www.trinity-episcopal.org ",
     "transportation": "Bus: 15, 77, 20 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -1493,7 +1763,9 @@ const masterResources = [
     "services": "Emergency food boxes for low-income residents. ",
     "notes": "ID requested to verify residency in East Multnomah County. Closed major holidays. http://www.feedeastcounty.org/ ",
     "transportation": "Bus: 9 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -1504,7 +1776,9 @@ const masterResources = [
     "services": "Mobile team providing on-site SNAP application assistance to individuals and families. ",
     "notes": "Schedule appts. by phone (call or text). https://multco.us/food-assistance/snap-food-stamps-multnomah-county ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -1515,7 +1789,9 @@ const masterResources = [
     "services": "SNAP benefit application assistance. ",
     "notes": "Apply online at apps.state.or.us/connect/ ",
     "transportation": "Varies by location (e.g., Downtown: Bus/MAX; Alberta: Bus 44, 72). ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -1526,7 +1802,9 @@ const masterResources = [
     "services": "Monthly healthy food benefits, growth monitoring and referral to other programs. ",
     "notes": "For pregnant and post-partum women, infants and children up to age 5. ",
     "transportation": "Varies (e.g., North: Bus 4, 11, 16, 75; Gateway: Bus 15, 20, MAX). ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "LGBTQ+ Resources",
@@ -1537,7 +1815,9 @@ const masterResources = [
     "services": "Facilitates access to knowledgeable providers for transgender and genderqueer youths, adults and their families. Includes counseling, medical transition planning, psychological assessments, and scholarships. ",
     "notes": "Must be insured by OHP. www.bravespacellc.com ",
     "transportation": "Bus: 9, 75 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "LGBTQ+ Resources",
@@ -1548,7 +1828,9 @@ const masterResources = [
     "services": "Assists transgender/gender non-conforming people with primary care, hormone therapy, and physical transition management. The ID Project helps change legal documentation. ",
     "notes": "www.outsidein.org ",
     "transportation": "Downtown Bus; MAX Red, Blue ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "LGBTQ+ Resources",
@@ -1559,7 +1841,9 @@ const masterResources = [
     "services": "LGBTQ+ focused health center. STI testing, PrEP, hormone therapy, HIV care, mental health services and primary care. Specialized services for transgender. ",
     "notes": "www.prismhealth.org ",
     "transportation": "Bus: 15 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "LGBTQ+ Resources",
@@ -1570,7 +1854,9 @@ const masterResources = [
     "services": "Peer support groups, programs for LGBTQ+ seniors, drop-in hours and virtual events. Food pantry every 2nd and 4th Monday. ",
     "notes": "Provides safe spaces and empowerment for LGBTQ2SIA+ communities. www.pdxqcenter.org ",
     "transportation": "Bus: 4, MAX Yellow ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "LGBTQ+ Resources",
@@ -1581,7 +1867,9 @@ const masterResources = [
     "services": "Education, advocacy, outreach, resource referral to enhance lives of LGBTQ community members ages 60+. ",
     "notes": "A program of Friendly House Senior Program. www.fhpdx.org ",
     "transportation": "Bus: 15, 77 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "LGBTQ+ Resources",
@@ -1592,7 +1880,9 @@ const masterResources = [
     "services": "Drop-in center for Queer/Trans youths ages 13 to 23. Social space, counseling, basic needs, support groups, non clinical gender affirmation, and food boxes. ",
     "notes": "One on one appointments available. Reference instagram @SmyrcPDX. www.smyrc.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1603,7 +1893,9 @@ const masterResources = [
     "services": "Outpatient psychiatry, counseling and culturally specific services. ",
     "notes": "Sliding scale fee. www.ohsuhealth.com/counseling ",
     "transportation": "Downtown Bus, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1614,7 +1906,9 @@ const masterResources = [
     "services": "Urgent mental health needs. Counseling, medication prescribing, referrals to substance treatment and community resources. ",
     "notes": "www.cascadiabhc.org ",
     "transportation": "Bus: 2 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1625,7 +1919,9 @@ const masterResources = [
     "services": "Health center for children and youths up to age 21. Asthma and allergy clinic available. ",
     "notes": "For low-income, under and uninsured families. Accepts OHP. $125 max. out of pocket for uninsured. www.ccc4kids.org ",
     "transportation": "Bus: 8, 70, 77 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1636,7 +1932,9 @@ const masterResources = [
     "services": "Info and referral to community health clinics for Medicaid, under-insured and insured members. ",
     "notes": "www.coalitionclinics.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1647,7 +1945,9 @@ const masterResources = [
     "services": "Information, assistance and referrals for adults age 60+, people with disabilities, veterans, and caregivers. ",
     "notes": "www.adrcoforegon.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1658,7 +1958,9 @@ const masterResources = [
     "services": "Mental health resource for information, referral and crisis support. Project Respond mobile mental health crisis response team available. ",
     "notes": "Clinicians provide crisis risk assessment 24/7. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1669,7 +1971,9 @@ const masterResources = [
     "services": "Low-cost family health care at seven locations. Free interpretation services. Transportation assistance. Covid-19 testing. ",
     "notes": "Serves all Mult. Co. residents. Call for appt. www.multco.us/health/primary-care-clinics ",
     "transportation": "Bus: 9 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1680,7 +1984,9 @@ const masterResources = [
     "services": "Full-service medical clinics. Tribal members and descendants free; others sliding scale. Adult mental health integrated. ",
     "notes": "Wellness Center: MAX Blue. Totem Lodge: Bus 4, 70, MAX Orange. www.naranorthwest.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1691,7 +1997,9 @@ const masterResources = [
     "services": "Primary care focus on African American health, hypertension, and diabetes management. Insurance enrollment assistance. ",
     "notes": "Accepts OHP CareOregon and uninsured. www.nxneclinic.org ",
     "transportation": "Bus: 6, 72 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1702,7 +2010,9 @@ const masterResources = [
     "services": "Appointment only medical clinic. ",
     "notes": "www.ohsu.edu ",
     "transportation": "Bus: 4, 75 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1713,7 +2023,9 @@ const masterResources = [
     "services": "Primary and naturopathic care, injury treatment, procedures, mental health care, and addiction treatment. ",
     "notes": "www.ccconcern.org ",
     "transportation": "Downtown bus, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1724,7 +2036,9 @@ const masterResources = [
     "services": "Specialty mental health with integrated addiction services. ",
     "notes": "Not accepting new patients at this time. OHP, Medicare, uninsured. www.centralcityconcern.org ",
     "transportation": "Bus: 20, Downtown MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1735,7 +2049,9 @@ const masterResources = [
     "services": "RN health room provides first aid and referral. Charging stations. To-go sandwiches and coffee. ",
     "notes": "Basic hygiene items available. www.operationnightwatch.org ",
     "transportation": "Bus: 6, Streetcar, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1746,7 +2062,9 @@ const masterResources = [
     "services": "Connects Oregonians to health insurance and help paying for it. ",
     "notes": "www.oregonhealthcare.gov ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1757,7 +2075,9 @@ const masterResources = [
     "services": "Primary care, transgender health, syringe exchange, women's health, naturopath, OHP enrollment. ",
     "notes": "No walk-in appointments. Sliding scale fees apply. www.outsidein.org ",
     "transportation": "Downtown Bus; MAX Red, Blue ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1768,7 +2088,9 @@ const masterResources = [
     "services": "Birth control, Pap exams, STI testing, HIV testing, PrEP, gender affirming hormone services, medication and surgical abortion. ",
     "notes": "Financial assistance available. www.ppcw.org ",
     "transportation": "NE: Bus 6, 24. SE: Bus 9, 14, MAX Green ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1779,7 +2101,9 @@ const masterResources = [
     "services": "Syringes, injection supplies, Naloxone and other items. Bicycle, driving and foot outreach. ",
     "notes": "Used syringes not required. Visit www.portlandpeoplesoutreach.org for schedule. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1790,7 +2114,9 @@ const masterResources = [
     "services": "Osteopathic physician, support groups, yoga, meditation, naturopath, acupuncture, chronic pain support, drug and alcohol counseling. ",
     "notes": "Mental health services remote. Resources for LGBTQ+ community and recovery for HIV. www.quest-center.org ",
     "transportation": "Bus: 19, 20 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1801,7 +2127,9 @@ const masterResources = [
     "services": "Transportation for OHP Health Share members to covered appointments/services. ",
     "notes": "www.ridetocare.com ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1812,7 +2140,9 @@ const masterResources = [
     "services": "Discount prescriptions for seniors ages 60 and older. ",
     "notes": "Available once every 12 months. Up to $500 for 90-day supply. Requires ID, proof of address, and income verification. www.portlandtabernacle.salvationarmy.org ",
     "transportation": "Bus: 12, 19, 20 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -1823,7 +2153,9 @@ const masterResources = [
     "services": "Primary and urgent health care, pediatric care, chronic disease management, and women's health. ",
     "notes": "For residents east of I-205. Sliding scale for uninsured ($25 min). ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Dental Care",
@@ -1834,7 +2166,9 @@ const masterResources = [
     "services": "Basic and preventative dental care for the whole family. ",
     "notes": "No walk-ins, call for appt. ",
     "transportation": "Bus: 20, MAX Blue ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Dental Care",
@@ -1845,7 +2179,9 @@ const masterResources = [
     "services": "Urgent care ($250+) and reduced fee services. Student work supervised by faculty. ",
     "notes": "Accepts OHP. No walk-ins. www.ohsu.edu/school-of-dentistry ",
     "transportation": "Bus: 9, 17, 35, Streetcar, MAX Orange ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Dental Care",
@@ -1856,7 +2192,9 @@ const masterResources = [
     "services": "Low-cost dental program for patients including those with HIV/AIDS. Emergency exams and services ($100-200 per tooth). ",
     "notes": "Sliding fee scale for enrolled patients. ",
     "transportation": "Bus: 4, 44 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Dental Care",
@@ -1867,7 +2205,9 @@ const masterResources = [
     "services": "Dental care services. ",
     "notes": "By appt. only. ",
     "transportation": "Bus: 15, 20, 77, Streetcar ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Sexual Health & HIV/AIDS",
@@ -1878,7 +2218,9 @@ const masterResources = [
     "services": "Free and confidential HIV and STI testing. Education, housing and support for HIV-positive individuals. ",
     "notes": "Call for intake. www.capnw.org ",
     "transportation": "Downtown Bus, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Sexual Health & HIV/AIDS",
@@ -1889,7 +2231,9 @@ const masterResources = [
     "services": "Drop-in center for low-income people living with HIV. Hot breakfasts, lunches, computers, and hygiene needs. ",
     "notes": "Verification of HIV status and low income required. www.emoregon.org/hiv-services/ ",
     "transportation": "Bus: 17, 70, 72, 75 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Sexual Health & HIV/AIDS",
@@ -1900,7 +2244,9 @@ const masterResources = [
     "services": "Confidential STI testing. Spanish-speaking staff. ",
     "notes": "Accepts OHP, Medicare, Medicaid. No one turned away for inability to pay. www.multco.us/health ",
     "transportation": "Downtown Bus, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Sexual Health & HIV/AIDS",
@@ -1911,7 +2257,9 @@ const masterResources = [
     "services": "Case management for HIV+ persons. Services for transgender/gender non-conforming communities. Insurance enrollment assistance. ",
     "notes": "www.ohsu.edu/partnership ",
     "transportation": "Bus: 19, 70 ",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Sexual Health & HIV/AIDS",
@@ -1922,7 +2270,9 @@ const masterResources = [
     "services": "Residential Care facility for HIV/AIDS residents. Nursing, social services, and counseling. ",
     "notes": "Includes Tod's Corner and Esther's Pantry. www.ourhouseofportland.org ",
     "transportation": "Bus: 15, 20 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Sexual Health & HIV/AIDS",
@@ -1933,7 +2283,9 @@ const masterResources = [
     "services": "Peer and community support for women living with HIV/AIDS. Nutrition Night meal (6 p.m. Thurs). ",
     "notes": "www.quest-center.org ",
     "transportation": "Bus: 19, 20 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing Services",
@@ -1944,7 +2296,9 @@ const masterResources = [
     "services": "Seven-month transitional living program for men. ",
     "notes": "Must be able to work full time in kitchen first 90 days. May be eligible for nine-month residential program after completion. www.blanchethouse.org ",
     "transportation": "Bus: 4, 8, 35, 44, 77. MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing Services",
@@ -1955,7 +2309,9 @@ const masterResources = [
     "services": "Housing subsidies and support for HIV+ individuals. Deposit and move-in assistance. ",
     "notes": "Must be HIV positive. capnw.org ",
     "transportation": "Downtown Bus, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing Services",
@@ -1966,7 +2322,9 @@ const masterResources = [
     "services": "Independent subsidized apartments for disabled people or those with dual diagnosis. ",
     "notes": "Applications given when wait list is open. www.cascadiabhc.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing Services",
@@ -1977,7 +2335,9 @@ const masterResources = [
     "services": "Assists women 25+ experiencing homelessness with permanent housing info. Kenton Women's village access. Drop-in lunch and showers. ",
     "notes": "Non-parenting women only. Intake required for some services. www.catholiccharitiesoregon.org ",
     "transportation": "Bus: 9, 10 ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing Services",
@@ -1988,7 +2348,9 @@ const masterResources = [
     "services": "Recovery housing, low-barrier communities, and specialized HIV housing. Section 8 options. ",
     "notes": "Income restrictions apply. www.centralcityconcern.org ",
     "transportation": "Downtown Bus, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing Services",
@@ -1999,7 +2361,9 @@ const masterResources = [
     "services": "Assists families experiencing homelessness in finding affordable housing. ",
     "notes": "Previously Human Solutions. Call 211 to be placed in the queue. www.humansolutions.org ",
     "transportation": "Portland: Bus 9, 17, 71, MAX Blue; Gresham: Bus 25, 87, MAX Blue ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing Services",
@@ -2010,7 +2374,9 @@ const masterResources = [
     "services": "Two-year transitional housing for adults with severe mental illness. Full on-site mental health services. ",
     "notes": "Requires referral from provider. www.newnarrativepdx.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing Services",
@@ -2021,7 +2387,9 @@ const masterResources = [
     "services": "Secures permanent housing for seniors 55+ with no minor children. ",
     "notes": "Closed noon-1 p.m. www.nwpilotproject.org ",
     "transportation": "Downtown Bus, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing Services",
@@ -2032,7 +2400,9 @@ const masterResources = [
     "services": "Alcohol/drug-free living environment in shared housing. ",
     "notes": "Must be recovering and able to pay share of expenses. www.oxfordvacancies.com ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Legal Services",
@@ -2043,7 +2413,9 @@ const masterResources = [
     "services": "Advocacy for civil rights of people with disabilities. ",
     "notes": "www.droregon.org ",
     "transportation": "Downtown Bus, MAX ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Pet Care",
@@ -2054,7 +2426,9 @@ const masterResources = [
     "services": "Basic veterinary care (vaccinations, exams) and limited surgeries. Free pet supply/food bank. ",
     "notes": "Clients must be below federal poverty line. Veterinary care by appt. only. www.pawteam.org ",
     "transportation": "Bus: 72, 77; MAX Blue, Green, Red ",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Mutual Aid",
@@ -2065,7 +2439,9 @@ const masterResources = [
     "services": "Free food options in fridges and pantries. ",
     "notes": "Volunteer led. Locations include Portsmouth, Albina, Woodstock, etc. Instagram: PDXFreeFridge; Pdxfreefridge.com ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -2076,7 +2452,9 @@ const masterResources = [
     "services": "Education and enforcement in the area of housing discrimination. Tests to determine discrimination. Files complaints on your behalf.",
     "notes": "Discrimination hotline: 1-800-424-3247. www.fhco.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -2087,7 +2465,9 @@ const masterResources = [
     "services": "Rent assistance program enables low-income residents to obtain rent assistance vouchers (Section 8) to rent from private landlords.",
     "notes": "www.homeforward.org ",
     "transportation": "Bus: 12, 16, 19, 20",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -2098,7 +2478,9 @@ const masterResources = [
     "services": "Property Management rent-subsidized apartments including public housing and affordable housing apartments.",
     "notes": "www.homeforward.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -2109,7 +2491,9 @@ const masterResources = [
     "services": "Mediation service geared towards assisting renters and landlords resolve conflicts prior to an eviction in the city of Portland. Provides resources and mediation for issues ranging from repairs, rent increases, property damage, noise complaints, and more.",
     "notes": "Assists with improving communication tenant-landlord relations and maintaining current housing for those most impacted. https://resolutionsnorthwest.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -2120,7 +2504,9 @@ const masterResources = [
     "services": "Help with portion of rent with 72-hour eviction notice.",
     "notes": "No drop-in call first. All services, except food distribution, are handled remotely. Assistance to those within the parish boundary, limited to once every 12 months. www.standrewchurch.com ",
     "transportation": "Bus: 72",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -2131,7 +2517,9 @@ const masterResources = [
     "services": "Men only, sobriety required. $5/night or voucher from partner agency for shelter. Dinner, breakfast, shower included daily.",
     "notes": "www.cityteam.org ",
     "transportation": "Bus: 6, Streetcar",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -2142,7 +2530,9 @@ const masterResources = [
     "services": "24-hour emergency shelters serving male-identifying and female-identifying veterans and non-veterans at different shelters.",
     "notes": "Animals allowed, referral required, no walk ins. May be able to help with deposit/rental assistance. Also manage Clackamas Veterans Village. Call for referral or questions. www.dogoodmultnomah.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -2153,7 +2543,9 @@ const masterResources = [
     "services": "Six-month shelter program for families with children. Case management, life skills curriculum, Rent Well classes.",
     "notes": "Work intense. Call for information. www.familyshelter.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -2164,7 +2556,9 @@ const masterResources = [
     "services": "24-hour shelters: Lilac Meadows for families with at least one child under 18. Gresham Women's Shelter for self-ident. women.",
     "notes": "Previously known as Human Solutions Family Center. No walk-up access. Call 211 for eligibility/intake. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -2175,7 +2569,9 @@ const masterResources = [
     "services": "Family Village for homeless families. Meals, showers, laundry, computers, internet and housing support.",
     "notes": "Drug- and alcohol-free shelter. Families must have children under age 18 in their care to qualify. Call 211 to be put on the Homeless Family Shelter Waitlist for the PHFS Family Village. www.pdxhfs.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -2186,7 +2582,9 @@ const masterResources = [
     "services": "Short-term residential programs: Clark Center (men), Doreen's Place (men), Jean's Place (women). Emergency shelters: Laurelwood Center (women, couples), SOS (women), Willamette Center (women, couples), Walnut Park (all genders, couples).",
     "notes": "Shelter hours, services and locations vary. Call or come in for more info. www.tprojects.org/get-assistance/housing ",
     "transportation": "Bus: 17, 33, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Utility Assistance",
@@ -2197,7 +2595,9 @@ const masterResources = [
     "services": "Call for recording of up-to-date info on utility assistance in Mult. Co..",
     "notes": "Text your zip code to 898211 or check website for updates. www.211info.org/energy ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Utility Assistance",
@@ -2208,7 +2608,9 @@ const masterResources = [
     "services": "Help with gas, wood, propane and electric bills.",
     "notes": "No walk-ins. Call for funding availability. Call 211 to check if funding is available. www.humansolutions.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Utility Assistance",
@@ -2219,7 +2621,9 @@ const masterResources = [
     "services": "24-hour Water Discount (and one-time crisis) Hotline.",
     "notes": "Documentation same for energy hotline. Call 211 to check if funding is available. www.humansolutions.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Utility Assistance",
@@ -2230,7 +2634,9 @@ const masterResources = [
     "services": "Part of Immigrant Refugee Community Organization (IRCO).",
     "notes": "www.irco.org ",
     "transportation": "Bus: 12, 15, 19, 22, 23, 24, 87",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Utility Assistance",
@@ -2241,7 +2647,9 @@ const masterResources = [
     "services": "Part of Immigrant Refugee Community Organization (IRCO).",
     "notes": "www.irco.org ",
     "transportation": "Bus: 12, 72",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Utility Assistance",
@@ -2252,7 +2660,9 @@ const masterResources = [
     "services": "Discount on monthly phone or broadband internet access service (landline, wireless) for eligible low-income Oregonians.",
     "notes": "Call or visit website for information or application. www.lifeline.oregon.gov ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Utility Assistance",
@@ -2263,7 +2673,9 @@ const masterResources = [
     "services": "Energy assistance for PGE, Pacific Power, NW natural and heating fuels.",
     "notes": "Energy Hotline: 503-240-0828. Appointment Line: 503-713-5590. Call Energy Hotline for current availability. Must have required documents. www.selfenhancement.org ",
     "transportation": "Bus: 6, 72",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2274,7 +2686,9 @@ const masterResources = [
     "services": "Transitional housing services for male and female veterans.",
     "notes": "Call with questions or for more info. ",
     "transportation": "Downtown Bus, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2285,7 +2699,9 @@ const masterResources = [
     "services": "Part of VA Portland Health Care System. Services for veterans who are homeless or at risk of becoming homeless. Primary care and support services. Housing placement, mental health and social work.",
     "notes": "Call to find out about medical care. www.portland.va.gov/locations/crrc.asp ",
     "transportation": "Downtown Bus; MAX Red, Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2296,7 +2712,9 @@ const masterResources = [
     "services": "Job placement and job training programs for homeless or at-risk homeless vets.",
     "notes": "Call for more information or apply for services online at www.or.easterseals.com ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2307,7 +2725,9 @@ const masterResources = [
     "services": "Supportive Services for Veteran Families. Provides assistance with homelessness prevention and transition to permanent housing, outreach, case management with referrals to other resources.",
     "notes": "To qualify, must be homeless or at risk and have any discharge status other than dishonorable while serving at least one day of active duty. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2318,7 +2738,9 @@ const masterResources = [
     "services": "Staffed by folks trained in military culture to assist in sorting thru issues (family, anger, substance abuse, post-traumatic, suicide) privately.",
     "notes": "www.linesforlife.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2329,7 +2751,9 @@ const masterResources = [
     "services": "Assists veterans and their dependents with obtaining and understanding all benefits available to them under state and federal laws.",
     "notes": "The office works with the county agencies, the Oregon and U.S. Departments of Veterans Affairs. Various locations. Call for appt. Referral form online at multco.us/veterans ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2340,7 +2764,9 @@ const masterResources = [
     "services": "Variety of services including compensation, education, insurance, loan guaranty, pension, and vocational rehabilitation and employment for veterans, service members, their families and survivors.",
     "notes": "TDD: 800-829-4833. www.vba.va.gov www.benefits.va.gov/portland ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2351,7 +2777,9 @@ const masterResources = [
     "services": "Part of VA Portland Health Care System. Comprehensive medical and mental health services. In-patient services and emergency department.",
     "notes": "www.portland.va.gov ",
     "transportation": "Bus: 8. MAX Red/Blue Line",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2362,7 +2790,9 @@ const masterResources = [
     "services": "Readjustment counseling services for combat veterans and their families, also for veterans who experienced military sexual trauma. Grief counseling for families who have lost someone in active service.",
     "notes": "Other services through VA, state and community agencies also available. www.vetcenter.va.gov ",
     "transportation": "Bus: 73, 77",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2373,7 +2803,9 @@ const masterResources = [
     "services": "Case management, short- and long-term housing programs. Resources, referrals into VA and homeless prevention assistance available. Support Services for Veteran Families (SSVF) and Grant and Per Diem (GPD) shelter programs available.",
     "notes": "Screening and eligibility info: 1-855-425-5544. www.tprojects.org/get-assistance/veterans-services ",
     "transportation": "Bus: 17, 33, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -2384,7 +2816,9 @@ const masterResources = [
     "services": "Connects veterans in crisis, their families and friends with VA responders.",
     "notes": "Press 1 for veterans or text 838255 or chat online. www.veteranscrisisline.net ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2395,7 +2829,9 @@ const masterResources = [
     "services": "18-24 years old experiencing homelessness.",
     "notes": "After 5 p,m. go to Porch Light Crisis Shelter 1635 SW Alder St., at 8:45 p.m. for a safe place to stay. After 6 p.m., call Porch Light: 503-380-7200. www.janusyouth.org ",
     "transportation": "Bus: 15, 20, 51, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2406,7 +2842,9 @@ const masterResources = [
     "services": "For children 6 weeks to 3 years and prenatal services. Provides school readiness; family advocacy; and educational, health, nutritional, social and other services.",
     "notes": "Home-based education program available. Multiple locations; call for more information. www.albinahs.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2417,7 +2855,9 @@ const masterResources = [
     "services": "Free preschool for qualifying families with children 3-5 that provides school readiness; family advocacy; and educational, health, nutritional, social and other services.",
     "notes": "Families can also apply on website. www.albinahs.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2428,7 +2868,9 @@ const masterResources = [
     "services": "Foster care and adoption services, homeless youths shelter program and all-options counseling for pregnant women.",
     "notes": "www.boysandgirlsaid.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2439,7 +2881,9 @@ const masterResources = [
     "services": "Assistance for qualifying families to pay for child care services through Community Childcare Initiative (CCI) program.",
     "notes": "Child Behavior Specialist: 503-491-6219. Parents searching for child care, call 211. www.ccrr-mc.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2450,7 +2894,9 @@ const masterResources = [
     "services": "Free private, nonprofit Pre-K to eighth grade school for children whose families are homeless, in housing transition or children at risk of school failure.",
     "notes": "Call for information. Enroll over the phone. www.transitionalschool.org ",
     "transportation": "Bus: 72",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2461,7 +2907,9 @@ const masterResources = [
     "services": "Services and support for teen parents, and their partners who are younger than 24, including case management, information and recreation.",
     "notes": "Call for screening/referral. Resource closet of children's items and diapers available by appt. www.insightstpp.org ",
     "transportation": "Bus: 19",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2472,7 +2920,9 @@ const masterResources = [
     "services": "Peer-to-peer crisis and help line for teens. Support to youths regarding anything bothering you.",
     "notes": "No problem too big or small. Staffed by teens. Text teen2teen to 839863. Chat online. oregonyouthline.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2483,7 +2933,9 @@ const masterResources = [
     "services": "Early intervention and early childhood special education services to children, birth to age 5. Services are individually designed to address the special needs of young children with developmental delays or disabilities free of charge.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2494,7 +2946,9 @@ const masterResources = [
     "services": "Child and Family Program: Child and family services include Mental Health assessments, services and counseling. Youth Program: Groups, outings, life skills training, suicide prevention. Youth Residential Treatment: Holistic and culturally specific outpatient and advocacy services.",
     "notes": "Youth Program Call: 971-279-4838. Intake: 971-274-3757. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2505,7 +2959,9 @@ const masterResources = [
     "services": "Culturally specific wraparound and educational advocacy, tutoring and career skills development for Native-American youths. Domestic violence prevention and intervention services. Access to homeless youth services, including shelter and basic needs for all youths ages 16-24.",
     "notes": "No walk ins, call for appt. www.nayapdx.org ",
     "transportation": "Bus: 75",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2516,7 +2972,9 @@ const masterResources = [
     "services": "Alternative School, transitional housing, day services, job-readiness training for youths ages 16-24. Drop-in day services for youths ages 18-24.",
     "notes": "www.newavenues.org ",
     "transportation": "Bus: 20",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2527,7 +2985,9 @@ const masterResources = [
     "services": "Food, mentoring, art, education, recreation and job training program for homeless young people ages 15-24.",
     "notes": "www.pearmentor.org ",
     "transportation": "Bus: 9, 33, 44; MAX Yellow, Green",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2538,7 +2998,9 @@ const masterResources = [
     "services": "Helps students 17-24 complete high school, hands-on job training in construction or technology.",
     "notes": "Enrolls year round. https://pybpdx.org/ ",
     "transportation": "Bus: 17, MAX Green",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2549,7 +3011,9 @@ const masterResources = [
     "services": "Street Light provides 30 short-term shelter beds and Porch Light provides 30 long-term beds for homeless youths, ages 15-23. Emergency shelter to those new to the streets or in immediate need of shelter.",
     "notes": "Beds distributed on first-come, first-served basis nightly. Street Light requires reservation from case manager. www.janusyouth.org ",
     "transportation": "Bus: 15, 20, 51",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2560,7 +3024,9 @@ const masterResources = [
     "services": "Outreach, support and housing with a faith-based approach. Housing for youths ages 18 to 24 (male and female) and pregnant or parenting females, ages 18 to 24.",
     "notes": "See website for meal location days and times. www.transitionalyouth.org ",
     "transportation": "Downtown Bus, MAX",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2571,7 +3037,9 @@ const masterResources = [
     "services": "First aid and hygiene supplies, resource information, and crisis information available. Nightly street outreach program focuses on providing street-based information, referral and crisis intervention services directly to street-dependent youths ages 15-24.",
     "notes": "www.janusyouth.org ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -2582,7 +3050,9 @@ const masterResources = [
     "services": "Comprehensive primary and mental health care services at no cost. Student health centers serve Mult. County youths ages 5 to 18, even if not in school.",
     "notes": "Do not need to attend school where center is located. Appt. recommended, walk-ins welcome. Free interpretations in all languages. Check website for more information and locations. multco.us/health/student-health. ",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -2593,7 +3063,9 @@ const masterResources = [
     "services": "Clothing exchange, laundry available by appointment only, free hot lunch, food pantry and Harvest Share.",
     "notes": "Members are required 1 hour of volunteer service a month to receive food boxes. Serves Canby, Hubbard and Aurora communities. thecanbycenter.org",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -2604,7 +3076,9 @@ const masterResources = [
     "services": "Clothing & household items, some emergency assistance, and a monthly food pantry truck.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -2615,7 +3089,9 @@ const masterResources = [
     "services": "Clothing card for thrift store available to clients accessing food pantry, food pantry, monthly food boxes, monthly senior food boxes, Thanksgiving baskets, and energy assistance.",
     "notes": "Serves Oregon Trail School District geographic area. sandyactioncenter.com",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": 45.5204,
+    "lng": -122.9904
   },
   {
     "category": "Counseling & Mental Health",
@@ -2626,7 +3102,9 @@ const masterResources = [
     "services": "Out-patient services for help in assessing mental health and addiction issues and a twenty-four hour crisis line for emergencies.",
     "notes": "For Health Share members in Oregon City, Sandy, and Clackamas.",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -2637,7 +3115,9 @@ const masterResources = [
     "services": "Urgent mental health walk-in clinic and twenty-four hour crisis line.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Counseling & Mental Health",
@@ -2648,7 +3128,9 @@ const masterResources = [
     "services": "Peer support for adults living with mental health differences through a variety of clinical and social programs. Drop-in center and free meal.",
     "notes": "folktime.org/oregon-city",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -2659,7 +3141,9 @@ const masterResources = [
     "services": "Culturally specific, trauma-informed group home providing free temporary housing, case coordination and advocacy for women affected by domestic violence.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -2670,7 +3154,9 @@ const masterResources = [
     "services": "Services for survivors of domestic violence, intimate partner violence, sexual violence, stalking and elder abuse.",
     "notes": "www.cwsor.org",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -2681,7 +3167,9 @@ const masterResources = [
     "services": "Support and safety planning for anyone experiencing family violence, sexual violence, stalking or abuse against older adults and people with disabilities.",
     "notes": "www.ASafePlaceFJC.org",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Family Services",
@@ -2692,7 +3180,9 @@ const masterResources = [
     "services": "Child advocacy center specializing in medical assessments and forensic interviews for kids who've experienced abuse, neglect, drug exposure. Family support services offered.",
     "notes": "Referrals accepted from DHS/Law enforcement, primary care providers, parents, and any concerned school staff. www.childrenscenter.cc",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Family Services",
@@ -2703,7 +3193,9 @@ const masterResources = [
     "services": "Matches needs with resources, including infant and children's items, cleaning and personal hygiene, furniture and household goods. Also offers classes, workshops, vocational support.",
     "notes": "By appointment only. www.clackamasloveinc.org",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Family Services",
@@ -2714,7 +3206,9 @@ const masterResources = [
     "services": "Kindergarten readiness classes, after-school classes, parenting education, prevention, intervention, early learning programs, middle school programs, family engagement and resources for children.",
     "notes": "Call for info or check website: www.todos-juntos.net.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Financial Assistance",
@@ -2725,7 +3219,9 @@ const masterResources = [
     "services": "General information about Social Security Disability Insurance and Supplemental Security Income.",
     "notes": "Remote only. Call for in office appointments.",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -2736,7 +3232,9 @@ const masterResources = [
     "services": "Supplemental Nutrition Assistance Program (SNAP).",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -2747,7 +3245,9 @@ const masterResources = [
     "services": "Provides monthly healthy food benefits, growth monitoring and referral to other programs.",
     "notes": "For pregnant and post-partum women, infants and children up to age 5.",
     "transportation": "Bus: 33 (Milwaukee and Oregon City locations)",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2758,7 +3258,9 @@ const masterResources = [
     "services": "Information on emergency food boxes and membership.",
     "notes": "www.gleanerscc.org",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2769,7 +3271,9 @@ const masterResources = [
     "services": "Drive-through food boxes.",
     "notes": "See facebook pages for notices.",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2780,7 +3284,9 @@ const masterResources = [
     "services": "Food pantry.",
     "notes": "estacadafoodbank.org",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2791,7 +3297,9 @@ const masterResources = [
     "services": "Supplemental food program.",
     "notes": "For HIV positive with referral. www.ourhouseofportland.org",
     "transportation": "Bus: 28, 31, 33, 35, 75, MAX Orange.",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2802,7 +3310,9 @@ const masterResources = [
     "services": "Food pantry.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2813,7 +3323,9 @@ const masterResources = [
     "services": "Food pantry.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2824,7 +3336,9 @@ const masterResources = [
     "services": "Food pantry for members of the Molalla Community.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2835,7 +3349,9 @@ const masterResources = [
     "services": "Drive through food boxes.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2846,7 +3362,9 @@ const masterResources = [
     "services": "Food pantry.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2857,7 +3375,9 @@ const masterResources = [
     "services": "Hot meals.",
     "notes": "Free delivery within 5 miles. www.oregonprovider.com",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2868,7 +3388,9 @@ const masterResources = [
     "services": "Food pantry.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2879,7 +3401,9 @@ const masterResources = [
     "services": "To-go meal.",
     "notes": "",
     "transportation": "Bus: 32, 33, 70, 75; MAX Orange.",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2890,7 +3414,9 @@ const masterResources = [
     "services": "Free lunches.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2901,7 +3427,9 @@ const masterResources = [
     "services": "Food boxes distribution.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2912,7 +3440,9 @@ const masterResources = [
     "services": "Food pantry.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2923,7 +3453,9 @@ const masterResources = [
     "services": "Walk-in food pantry.",
     "notes": "Homebound clients may call to set up a delivery. www.westlinnfoodpantry.com",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2934,7 +3466,9 @@ const masterResources = [
     "services": "Food pantry.",
     "notes": "www.nclack.k12.or.us/wichita",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food Boxes & Pantries",
@@ -2945,7 +3479,9 @@ const masterResources = [
     "services": "Meals.",
     "notes": "www.zoarlutheran.org",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -2956,7 +3492,9 @@ const masterResources = [
     "services": "Adult outpatient/recovery, primary care, addiction services, Medication Supported Recovery Program, and supported employment.",
     "notes": "www.cascadiabhc.org",
     "transportation": "Bus: 33, 99.",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -2967,7 +3505,9 @@ const masterResources = [
     "services": "Information and resources for older adults and people with disabilities.",
     "notes": "www.clackamas.us/socialservices/crc.html",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -2978,7 +3518,9 @@ const masterResources = [
     "services": "Health centers which provide affordable primary care, prenatal, dental & mental health services.",
     "notes": "Locations include Gladstone (18911 Portland Ave.), Beavercreek (110 Beavercreek Rd., Ste. 100, Oregon City), Sunnyside (9775 Sunnyside Rd., Ste. 200, Clackamas), Sandy (38872 Proctor Blvd St.), Stewart Behavioral Health Center (1002 Library Court), and Hilltop Behavioral Health Center (998 Library Court). www.clackamas.us/healthcenters",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -2989,7 +3531,9 @@ const masterResources = [
     "services": "Crisis line for mental health emergencies. English/Spanish.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3000,7 +3544,9 @@ const masterResources = [
     "services": "Provides medical and at home care for the elderly and those with disabilities.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3011,7 +3557,9 @@ const masterResources = [
     "services": "Free medical care to uninsured and underinsured. Primary care, non-emergency care, preventative care and educational service.",
     "notes": "Call to set up a screening appt. www.clackamasvim.org",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3022,7 +3570,9 @@ const masterResources = [
     "services": "OHP Client Assistance Services helps members having problems getting medical, dental or mental health care. Provides information and referral for OHP.",
     "notes": "www.oregon.gov/oha",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3033,7 +3583,9 @@ const masterResources = [
     "services": "Low-cost birth control; Pap exams; pregnancy testing; emergency contraception; STI testing; HIV testing; PrEP; cancer screenings; vasectomy; abortion care; gender affirming hormone services; menopausal care; Tele-Medicine.",
     "notes": "Schedule appointments by phone or online. Same-day appointments available. Financial assistance available. www.ppcw.or",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3044,7 +3596,9 @@ const masterResources = [
     "services": "Multidisciplinary and integrative health care in a community-based setting. Serves those living with chronic illnesses and pain.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3055,7 +3609,9 @@ const masterResources = [
     "services": "Helps older adults and persons with disabilities understand their health insurance benefits.",
     "notes": "www.clackamas.us/socialservices/insurance.html",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -3066,7 +3622,9 @@ const masterResources = [
     "services": "Central point for households experiencing homelessness or a housing crisis to seek assistance.",
     "notes": "Call and leave message to begin process. www.clackamas.us/communitydevelopment/cccha.html",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -3077,7 +3635,9 @@ const masterResources = [
     "services": "Provides general housing information and referral regarding landlord-tenant relations, fair housing, and other housing-related issues.",
     "notes": "Apply at www.clackamas.us/socialservices/housingassistance.html",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Laundry",
@@ -3088,7 +3648,9 @@ const masterResources = [
     "services": "Laundry services with hot meal provided. Soap and fabric softener provided.",
     "notes": "www.sandy.church",
     "transportation": "None listed",
-    "county": "Clackamas"
+    "county": "Clackamas",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3099,7 +3661,9 @@ const masterResources = [
     "services": "Food bank available for low-income residents of Gales Creek, Gaston, Laurelwood and Cherry Grove.",
     "notes": "Wapatovalley.org",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3110,7 +3674,9 @@ const masterResources = [
     "services": "Primary care for uninsured and under-insured patients. Chronic Disease Management. Assistance in helping obtain medications for free or discounted price.",
     "notes": "Bilingüe. Walk-ins and appts. www.borlandclinic.org",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3121,7 +3687,9 @@ const masterResources = [
     "services": "OHP Client Assistance Services assists members having problems getting medical, dental or mental health care. Provides information and referral for OHP.",
     "notes": "Call for assistance. www.oregon.gov/oha",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3132,7 +3700,9 @@ const masterResources = [
     "services": "Low-cost birth control; annual visits and Pap exams; free pregnancy testing and options information; emergency contraception; STI, HIV testing and treatment; PrEP; cancer screenings; vasectomy; medication abortion; prenatal care; menopausal care; erectile dysfunction.",
     "notes": "Insured or uninsured accepted. Financial assistance available. www.ppcw.org",
     "transportation": "Bus: 76, 78, MAX",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3143,7 +3713,9 @@ const masterResources = [
     "services": "Dental Services",
     "notes": "Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "Bus 20 57, MAX Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3154,7 +3726,9 @@ const masterResources = [
     "services": "Wellness Center",
     "notes": "Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "Bus: 20, 57, MAX Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3165,7 +3739,9 @@ const masterResources = [
     "services": "Pharmacy",
     "notes": "Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3176,7 +3752,9 @@ const masterResources = [
     "services": "Vision",
     "notes": "Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3187,7 +3765,9 @@ const masterResources = [
     "services": "Dental",
     "notes": "Appointments must be made by phone. No walk-ins. Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3198,7 +3778,9 @@ const masterResources = [
     "services": "Wellness Center",
     "notes": "Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "Bus: 57",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3209,7 +3791,9 @@ const masterResources = [
     "services": "Pharmacy",
     "notes": "Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "Bus: 57",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3220,7 +3804,9 @@ const masterResources = [
     "services": "Clinic",
     "notes": "Closed the 1st, 3rd, and 5th Wed of the month from 1:00 p.m. 2:00 p.m. Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "MAX Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3231,7 +3817,9 @@ const masterResources = [
     "services": "Vision Clinic",
     "notes": "Closed daily Noon to 1 p.m. Pacific University College of Optometry operates the Vision Clinic in Hillsboro. Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "MAX Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3242,7 +3830,9 @@ const masterResources = [
     "services": "Dental",
     "notes": "Appointments must be make by phone. No walk-ins. Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "Bus: 46, 47, 57, MAX Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3253,7 +3843,9 @@ const masterResources = [
     "services": "Women's Clinic",
     "notes": "Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -3264,7 +3856,9 @@ const masterResources = [
     "services": "Vision",
     "notes": "Insurance accepted. Spanish, English, interpreters available for other language needs. www.virginiagarcia.org",
     "transportation": "Bus: 57",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Legal Services",
@@ -3275,7 +3869,9 @@ const masterResources = [
     "services": "Referrals to attorneys in the area of needed assistance.",
     "notes": "a 30 minute consultation is $35 and other lower cost options available as well.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Legal Services",
@@ -3286,7 +3882,9 @@ const masterResources = [
     "services": "Provides free legal assistance to low-income farmworkers. Typically help with cases related to employment as a farmerworker including wage claims, discrimination, sexual harassment, claims under laws that apply to farm labor contractors and agricultural employers, housing and occupational health and safety.",
     "notes": "No appointments necessary. Walk-ins and phone contact accepted. Part of the Oregon Law Center. English/Spanish/Mixteco.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Legal Services",
@@ -3297,7 +3895,9 @@ const masterResources = [
     "services": "Assistance with civil legal services. No criminal or personal injury cases. Eviction defense.",
     "notes": "Wash., Columbia, Clatsop, Tillamook, Yamhill Co. Family Law hotline: 503-676-5400; Public Benefits hotline 1-800-520-5292. English/Spanish. All languages and dialects. www.oregonlawhelp.org",
     "transportation": "Bus: 48, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Legal Services",
@@ -3308,7 +3908,9 @@ const masterResources = [
     "services": "Community-based nonprofit organization that provides legal services in the area of family law to low-income individuals and families in Washington, Yamhill and Columbia counties.",
     "notes": "Charges based on sliding scale, $40 for consultations via phone or online. www.salcgroup.org",
     "transportation": "Bus: 46, MAX",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3319,7 +3921,9 @@ const masterResources = [
     "services": "Helps low-income people and families buy the food they need. Benefits are provided on a debit card and are accepted at most grocery stores.",
     "notes": "You can apply for a SNAP card at listed locations or get more information at the Department of Human Services website: www.oregon.gov/DHS",
     "transportation": "MAX Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3330,7 +3934,9 @@ const masterResources = [
     "services": "Helps low-income people and families buy the food they need. Benefits are provided on a debit card and are accepted at most grocery stores.",
     "notes": "You can apply for a SNAP card at listed locations or get more information at the Department of Human Services website: www.oregon.gov/DHS",
     "transportation": "Bus: 48, 67",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3341,7 +3947,9 @@ const masterResources = [
     "services": "Helps low-income people and families buy the food they need. Benefits are provided on a debit card and are accepted at most grocery stores.",
     "notes": "You can apply for a SNAP card at listed locations or get more information at the Department of Human Services website: www.oregon.gov/DHS",
     "transportation": "Bus: 76, 78",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3352,7 +3960,9 @@ const masterResources = [
     "services": "Provides monthly healthy food benefits, growth monitoring and referral to other programs for pregnant and post-partum women, infants and children up to age 5.",
     "notes": "Mainly remote services. To make an appointment, call phone number.",
     "transportation": "Bus: 46, 57, MAX Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3363,7 +3973,9 @@ const masterResources = [
     "services": "Provides monthly healthy food benefits, growth monitoring and referral to other programs for pregnant and post-partum women, infants and children up to age 5.",
     "notes": "Mainly remote services. To make an appointment, call phone number.",
     "transportation": "Bus: 52, 76, 78",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3374,7 +3986,9 @@ const masterResources = [
     "services": "Provides monthly healthy food benefits, growth monitoring and referral to other programs for pregnant and post-partum women, infants and children up to age 5.",
     "notes": "Mainly remote services. To make an appointment, call phone number.",
     "transportation": "Bus: 78",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3385,7 +3999,9 @@ const masterResources = [
     "services": "Free hot dinners to go.",
     "notes": "",
     "transportation": "Bus: 45, 94",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3396,7 +4012,9 @@ const masterResources = [
     "services": "Dine-in or take-out hot meals. A variety of donated fruits, vegetables, and baked goods are available each Sunday. Guests can select items based on their own preferences.",
     "notes": "www.faithcafeor.org",
     "transportation": "Bus: 76, 78",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3407,7 +4025,9 @@ const masterResources = [
     "services": "Activities for seniors. Tuesday and Thursday lunches available through Meals on Wheels. Medical equipment lending program. First Friday dinners for $15. Friday breakfast for $3, $6, or $7.50.",
     "notes": "Ride Connections available to those eligible. www.fgscc.org",
     "transportation": "Bus: 57",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3418,7 +4038,9 @@ const masterResources = [
     "services": "Senior nutrition program for only 60 and older. Home delivery, dozens of neighborhood locations. Meals served at noon.",
     "notes": "Free to 60 and over suggested donation $9.05. Meals delivered can be covered by insurance. Call or view website to check eligibility. Serves Clark, Wash. and Mult. cos. www.mowp.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3429,7 +4051,9 @@ const masterResources = [
     "services": "Meals served.",
     "notes": "Suggested donation $9.05 for 60+. www.mowp.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3440,7 +4064,9 @@ const masterResources = [
     "services": "Meals served.",
     "notes": "Suggested donation $9.05 for 60+. www.mowp.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3451,7 +4077,9 @@ const masterResources = [
     "services": "Meals served.",
     "notes": "Suggested donation $9.05 for 60+. www.mowp.org",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3462,7 +4090,9 @@ const masterResources = [
     "services": "Meals served.",
     "notes": "Suggested donation $9.05 for 60+. www.mowp.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3473,7 +4103,9 @@ const masterResources = [
     "services": "Meals served.",
     "notes": "Suggested donation $9.05 for 60+. www.mowp.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -3484,7 +4116,9 @@ const masterResources = [
     "services": "Sack lunches. Food Pantry.",
     "notes": "www.hillsboro.salvationarmy.org",
     "transportation": "Bus: 47, 48, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -3495,7 +4129,9 @@ const masterResources = [
     "services": "Outpatient medication assisted treatment clinic for substance use disorders.",
     "notes": "OHP accepted. Call for intake appt.",
     "transportation": "Bus: 47, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -3506,7 +4142,9 @@ const masterResources = [
     "services": "Men's residential alcohol and drug treatment. DUI-certified program, medicated assisted treatment (MAT). Outpatient services.",
     "notes": "no walk-ins. OHP accepted. www.codainc.org",
     "transportation": "Bus: 12, 93, 94",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -3517,7 +4155,9 @@ const masterResources = [
     "services": "Dual diagnosis substance use treatment for adults, state-certified DUII programs.",
     "notes": "Formerly called De Paul Treatment Centers. www.forahealth.org",
     "transportation": "Bus: 47, 48, 57 MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -3528,7 +4168,9 @@ const masterResources = [
     "services": "Drug and Alcohol Outpatient, Women's Trauma Recovery and Men's Group Programs. DUII state certified.",
     "notes": "OHP and some insurances. www.innerjourneyhealingarts.com",
     "transportation": "MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -3539,7 +4181,9 @@ const masterResources = [
     "services": "Outpatient mental health treatment including counseling, case management and medication management.",
     "notes": "Formerly known as Luke-Dorf Westside Clinic. Not a walk-in clinic. For intake, call 503-726-3742. www.newnarrativepdx.org",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Utility Assistance",
@@ -3550,7 +4194,9 @@ const masterResources = [
     "services": "Limited resources to Wash. Co. residents for emergency rental assistance. Subject to availability. 72-hour eviction notice.",
     "notes": "Phones answered live. If busy, continue to call. Phone lines close when assistance is gone. Must be behind on rent. English/Spanish. www.caowash.org",
     "transportation": "Bus: 57",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": 45.5204,
+    "lng": -122.9904
   },
   {
     "category": "Utility Assistance",
@@ -3561,7 +4207,9 @@ const masterResources = [
     "services": "Water bill assistance for Hillsboro only. PGE assistance availability (verification required).",
     "notes": "Call to ensure qualification. Water: Shut-off notice required. Must have contacted the water company on payment requirements. Proof of address, photo ID and income required. www.hillsboro.salvationarmy.org",
     "transportation": "Bus: 47, 48, 57, MAX Blue",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Utility Assistance",
@@ -3572,7 +4220,9 @@ const masterResources = [
     "services": "Rental assistance & affordable rental opportunities for low-income families in Wash. Co. Section 8 & public housing programs.",
     "notes": "Most programs have waiting lists. Applicants must notify the Department of changes in mailing address to keep application current, English/ Spanish. www.co.washington.or.us/housing",
     "transportation": "Bus: 47, 48, MAX Blue to Hatfield Govt. Ctr. Station",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -3583,7 +4233,9 @@ const masterResources = [
     "services": "Manages waitlists for two shelters for families with children or mothers in last trimester of pregnancy. Food boxes (Wash. Co. residents only).",
     "notes": "Waiting lists for Community Action and Good Neighbor Center. Call to join the waitlist. www.caowash.org",
     "transportation": "Bus: 47, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": 45.5204,
+    "lng": -122.9904
   },
   {
     "category": "Shelters",
@@ -3594,7 +4246,9 @@ const masterResources = [
     "services": "Family shelter for women and/or men with children.",
     "notes": "Three-family limit. Call 211 or Community Action (503-640-3263) to join wait list. Maximum stay six weeks. Children must be enrolled in public school or Head Start. Requires drug screening and background check for all participants 13+. www.familypromisewashingtoncountyoregon.org",
     "transportation": "Bus: 48, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -3605,7 +4259,9 @@ const masterResources = [
     "services": "Provides safe emergency housing with supportive empowering services to adults with children younger than 18.",
     "notes": "Wait list: 503-726-0812. Families have up to six weeks to meet their goals. No singles. Join Community Action wait list. www.goodneighborcenter.org",
     "transportation": "Bus: 76, 78",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": 45.4326,
+    "lng": -122.7745
   },
   {
     "category": "Shelters",
@@ -3616,7 +4272,9 @@ const masterResources = [
     "services": "Domestic violence shelter for men, women, children and pets.",
     "notes": "Shelter Line: 503-640-5352 Ext 604. Does not require SSA. Advocacy & Restraining Orders: 503-640-5352; 503-773-5193.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -3627,7 +4285,9 @@ const masterResources = [
     "services": "Shelter, housing services, day shelter, showers, laundry, community meals. Food boxes.",
     "notes": "Food box boundaries: Cornelius, Forest Grove, Banks, Gaston, North Plains. www.odhw.org",
     "transportation": "Bus: 57",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -3638,7 +4298,9 @@ const masterResources = [
     "services": "Programs and services to enhance quality of life and ensure basic needs are met for Wash. Co seniors, veterans and people with disabilities. Includes Oregon Project Independence, food and nutrition services.",
     "notes": "Most programs serve those 60 and older, but veterans and benefits enrollment center serves all ages. www.co.washington.or.us/hhs/davs",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -3649,7 +4311,9 @@ const masterResources = [
     "services": "Per diem short-term transitional housing and case management for veterans. Emergency transitional housing for singles only up to 30 days.",
     "notes": "Up to nine-month program for vets and their families. Singles extension to 90 days max possible. VA must refer. veterans.salvationarmy.org",
     "transportation": "MAX Red, Blue to bus 52",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -3660,7 +4324,9 @@ const masterResources = [
     "services": "Individual counseling services for children and youths who have witnessed family violence. Individual counseling for teens 14 to 18 who have experienced teen dating violence.",
     "notes": "Call for current appointment availability. Bilingual (Spanish) available. Call for intake. Under 14 must have non-offending parent guardian for education. www.dvrc-or.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -3671,7 +4337,9 @@ const masterResources = [
     "services": "Resource center helping youths ages 12-24 find housing, education, employment, health referrals, clothes, food. Laundry and shower facilities. Free meal.",
     "notes": "No religious doctrines. Place to relax. www.homeplateyouth.org",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -3682,7 +4350,9 @@ const masterResources = [
     "services": "Resource center helping youths ages 12-24 find housing, education, employment, health referrals, clothes, food. Place to relax. Free meal.",
     "notes": "No religious doctrines. www.homeplateyouth.org",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -3693,7 +4363,9 @@ const masterResources = [
     "services": "Provides free early intervention and early childhood special education services to children from birth to age 5 who have developmental delays or disabilities.",
     "notes": "Spanish: 503-614-1299. includes speech, language, motor, behavioral, social skills, learning, self-help, vision, and hearing. www.nwresd.org",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -3704,7 +4376,9 @@ const masterResources = [
     "services": "Provides support to parents in crisis, giving them time to get back on their feet while their children are cared for by volunteer host families. Mentoring and coaching of parents and teens.",
     "notes": "No cost to families. https://safefamiliespdx.org/get-in-touch",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -3715,7 +4389,9 @@ const masterResources = [
     "services": "Shelter, supportive services for homeless, runaway and at-risk youths ages 12 to 20. Offers food and basic needs assistance, case management, referrals to resources.",
     "notes": "30 day shelter program. www.boysandgirlsaid.org",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -3726,7 +4402,9 @@ const masterResources = [
     "services": "Provides stable housing and ongoing support for unaccompanied students experiencing homelessness.",
     "notes": "Call for info or talk to school district homeless liaison for referral. Serves Gresham-Barlow and Washington, Clackamas and Lincoln County districts. www.emo-secondhome.org",
     "transportation": "Bus: 12, 43, 44, 54",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -3737,7 +4415,9 @@ const masterResources = [
     "services": "Intensive Services Array program provides care coordination and wraparound mental health services planning for eligible older adolescents and young adults.",
     "notes": "May include community-based treatment, day treatment, treatment for foster care youths, respite, psychiatric residential treatment. www.co.washington.or.us",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -3748,7 +4428,9 @@ const masterResources = [
     "services": "Bilingual counseling services focusing on mental health and substance use/abuse problems.",
     "notes": "Serving Hillsboro youths (up to age 18) and their families. HSO insurance accepted. www.youthcontact.org",
     "transportation": "Bus: 47, 48, 57, MAX.",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Employment & Training",
@@ -3759,7 +4441,9 @@ const masterResources = [
     "services": "Opportunity to earn money selling Street Roots newspapers.",
     "notes": "Orientations for new vendors are available every week. Please call to sign up in advance due to limited space.",
     "transportation": "None listed",
-    "county": "Multnomah"
+    "county": "Multnomah",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3770,7 +4454,9 @@ const masterResources = [
     "services": "Central hub for those struggling with hunger, housing insecurity and poverty.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3781,7 +4467,9 @@ const masterResources = [
     "services": "Helping Hands Food Pantry offers food boxes.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3792,7 +4480,9 @@ const masterResources = [
     "services": "King's Kindness food pantry",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3803,7 +4493,9 @@ const masterResources = [
     "services": "Drive-thru style food pantry",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3814,7 +4506,9 @@ const masterResources = [
     "services": "Food boxes",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3825,7 +4519,9 @@ const masterResources = [
     "services": "Shopping-style pantry.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3836,7 +4532,9 @@ const masterResources = [
     "services": "Referral service to help individuals find perishable and non-perishable food assistance. Resources for fresh produce, protein options, canned and dry goods.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3847,7 +4545,9 @@ const masterResources = [
     "services": "Monthly food pantry distribution",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3858,7 +4558,9 @@ const masterResources = [
     "services": "Shopping-style food pantry",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3869,7 +4571,9 @@ const masterResources = [
     "services": "Food pantry",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3880,7 +4584,9 @@ const masterResources = [
     "services": "Food boxes",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3891,7 +4597,9 @@ const masterResources = [
     "services": "Emergency food boxes",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3902,7 +4610,9 @@ const masterResources = [
     "services": "Shopping-style pantry",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -3913,7 +4623,9 @@ const masterResources = [
     "services": "Food boxes",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -3924,7 +4636,9 @@ const masterResources = [
     "services": "Free clothing",
     "notes": "For low-income students attending Beaverton schools. Not for adults, infants, or toddlers. Must make an appointment over the phone or through a ParentSquare account.",
     "transportation": "Bus: 67, MAX: Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -3935,7 +4649,9 @@ const masterResources = [
     "services": "Men's resource center offering clothes, supportive men's groups, and haircuts and styling",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Clothing",
@@ -3946,7 +4662,9 @@ const masterResources = [
     "services": "Adult and children's clothing and shoes",
     "notes": "At Sunset Presbyterian Church. No appointment needed.",
     "transportation": "Bus: 48",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Day Services",
@@ -3957,7 +4675,9 @@ const masterResources = [
     "services": "Welcoming, low-barrier space for people experiencing homelessness. Meals, showers, connection with providers, help finding stable housing.",
     "notes": "For people experiencing homelessness.",
     "transportation": "Bus: 12, 78",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Day Services",
@@ -3968,7 +4688,9 @@ const masterResources = [
     "services": "Day shelter offering meals, food boxes, showers, laundry, mail and phone access",
     "notes": "",
     "transportation": "Bus: 57",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Day Services",
@@ -3979,7 +4701,9 @@ const masterResources = [
     "services": "Breakfast and lunch, comfortable day center space, cell phone charging stations, computer access, laundry, showers, food, assistance with obtaining state ID, housing resources, and other services.",
     "notes": "",
     "transportation": "Bus: 57, MAX: Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Disability & Aging",
@@ -3990,7 +4714,9 @@ const masterResources = [
     "services": "Programs and services to enhance quality of life and ensure basic needs are met. Includes Oregon Project Independence, food and nutrition services.",
     "notes": "For Washington County seniors, veterans, and people with disabilities. Most programs serve those 60 years and older, but veterans and benefits enrollment center serves all ages.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Disability & Aging",
@@ -4001,7 +4727,9 @@ const masterResources = [
     "services": "General information about Social Security Disability Insurance and Supplemental Security Income",
     "notes": "",
     "transportation": "Bus: 53, 57, 78, 88",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -4012,7 +4740,9 @@ const masterResources = [
     "services": "Advocacy services for survivors of domestic violence, advocate support for filing protective orders, safety planning, resource referrals, individual and group counseling for adults, individual counseling for children and teens (ages 5-18).",
     "notes": "All services are confidential and free of charge. Servicios disponibles en español.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -4023,7 +4753,9 @@ const masterResources = [
     "services": "Wrap-around services for survivors of Domestic Violence, Sexual Assault, Sexual Exploitation, Elder Abuse, Family Violence, and their children. Childcare, food, hygiene, and legal support, referrals for housing, benefits, and mental health support.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -4034,7 +4766,9 @@ const masterResources = [
     "services": "Place of refuge, sober living home.",
     "notes": "Caters specifically to women who have left the sex industry, including trafficked women. Goal is to give women dignity, power over their lives, and help them transition into their own home, job, and safety.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -4045,7 +4779,9 @@ const masterResources = [
     "services": "Free legal information, referrals and representation for victims of crime regarding their rights in criminal cases; legal information and representation in protective order cases for survivors of domestic violence, sexual assault and stalking.",
     "notes": "Call for intake to determine eligibility for services. Serves all Oregon counties.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Domestic Violence & Sexual Assault",
@@ -4056,7 +4792,9 @@ const masterResources = [
     "services": "Immediate 24-hour response and support to survivors of sexual assault, case management, education and outreach programs, support groups, and free mental health services.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Family Services",
@@ -4067,7 +4805,9 @@ const masterResources = [
     "services": "Specialized outpatient mental health services for children ages 3 through 18.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Family Services",
@@ -4078,7 +4818,9 @@ const masterResources = [
     "services": "Early Childhood education for children from 6 weeks to 5 years old. Provides school readiness, family advocacy and engagement, health screenings and referrals, healthy meals, and other services.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Family Services",
@@ -4089,7 +4831,9 @@ const masterResources = [
     "services": "Way to report safety threats or potential acts of violence confidentially or anonymously. Tips are promptly analyzed and forwarded to designated personnel.",
     "notes": "Not for immediate emergency response. Email: tips@safeoregon.com, website: www.safeoregon.com/report-a-tip/.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Family Services",
@@ -4100,7 +4844,9 @@ const masterResources = [
     "services": "Basic needs resource connection, information on how to get clothing for babies and children, school supplies, and early learning supports.",
     "notes": "Serves families with children ages 0-18 who live within the Tigard-Tualatin School District boundary.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -4111,7 +4857,9 @@ const masterResources = [
     "services": "Helps low-income people and families buy the food they need. Benefits provided on a debit card and accepted at most grocery stores.",
     "notes": "For low-income people and families. Can apply for a SNAP card at listed locations or get more information at the Department of Human Services website.",
     "transportation": "Bus: 48, 67 (Beaverton Self-Sufficiency); 54, 52 (Beaverton Aging and People with Disabilities); MAX Blue (Hillsboro Self-Sufficiency); 76, 78 (Tigard Self-Sufficiency)",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -4122,7 +4870,9 @@ const masterResources = [
     "services": "Emergency food boxes provide 3-day supply of groceries",
     "notes": "For low-income residents of Vernonia, Timber, Manning and Buxton. Website: www.vernoniacares.org.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -4133,7 +4883,9 @@ const masterResources = [
     "services": "Food bank and clothing",
     "notes": "Food bank for low-income residents of zip codes 97119 and 97148. Clothing for anyone in need.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Food & Grocery Assistance",
@@ -4144,7 +4896,9 @@ const masterResources = [
     "services": "Provides monthly healthy food benefits, growth monitoring, and referral to other programs.",
     "notes": "For pregnant and post-partum women, infants, and children up to age 5. To make an appointment, call or submit an online interest form: https://forms.co.washington.or.us/form/wic-web-referral.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4155,7 +4909,9 @@ const masterResources = [
     "services": "Primary care, chronic disease management, assistance obtaining free or discounted medications, gynecological appointments, mental health support, diabetes education, physical therapy, and radiology.",
     "notes": "For patients who are uninsured, underinsured, or insured but cannot afford co-pays. Call for appointment. Website: www.borlandclinic.org.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4166,7 +4922,9 @@ const masterResources = [
     "services": "Low-cost birth control, annual visits and Pap exams, free pregnancy testing and options information, medication abortion, prenatal care, emergency contraception, STI and HIV testing and treatment, PrEP, cancer screenings, vasectomy, menopausal care, and erectile dysfunction treatment.",
     "notes": "Insured or uninsured patients accepted, financial assistance and/or support enrolling for healthcare available. Website: www.ppcw.org.",
     "transportation": "Bus: 76, 78, MAX",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4177,7 +4935,9 @@ const masterResources = [
     "services": "Healthcare services, including medical, dental, behavioral health, and vision.",
     "notes": "Accepts insured, Spanish, English interpreters available. More info: www.virginiagarcia.org.",
     "transportation": "Varies by location.",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4188,7 +4948,9 @@ const masterResources = [
     "services": "Dental Services",
     "notes": "",
     "transportation": "Bus: 20, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4199,7 +4961,9 @@ const masterResources = [
     "services": "Wellness Center",
     "notes": "",
     "transportation": "Bus: 20, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4210,7 +4974,9 @@ const masterResources = [
     "services": "Pharmacy",
     "notes": "",
     "transportation": "MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4221,7 +4987,9 @@ const masterResources = [
     "services": "Vision",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4232,7 +5000,9 @@ const masterResources = [
     "services": "Dental",
     "notes": "Appointments must be made by phone. No walk-ins.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4243,7 +5013,9 @@ const masterResources = [
     "services": "Dental",
     "notes": "Appointments must be made by phone. No walk-ins.",
     "transportation": "Bus: 48, 47, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4254,7 +5026,9 @@ const masterResources = [
     "services": "Vision",
     "notes": "Direct daily noon-1 p.m. Public University College of Optometry.",
     "transportation": "MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4265,7 +5039,9 @@ const masterResources = [
     "services": "Pharmacy",
     "notes": "",
     "transportation": "Bus: 57",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4276,7 +5052,9 @@ const masterResources = [
     "services": "Clinic",
     "notes": "Closed the 1st, 3rd, and 5th Wed. of the month from 1-2 p.m.",
     "transportation": "MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4287,7 +5065,9 @@ const masterResources = [
     "services": "Women's Clinic",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Health Care",
@@ -4298,7 +5078,9 @@ const masterResources = [
     "services": "Vision",
     "notes": "",
     "transportation": "Bus: 57",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -4309,7 +5091,9 @@ const masterResources = [
     "services": "Provides affordable community housing program for men, women and families with on-site staff support.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -4320,7 +5104,9 @@ const masterResources = [
     "services": "Rental assistance and affordable rental opportunities for low-income families in Washington County, including Section 8 and public housing programs.",
     "notes": "Most programs have waiting lists. Applicants must notify the department of changes in mailing address to keep their application current. English/Spanish.",
     "transportation": "Bus: 47, 48, MAX Blue to Hatfield Gov. Ctr. Station",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Housing & Rental Assistance",
@@ -4331,7 +5117,9 @@ const masterResources = [
     "services": "Emergency rent assistance",
     "notes": "Call on the 15th of the month if the 15th is on a weekend, call on the following Monday. Calls will be answered on a first come first serve basis. When requesting screening for rent assistance, have full names, dates of birth, social security numbers for everyone in the household, an estimated monthly income, and a copy of the current nonpayment of rent notice from landlord. More info at www.caowash.org.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": 45.5204,
+    "lng": -122.9904
   },
   {
     "category": "Legal Services",
@@ -4342,7 +5130,9 @@ const masterResources = [
     "services": "Legal services for low-income clients and Seniors in Washington, Columbia, Clackamas, Tillamook and Yamhill Counties.",
     "notes": "Provides free legal assistance in criminal or personal injury cases for low-income farmworkers, wage claims, discrimination, sexual harassment, claims under laws that apply to farm labor conditions and agricultural employers, housing and educational health and safety. English/Spanish.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Legal Services",
@@ -4353,7 +5143,9 @@ const masterResources = [
     "services": "Community based nonprofit organization offering legal services in the area of family law to low-income individuals and families in Washington, Yamhill and Columbia counties.",
     "notes": "Charges based on sliding scale. $50 for consultations via phone only.",
     "transportation": "Bus: 48, MAX",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Libraries",
@@ -4364,7 +5156,9 @@ const masterResources = [
     "services": "Offer safe and welcoming places where you can cool off when it's hot, or stay warm and dry when it's wet outside. Libraries are open to the public; you do not need a library card to visit. Free wifi, public computers, and printers. Borrow books or access online learning resources. Ask staff about getting a free library card. Visit wccls.org/libraries for additional locations and information.",
     "notes": "Varies by location.",
     "transportation": "Varies by location.",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Libraries",
@@ -4375,7 +5169,9 @@ const masterResources = [
     "services": "Library",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Libraries",
@@ -4386,7 +5182,9 @@ const masterResources = [
     "services": "Library",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Libraries",
@@ -4397,7 +5195,9 @@ const masterResources = [
     "services": "Library",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -4408,7 +5208,9 @@ const masterResources = [
     "services": "Free hot dinners",
     "notes": "Donations welcome.",
     "transportation": "Bus: 45, 94",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -4419,7 +5221,9 @@ const masterResources = [
     "services": "Senior nutrition program offering home delivery and in-person meal options free to folks over 60.",
     "notes": "Contributions welcome. Check eligibility: Serves Clark, Wash, and Mult. counties. www.mowp.org.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -4430,7 +5234,9 @@ const masterResources = [
     "services": "Meals served",
     "notes": "",
     "transportation": "Bus: 76, 78",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -4441,7 +5247,9 @@ const masterResources = [
     "services": "Meals served",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -4452,7 +5260,9 @@ const masterResources = [
     "services": "Meals served",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -4463,7 +5273,9 @@ const masterResources = [
     "services": "Meals served",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -4474,7 +5286,9 @@ const masterResources = [
     "services": "Dine-in or take-out hot meals.",
     "notes": "A variety of donated fruits, vegetables and baked goods are available each Sunday. Guests can select items based on their own preferences.",
     "transportation": "Bus: 76, 78",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Hot Meals",
@@ -4485,7 +5299,9 @@ const masterResources = [
     "services": "Lunches available through Meals on Wheels. Activities for seniors. Medical equipment lending program.",
     "notes": "Ride Connections available to those eligible.",
     "transportation": "Bus: 57",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4496,7 +5312,9 @@ const masterResources = [
     "services": "Outpatient medication assisted treatment clinic for substance use disorders.",
     "notes": "OHP accepted. Walk-in Mon.-Fri. 9 a.m.-5 p.m..",
     "transportation": "Bus: 47, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4507,7 +5325,9 @@ const masterResources = [
     "services": "Outpatient medication assisted treatment clinic for substance use disorders.",
     "notes": "Male only, no walk-ins. OHP accepted. Dual-bended program, withdrawal management and medication assisted treatment (MAT).",
     "transportation": "Bus: 12, 93, 94",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4518,7 +5338,9 @@ const masterResources = [
     "services": "Substance use treatment for adults (including state-certified). DWI programs, withdrawal management (detox), and medication assisted treatment (MAT).",
     "notes": "Accept most insurance, including OHP. Walk-in hours for MAT. Call for more information.",
     "transportation": "Bus: 47, 48, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4529,7 +5351,9 @@ const masterResources = [
     "services": "Faith-based organization offering counseling for adults, families and couples. Classes include drug and alcohol recovery.",
     "notes": "All services offered on donation basis.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4540,7 +5364,9 @@ const masterResources = [
     "services": "Support and education through classes, support groups, referral and advocacy help for adults with mental illness and/or families of adults with mental illness.",
     "notes": "Website: www.namiwashingtonco.org.",
     "transportation": "Bus: 52, 57",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4551,7 +5377,9 @@ const masterResources = [
     "services": "Outpatient mental health treatment including counseling, case management and medication management.",
     "notes": "Not a walk-in clinic.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4562,7 +5390,9 @@ const masterResources = [
     "services": "Intensive inpatient and outpatient treatment services for adults with substance use disorders, including counseling skills training, and DWI and DVI diversion services.",
     "notes": "Call for an appointment.",
     "transportation": "Bus: 20",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4573,7 +5403,9 @@ const masterResources = [
     "services": "Intakes and referrals. Serves adults and children with mental illness and substance use disorder in Washington Co..",
     "notes": "Website: www.sequoiantts.org.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4584,7 +5416,9 @@ const masterResources = [
     "services": "Crisis line for anyone struggling with drug or alcohol use, or thinking or talking about suicide.",
     "notes": "For anyone you care about, feeling depressed or anxious.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4595,7 +5429,9 @@ const masterResources = [
     "services": "Urgent care services for mental health and addiction. Includes assessment, counseling, education, peer support, and connection to treatment providers and other social services.",
     "notes": "Walk-ins welcome.",
     "transportation": "MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Recovery & Mental Health",
@@ -4606,7 +5442,9 @@ const masterResources = [
     "services": "Provides care coordination and wrap-around mental health services for eligible older adolescents and young adults under the age of 26. Supports youth moving from the children's mental health system to the adult system of care. Staff focus on issues such as getting a job and finding housing.",
     "notes": "Call for intake.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -4617,7 +5455,9 @@ const masterResources = [
     "services": "Shelter for families with children or mothers in the last trimester of pregnancy.",
     "notes": "Call to join the waitlist through Community Connect at 503-640-3263.",
     "transportation": "Bus: 47, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": 45.5204,
+    "lng": -122.9904
   },
   {
     "category": "Shelters",
@@ -4628,7 +5468,9 @@ const masterResources = [
     "services": "Provides a small shelter program and case management for families with children ages 0-18 and pregnant women.",
     "notes": "Family advocate assigned to each family, works with them to make a tailored plan for permanent housing. Must be clean and sober. Call for intake.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Shelters",
@@ -4639,7 +5481,9 @@ const masterResources = [
     "services": "Provides safe emergency housing with supportive empowering services to adults with children younger than 18.",
     "notes": "Families have up to 90 days to meet their goals with the help of staff. No allergies. To join the waitlist call Community Connect at 503-640-3263.",
     "transportation": "Bus: 76, 78",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": 45.4326,
+    "lng": -122.7745
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -4650,7 +5494,9 @@ const masterResources = [
     "services": "Needle exchange program where trans and gender diverse folks who inject hormones can dispose of their used HRT supplies and receive new needles, syringes, sharps containers and other injection supplies for free. Free HIV testing also available.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -4661,7 +5507,9 @@ const masterResources = [
     "services": "Needle exchange",
     "notes": "",
     "transportation": "Bus: 47, 57, MAX Blue",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -4672,7 +5520,9 @@ const masterResources = [
     "services": "Needle exchange",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Syringe Exchange/Harm Reduction",
@@ -4683,7 +5533,9 @@ const masterResources = [
     "services": "Needle exchange",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Veterans Services",
@@ -4694,7 +5546,9 @@ const masterResources = [
     "services": "Per client short-term transitional housing and case management for veterans.",
     "notes": "Up to nine-month program for vets and their families. Emergency transitional housing for singles only, up to 30 days with possible extension to 90 days maximum. VA must refer. Website: www.veterans.salvationarmy.org.",
     "transportation": "MAX Red, Bus to Bus 52",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4705,7 +5559,9 @@ const masterResources = [
     "services": "Resource centers helping young people ages 12-24 find housing, education, employment, health referrals, clothes, and food. Free meals and shower facilities.",
     "notes": "A place to relax without religious doctrines.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4716,7 +5572,9 @@ const masterResources = [
     "services": "Provides early intervention and early childhood special education services to children from birth to age 5, who have developmental delays or disabilities, including speech and language, motor, behavioral, social skills, learning, self-help, vision and hearing.",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4727,7 +5585,9 @@ const masterResources = [
     "services": "Ensures housing stabilization is eligible for homeless student services, including transportation to school, immediate enrollment, and connections to resources.",
     "notes": "Under the Federal McKinney-Vento Act. Contact your school district's McKinney-Vento liaison to support.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4738,7 +5598,9 @@ const masterResources = [
     "services": "Connects volunteer host homes with unaccompanied high school students 16 and older experiencing homelessness.",
     "notes": "Support for participants comes from both the Second Home staff and from the community. Call for more information or talk to school district homeless liaison for referral. Serves youth in Washington County, Clackamas County, Lincoln County and East Multnomah County school districts. www.ens-secondhome.org.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4749,7 +5611,9 @@ const masterResources = [
     "services": "Healthcare services, including medical, dental, behavioral health, and vision.",
     "notes": "Located in the following schools. Hours vary. Call or check www.virginiagarcia.org.",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4760,7 +5624,9 @@ const masterResources = [
     "services": "School Based Health Center",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4771,7 +5637,9 @@ const masterResources = [
     "services": "School Based Health Center",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4782,7 +5650,9 @@ const masterResources = [
     "services": "School Based Health Center",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4793,7 +5663,9 @@ const masterResources = [
     "services": "School Based Health Center",
     "notes": "",
     "transportation": "None listed",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   },
   {
     "category": "Youth Services",
@@ -4804,6 +5676,8 @@ const masterResources = [
     "services": "Digital counseling services, focusing on mental health and substance use/abuse problems.",
     "notes": "Serving Hillsboro youth (up to age 18) and their families. Call to schedule appointment. HSO insurance accepted. Website: www.youthcontact.org.",
     "transportation": "Bus: 47, 48, 57, MAX",
-    "county": "Washington"
+    "county": "Washington",
+    "lat": null,
+    "lng": null
   }
 ];

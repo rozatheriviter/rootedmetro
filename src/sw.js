@@ -1,14 +1,14 @@
-const CACHE_NAME = 'rooted-washco-v2';
+const CACHE_NAME = 'rooted-metro-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './map.html',
   './about.html',
-  './submit-resource.html',
+  './submit.html',
   './style.css',
   './app.js',
   './map.js',
-  './resources.js'
+  './data/master_resources.js'
 ];
 
 // Install Event - Cache Files
