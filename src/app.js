@@ -57,7 +57,7 @@ function init() {
 // Render Counties
 function renderCounties() {
     // Get unique counties
-    const counties = ['all', ...new Set(window.siteResources.map(r => r.county).filter(Boolean))];
+    const counties = ['all', ...new Set(window.siteResources.map(r => r.county ? r.county.trim() : r.county).filter(Boolean))];
 
     if (countyContainer) {
         countyContainer.innerHTML = counties.map(c => {
@@ -76,10 +76,10 @@ function renderCounties() {
             btn.addEventListener('click', (e) => {
                 // Update active state
                 countyContainer.querySelectorAll('.category-chip').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
+                e.currentTarget.classList.add('active');
 
                 // Update filter
-                currentCounty = e.target.dataset.county;
+                currentCounty = e.currentTarget.dataset.county;
                 filterResources();
             });
         });
@@ -103,14 +103,14 @@ function renderCategories() {
         }).join('');
 
         // Add event listeners
-        document.querySelectorAll('.category-chip').forEach(btn => {
+        categoryContainer.querySelectorAll('.category-chip').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 // Update active state
-                document.querySelectorAll('.category-chip').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
+                categoryContainer.querySelectorAll('.category-chip').forEach(b => b.classList.remove('active'));
+                e.currentTarget.classList.add('active');
 
                 // Update filter
-                currentCategory = e.target.dataset.category;
+                currentCategory = e.currentTarget.dataset.category;
                 filterResources();
             });
         });
