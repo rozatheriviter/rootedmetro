@@ -16,9 +16,11 @@ if ('serviceWorker' in navigator) {
 const searchInput = document.getElementById('searchInput');
 const resourceList = document.getElementById('resourceGrid');
 const categoryContainer = document.getElementById('categoryContainer');
+const countyContainer = document.getElementById('countyContainer');
 
 // State
 let currentCategory = 'all';
+let currentCounty = 'all';
 
 // Helper: Escape HTML to prevent XSS
 function escapeHTML(str) {
@@ -41,6 +43,7 @@ function init() {
     window.siteResources = typeof masterResources !== 'undefined' ? masterResources : [];
 
     if (window.siteResources.length > 0) {
+        renderCounties();
         renderCategories();
         renderResources(window.siteResources); // Initial render
     } else {
@@ -48,6 +51,38 @@ function init() {
         if (resourceList) {
              resourceList.innerHTML = '<div class="no-results"><p>Error loading resources. Please refresh the page.</p></div>';
         }
+    }
+}
+
+// Render Counties
+function renderCounties() {
+    // Get unique counties
+    const counties = ['all', ...new Set(window.siteResources.map(r => r.county).filter(Boolean))];
+
+    if (countyContainer) {
+        countyContainer.innerHTML = counties.map(c => {
+            const escapedCounty = escapeHTML(c);
+            const label = c === 'all' ? 'All Counties' : escapedCounty;
+            return `
+            <button class="category-chip ${c === 'all' ? 'active' : ''}"
+                    data-county="${escapedCounty}">
+                ${label}
+            </button>
+            `;
+        }).join('');
+
+        // Add event listeners
+        countyContainer.querySelectorAll('.category-chip').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                // Update active state
+                countyContainer.querySelectorAll('.category-chip').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+
+                // Update filter
+                currentCounty = e.target.dataset.county;
+                filterResources();
+            });
+        });
     }
 }
 
@@ -89,13 +124,14 @@ function filterResources() {
     const filtered = window.siteResources.filter(resource => {
         // Decode category from dataset might be needed if complex chars used, but here simpler
         const matchesCategory = currentCategory === 'all' || (resource.category && escapeHTML(resource.category) === currentCategory);
+        const matchesCounty = currentCounty === 'all' || (resource.county && escapeHTML(resource.county) === currentCounty);
 
         const matchesSearch =
             (resource.name && resource.name.toLowerCase().includes(searchTerm)) ||
             (resource.services && resource.services.toLowerCase().includes(searchTerm)) ||
             (resource.category && resource.category.toLowerCase().includes(searchTerm));
 
-        return matchesCategory && matchesSearch;
+        return matchesCategory && matchesCounty && matchesSearch;
     });
 
     renderResources(filtered);
