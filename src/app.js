@@ -76,10 +76,10 @@ function renderCounties() {
             btn.addEventListener('click', (e) => {
                 // Update active state
                 countyContainer.querySelectorAll('.category-chip').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
+                e.currentTarget.classList.add('active');
 
                 // Update filter
-                currentCounty = e.target.dataset.county;
+                currentCounty = e.currentTarget.dataset.county;
                 filterResources();
             });
         });
@@ -103,14 +103,14 @@ function renderCategories() {
         }).join('');
 
         // Add event listeners
-        document.querySelectorAll('.category-chip').forEach(btn => {
+        categoryContainer.querySelectorAll('.category-chip').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 // Update active state
-                document.querySelectorAll('.category-chip').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
+                categoryContainer.querySelectorAll('.category-chip').forEach(b => b.classList.remove('active'));
+                e.currentTarget.classList.add('active');
 
                 // Update filter
-                currentCategory = e.target.dataset.category;
+                currentCategory = e.currentTarget.dataset.category;
                 filterResources();
             });
         });
